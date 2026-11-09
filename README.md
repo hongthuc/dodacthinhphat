@@ -2,20 +2,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>CÔNG TY TNHH TM-DV MINH CHÂU STONE - Thi Công & Đánh Bóng Đá Đà Nẵng</title>
-    <meta name="description" content="CÔNG TY TNHH TM-DV MINH CHÂU STONE chuyên đánh bóng sàn đá Marble, Granite, mài sàn bê tông, thi công đá mài Terrazzo, Sơn Epoxy và Microcement uy tín tại Đà Nẵng.">
+    <title>CÔNG TY TNHH ĐO ĐẠC BẢN ĐỒ THỊNH PHÁT - dodacthinhphat.com</title>
+    <meta name="description" content="Công Ty TNHH Đo Đạc Bản Đồ Thịnh Phát (dodacthinhphat.com) chuyên dịch vụ đo đạc địa chính, khảo sát địa hình, quan trắc công trình tại Đà Nẵng và phân phối máy trắc địa chính hãng. Hotline: 0933.210.234">
+    <meta name="keywords" content="đo đạc thịnh phát, dodacthinhphat.com, đo đạc đà nẵng, đo đạc điện bàn, máy thủy bình, máy toàn đạc, máy gps rtk, công ty đo đạc bản đồ thịnh phát">
     
-    <!-- Open Graph Thumbnail là Logo trang web khi gửi link chia sẻ -->
+    <!-- Open Graph / Thumbnail là ảnh Logo trang web khi gửi link -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://minhchaustone.com/">
-    <meta property="og:title" content="CÔNG TY TNHH TM-DV MINH CHÂU STONE - minhchaustone.com">
-    <meta property="og:description" content="Đơn vị chuyên đánh bóng sàn đá, mài sàn bê tông, thi công đá mài Terrazzo, Sơn Epoxy, Microcement chuyên nghiệp tại Đà Nẵng.">
-    <meta property="og:image" content="https://drive.google.com/thumbnail?id=11N1b7m-M43TQlNNmNUDPbXiDRWtZwVYB&sz=w1200">
-    <link rel="icon" href="https://drive.google.com/thumbnail?id=11N1b7m-M43TQlNNmNUDPbXiDRWtZwVYB&sz=w200">
+    <meta property="og:url" content="https://dodacthinhphat.com/">
+    <meta property="og:site_name" content="dodacthinhphat.com">
+    <meta property="og:title" content="CÔNG TY TNHH ĐO ĐẠC BẢN ĐỒ THỊNH PHÁT | dodacthinhphat.com">
+    <meta property="og:description" content="Đơn vị chuyên dịch vụ đo đạc bản đồ, khảo sát trắc địa, giấy tờ nhà đất tại Đà Nẵng và cung cấp máy đo đạc trắc địa chính hãng. Địa chỉ: 03 Hoàng Diệu, Phường Điện Bàn, TP Đà Nẵng. ĐT: 0933.210.234">
+    <meta property="og:image" content="https://lh3.googleusercontent.com/d/1ylpV3nYsUV8yzyT1BcMmwl435tdVhAtk">
+    <meta property="og:image:secure_url" content="https://lh3.googleusercontent.com/d/1ylpV3nYsUV8yzyT1BcMmwl435tdVhAtk">
+    <meta property="og:image:alt" content="Logo Công Ty TNHH Đo Đạc Bản Đồ Thịnh Phát">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="CÔNG TY TNHH ĐO ĐẠC BẢN ĐỒ THỊNH PHÁT - dodacthinhphat.com">
+    <meta name="twitter:image" content="https://lh3.googleusercontent.com/d/1ylpV3nYsUV8yzyT1BcMmwl435tdVhAtk">
+    <link rel="icon" type="image/png" href="https://lh3.googleusercontent.com/d/1ylpV3nYsUV8yzyT1BcMmwl435tdVhAtk">
+    <link rel="apple-touch-icon" href="https://lh3.googleusercontent.com/d/1ylpV3nYsUV8yzyT1BcMmwl435tdVhAtk">
 
-    <!-- Thư viện Tailwind CSS & Font Awesome & Google Fonts -->
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts: Inter & Roboto chuẩn Flatsome -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
     <script>
@@ -23,15 +33,16 @@
             theme: {
                 extend: {
                     colors: {
-                        mc: {
-                            dark: '#0c2340',     /* Xanh Navy đậm theo tông màu Logo Stone */
-                            primary: '#163e6c',  /* Xanh chủ đạo */
-                            accent: '#c59b27',   /* Vàng đồng/kim sang trọng */
-                            light: '#f4f7fa'
+                        brand: {
+                            DEFAULT: '#0B4F8A',
+                            dark: '#073661',
+                            light: '#EBF4FC',
+                            accent: '#E65100',
+                            gold: '#F59E0B'
                         }
                     },
-                    maxWidth: {
-                        '1500': '1500px'
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif']
                     }
                 }
             }
@@ -39,14 +50,14 @@
     </script>
 
     <style>
-        /* CẤU HÌNH CHỐNG TRÀN VIỀN & LỆCH PHẢI TUYỆT ĐỐI */
+        /* Chống tràn viền và chống lệch phải tuyệt đối trên mọi thiết bị */
         *, *::before, *::after {
             box-sizing: border-box;
         }
         html, body {
             width: 100%;
             max-width: 100vw;
-            overflow-x: hidden !important;
+            overflow-x: hidden;
             margin: 0;
             padding: 0;
             font-family: 'Inter', sans-serif;
@@ -55,1345 +66,1749 @@
             scroll-behavior: smooth;
         }
 
-        /* KHUNG GIAO DIỆN CHUẨN FLATSOME 1500PX TRÊN MÁY TÍNH */
+        /* Khung chuẩn Flatsome 1500px trên máy tính */
         .flatsome-container {
             width: 100%;
             max-width: 1500px;
             margin-left: auto;
             margin-right: auto;
-            padding-left: 15px;
-            padding-right: 15px;
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+        @media (min-width: 1024px) {
+            .flatsome-container {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
         }
 
-        /* TỐI ƯU MENU DANH MỤC TRÊN MÁY TÍNH: NẰM TRÊN 1 HÀNG HOẶC HÀNG 2, KHÔNG NGẮT TỪ */
-        .desktop-nav-list {
+        /* Tối ưu tên danh mục trên máy tính: viết liền trên 1 hàng, không tự xuống dòng trong từng tên danh mục */
+        .nav-cat-list {
             display: flex;
             flex-wrap: wrap;
             align-items: center;
             justify-content: center;
-            gap: 4px 14px;
+            gap: 2px 4px;
         }
-        .desktop-nav-item {
+        .nav-cat-item {
             white-space: nowrap !important;
-            font-size: 13px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.01em;
-            padding: 8px 10px;
-            border-radius: 6px;
-            transition: all 0.2s ease;
-            color: #0c2340;
             display: inline-flex;
             align-items: center;
-            gap: 5px;
-        }
-        .desktop-nav-item:hover, .desktop-nav-item.active {
-            background-color: #163e6c;
-            color: #ffffff;
-        }
-
-        /* TỐI ƯU CHIP DANH MỤC Ở TRANG CHỦ: CHỮ NHỎ GỌN, LIỀN 1 HÀNG TRÊN TỪNG MỤC */
-        .category-pill {
-            white-space: nowrap !important;
-            font-size: 12.5px;
+            font-size: 12px;
             font-weight: 600;
-            padding: 7px 14px;
-            border-radius: 6px;
-            border: 1px solid #cbd5e1;
-            background: #ffffff;
-            color: #0c2340;
+            padding: 7px 9px;
+            border-radius: 4px;
             transition: all 0.2s ease;
-            cursor: pointer;
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
+            line-height: 1.2;
         }
-        .category-pill:hover, .category-pill.active {
-            background: #0c2340;
-            color: #ffffff;
-            border-color: #0c2340;
-        }
-
-        /* TIÊU ĐỀ SECTION PHONG CÁCH FLATSOME (SECTION-TITLE-CENTER) */
-        .ux-section-title {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 1.5rem;
-            width: 100%;
-        }
-        .ux-section-title b {
-            flex: 1;
-            height: 2px;
-            background-color: #cbd5e1;
-        }
-        .ux-section-title span {
-            padding: 0 18px;
-            font-weight: 800;
-            text-transform: uppercase;
-            color: #0c2340;
-            text-align: center;
-            font-size: 1.15rem;
-            letter-spacing: 0.03em;
-        }
-        @media (min-width: 768px) {
-            .ux-section-title span {
-                font-size: 1.4rem;
+        @media (min-width: 1280px) {
+            .nav-cat-item {
+                font-size: 12.5px;
+                padding: 8px 10px;
             }
         }
+        .nav-cat-item:hover {
+            background-color: rgba(255, 255, 255, 0.16);
+        }
 
-        /* TÊN SẢN PHẨM ĐẦY ĐỦ KHÔNG BỊ CẮT CHỮ HAY TRÀN RA NGOÀI */
+        /* Dropdown menu chuẩn Flatsome */
+        .has-dropdown {
+            position: relative;
+        }
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            min-width: 230px;
+            background: #ffffff;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+            border-top: 3px solid #E65100;
+            border-radius: 0 0 6px 6px;
+            z-index: 100;
+            padding: 6px 0;
+        }
+        .has-dropdown:hover .dropdown-menu {
+            display: block;
+        }
+        .dropdown-menu a {
+            display: block;
+            padding: 8px 14px;
+            font-size: 12.5px;
+            color: #1e293b;
+            font-weight: 500;
+            white-space: nowrap;
+            border-bottom: 1px solid #f1f5f9;
+        }
+        .dropdown-menu a:last-child {
+            border-bottom: none;
+        }
+        .dropdown-menu a:hover {
+            background-color: #EBF4FC;
+            color: #0B4F8A;
+            padding-left: 18px;
+            transition: all 0.15s ease;
+        }
+
+        /* Danh mục chọn nhanh ở trang chủ chữ nhỏ gọn, viết liền trên 1 hàng trong từng nút */
+        .home-cat-pill {
+            white-space: nowrap !important;
+            font-size: 12px;
+            line-height: 1.25;
+            padding: 7px 12px;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: all 0.2s ease;
+            cursor: pointer;
+            border: 1px solid #cbd5e1;
+            background: #ffffff;
+            color: #0f172a;
+        }
+        .home-cat-pill:hover, .home-cat-pill.active {
+            background: #0B4F8A;
+            color: #ffffff;
+            border-color: #0B4F8A;
+        }
+
+        /* Tiêu đề Section chuẩn Flatsome (Section Title Divider) */
+        .flatsome-section-title {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 2px solid #e2e8f0;
+            margin-bottom: 18px;
+            padding-bottom: 8px;
+        }
+        .flatsome-section-title h2 {
+            position: relative;
+            font-weight: 800;
+            text-transform: uppercase;
+            color: #0B4F8A;
+            letter-spacing: 0.2px;
+        }
+        .flatsome-section-title h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background-color: #E65100;
+        }
+
+        /* Tên sản phẩm hiển thị đầy đủ, không bị cắt chữ hoặc tràn viền */
         .product-title-full {
             white-space: normal !important;
             overflow: visible !important;
-            text-overflow: unset !important;
+            text-overflow: clip !important;
             word-break: break-word;
             line-height: 1.38;
         }
 
-        /* NÚT LIÊN HỆ NỔI BẬT CÓ HIỆU ỨNG SÓNG */
+        /* Hiệu ứng nút liên hệ nổi */
         @keyframes pulse-ring {
-            0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(22, 62, 108, 0.6); }
-            70% { transform: scale(1); box-shadow: 0 0 0 10px rgba(22, 62, 108, 0); }
-            100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(22, 62, 108, 0); }
+            0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(230, 81, 0, 0.7); }
+            70% { transform: scale(1); box-shadow: 0 0 0 10px rgba(230, 81, 0, 0); }
+            100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(230, 81, 0, 0); }
         }
         .pulse-btn {
             animation: pulse-ring 2s infinite;
         }
     </style>
 </head>
-<body class="flex flex-col min-h-screen">
+<body class="bg-slate-50 text-slate-800">
 
-    <!-- ===================================================================== -->
-    <!-- TOP BAR ĐƠN GIẢN CHUẨN FLATSOME (KHÔNG CÓ THANH CÔNG CỤ UX BUILDER) -->
-    <!-- ===================================================================== -->
-    <div class="bg-mc-dark text-white text-xs py-2 border-b border-slate-700 w-full">
-        <div class="flatsome-container flex flex-wrap justify-between items-center gap-2">
-            <div class="flex items-center gap-2 truncate max-w-full">
-                <i class="fa-solid fa-location-dot text-mc-accent shrink-0"></i>
-                <span class="truncate">Thửa đất số 217, Tờ bản đồ số 159, Lô 46-B2.21, TĐC Tân Trà, P. Ngũ Hành Sơn, TP Đà Nẵng</span>
+    <!-- TOP BAR CHUẨN FLATSOME (Không hiển thị thanh chỉnh sửa UX Builder) -->
+    <div class="bg-brand-dark text-white text-[11.5px] sm:text-xs py-1.5 border-b border-white/10">
+        <div class="flatsome-container flex flex-wrap items-center justify-between gap-2">
+            <div class="flex items-center gap-3 sm:gap-5 flex-wrap">
+                <span class="inline-flex items-center gap-1.5 font-medium">
+                    <i class="fa-solid fa-building text-amber-400"></i>
+                    <span>CÔNG TY TNHH ĐO ĐẠC BẢN ĐỒ THỊNH PHÁT</span>
+                </span>
+                <span class="hidden md:inline-flex items-center gap-1.5 text-slate-200">
+                    <i class="fa-solid fa-location-dot text-amber-400"></i>
+                    <span>03 Hoàng Diệu, Phường Điện Bàn, TP Đà Nẵng</span>
+                </span>
             </div>
-            <div class="hidden md:flex items-center gap-5 shrink-0 font-medium">
-                <span><i class="fa-solid fa-globe text-mc-accent mr-1.5"></i>minhchaustone.com</span>
-                <span><i class="fa-solid fa-phone-volume text-mc-accent mr-1.5"></i>0975.796.543 - 0355.698.490</span>
+            <div class="flex items-center gap-3 sm:gap-4 ml-auto">
+                <a href="https://dodacthinhphat.com" class="hover:text-amber-300 inline-flex items-center gap-1">
+                    <i class="fa-solid fa-globe text-amber-400"></i>
+                    <span>dodacthinhphat.com</span>
+                </a>
+                <span class="text-white/30">|</span>
+                <a href="https://www.facebook.com/Thinhphatdodac" target="_blank" rel="noopener noreferrer" class="hover:text-amber-300 inline-flex items-center gap-1">
+                    <i class="fa-brands fa-facebook text-amber-400"></i>
+                    <span>Fanpage Thịnh Phát</span>
+                </a>
+                <span class="text-white/30 hidden sm:inline">|</span>
+                <a href="https://maps.app.goo.gl/HaoxaQqEpM7oMdmp6" target="_blank" rel="noopener noreferrer" class="hidden sm:inline-flex hover:text-amber-300 items-center gap-1">
+                    <i class="fa-solid fa-map-location-dot text-amber-400"></i>
+                    <span>Chỉ đường Map</span>
+                </a>
             </div>
         </div>
     </div>
 
-    <!-- ===================================================================== -->
-    <!-- HEADER CHÍNH (LOGO NHỎ GỌN, MENU 1 HÀNG, KHÔNG ĐỂ NÚT GỌI NGAY)      -->
-    <!-- ===================================================================== -->
-    <header class="bg-white shadow-sm sticky top-0 z-40 w-full border-b border-slate-200">
+    <!-- HEADER CHÍNH (Logo chỉnh gọn nhỏ lại, KHÔNG để nút gọi ngay trên header tránh tràn viền) -->
+    <header class="bg-white shadow-sm sticky top-0 z-50 border-b border-slate-200">
         <div class="flatsome-container py-2.5 flex items-center justify-between gap-3">
-            
-            <!-- Logo chỉnh gọn nhỏ lại + Tên công ty -->
-            <a href="#top" class="flex items-center gap-2.5 shrink-0 group max-w-[82%] sm:max-w-none">
-                <div class="w-11 h-11 md:w-12 md:h-12 rounded-lg border border-slate-200 bg-white p-1 flex items-center justify-center overflow-hidden shrink-0 shadow-sm">
-                    <img src="https://drive.google.com/thumbnail?id=11N1b7m-M43TQlNNmNUDPbXiDRWtZwVYB&sz=w400" 
-                         alt="Logo Minh Châu Stone" 
-                         class="max-h-9 md:max-h-10 w-auto object-contain"
-                         onerror="this.onerror=null;this.src='https://placehold.co/120x120/0c2340/c59b27?text=MC+STONE';">
-                </div>
-                <div class="leading-tight overflow-hidden">
-                    <span class="block font-extrabold text-mc-dark text-sm sm:text-base md:text-lg tracking-tight truncate">MINH CHÂU STONE</span>
-                    <span class="block text-[10.5px] sm:text-xs text-slate-500 font-medium truncate">CÔNG TY TNHH TM-DV MINH CHÂU STONE</span>
+            <!-- Logo gọn nhỏ + Tên Công Ty -->
+            <a href="#trang-chu" class="flex items-center gap-2.5 min-w-0">
+                <img 
+                    src="https://lh3.googleusercontent.com/d/1ylpV3nYsUV8yzyT1BcMmwl435tdVhAtk" 
+                    onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=1ylpV3nYsUV8yzyT1BcMmwl435tdVhAtk&sz=w400';"
+                    alt="Logo Công Ty TNHH Đo Đạc Bản Đồ Thịnh Phát" 
+                    class="w-10 h-10 sm:w-11 sm:h-11 object-contain rounded border border-slate-200 p-0.5 bg-white shrink-0"
+                >
+                <div class="min-w-0">
+                    <div class="text-brand font-extrabold text-[13px] sm:text-[15px] md:text-[16px] leading-tight uppercase truncate">
+                        ĐO ĐẠC BẢN ĐỒ THỊNH PHÁT
+                    </div>
+                    <div class="text-[11px] sm:text-xs text-slate-500 font-medium truncate">
+                        dodacthinhphat.com • 03 Hoàng Diệu, Điện Bàn, Đà Nẵng
+                    </div>
                 </div>
             </a>
 
-            <!-- Danh mục trên máy tính: Viết liền trên 1 hàng chữ nhỏ gọn, không xuống dòng từng mục -->
-            <nav class="hidden lg:block flex-1 px-2">
-                <ul class="desktop-nav-list">
-                    <li><a href="#top" class="desktop-nav-item active"><i class="fa-solid fa-house text-[11px]"></i>Trang chủ</a></li>
-                    <li><a href="#san-pham-dich-vu" onclick="filterCategory('danh-bong-da')" class="desktop-nav-item">Đánh bóng sàn đá</a></li>
-                    <li><a href="#san-pham-dich-vu" onclick="filterCategory('son-epoxy')" class="desktop-nav-item">Sơn Epoxy</a></li>
-                    <li><a href="#san-pham-dich-vu" onclick="filterCategory('mai-be-tong')" class="desktop-nav-item">Mài bê tông</a></li>
-                    <li><a href="#san-pham-dich-vu" onclick="filterCategory('terrazzo')" class="desktop-nav-item">Đá mài Terrazzo</a></li>
-                    <li><a href="#san-pham-dich-vu" onclick="filterCategory('microcement')" class="desktop-nav-item">Thi công Microcement</a></li>
-                    <li><a href="#du-an-da-nang" class="desktop-nav-item">Dự án Đà Nẵng</a></li>
-                    <li><a href="#tin-tuc" class="desktop-nav-item">Tin tức</a></li>
-                    <li><a href="#bao-gia-lien-he" class="desktop-nav-item">Liên hệ</a></li>
-                </ul>
-            </nav>
+            <!-- Ô tìm kiếm sản phẩm & dịch vụ trên máy tính -->
+            <div class="hidden lg:flex items-center flex-1 max-w-md mx-4">
+                <div class="relative w-full">
+                    <input 
+                        type="text" 
+                        id="searchInputDesktop"
+                        oninput="handleSearchProduct(this.value)"
+                        placeholder="Tìm máy thủy bình, máy RTK, toàn đạc, dịch vụ đo đạc..." 
+                        class="w-full pl-3.5 pr-9 py-1.5 text-xs border border-slate-300 rounded-md focus:outline-none focus:border-brand"
+                    >
+                    <button type="button" class="absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-brand">
+                        <i class="fa-solid fa-magnifying-glass text-xs"></i>
+                    </button>
+                </div>
+            </div>
 
-            <!-- Nút mở Menu trên Điện thoại & Máy tính bảng (Không để nút Gọi ngay trên Header) -->
-            <button id="mobileMenuBtn" onclick="toggleMobileMenu()" aria-label="Mở danh mục" class="lg:hidden p-2.5 rounded-lg bg-slate-100 text-mc-dark hover:bg-mc-dark hover:text-white transition shrink-0">
-                <i class="fa-solid fa-bars text-lg"></i>
+            <!-- Thông tin địa chỉ & giờ làm việc dạng chữ gọn (Không để nút gọi ngay) -->
+            <div class="hidden xl:flex items-center gap-5 text-xs text-slate-600 shrink-0">
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-certificate text-brand text-sm"></i>
+                    <div>
+                        <div class="font-bold text-slate-800">Chuẩn TCVN & Pháp Lý</div>
+                        <div class="text-[11px] text-slate-500">Thiết bị chính hãng 100%</div>
+                    </div>
+                </div>
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-clock text-brand text-sm"></i>
+                    <div>
+                        <div class="font-bold text-slate-800">Hỗ Trợ Kỹ Thuật 24/7</div>
+                        <div class="text-[11px] text-slate-500">Đà Nẵng & Toàn Quốc</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nút mở Menu Danh Mục trên Điện Thoại -->
+            <button 
+                type="button" 
+                onclick="toggleMobileMenu()" 
+                aria-label="Mở danh mục"
+                class="lg:hidden inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded bg-brand text-white text-xs font-semibold shrink-0"
+            >
+                <i class="fa-solid fa-bars"></i>
+                <span>DANH MỤC</span>
             </button>
         </div>
 
-        <!-- Menu danh mục thả xuống cho Điện thoại (Thiết kế đẹp, chia 2 cột gọn gàng) -->
-        <div id="mobileMenuDrawer" class="hidden lg:hidden bg-white border-t border-slate-200 px-4 py-3 shadow-lg">
-            <div class="grid grid-cols-2 gap-2 text-xs font-bold text-mc-dark">
-                <a href="#top" onclick="toggleMobileMenu()" class="p-2.5 rounded bg-slate-100 hover:bg-mc-primary hover:text-white flex items-center gap-2">
-                    <i class="fa-solid fa-house text-mc-accent"></i> Trang chủ
+        <!-- THANH DANH MỤC TRÊN MÁY TÍNH (Chữ nhỏ gọn, viết liền trên 1 hàng, không xuống dòng giữa tên danh mục) -->
+        <nav class="hidden lg:block bg-brand text-white border-t border-brand-dark">
+            <div class="flatsome-container py-1">
+                <ul class="nav-cat-list">
+                    <li>
+                        <a href="#trang-chu" class="nav-cat-item bg-brand-accent text-white">
+                            <i class="fa-solid fa-house mr-1 text-[11px]"></i>TRANG CHỦ
+                        </a>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#dich-vu-trac-dia" class="nav-cat-item">
+                            DỊCH VỤ TRẮC ĐỊA <i class="fa-solid fa-angle-down ml-1 text-[10px]"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="#dich-vu-trac-dia">Đo Đạc Nhà Đất Đà Nẵng</a>
+                            <a href="#dich-vu-trac-dia">Giấy Tờ Nhà Đất & Sổ Đỏ</a>
+                            <a href="#dich-vu-trac-dia">Xin Phép Xây Dựng</a>
+                            <a href="#dich-vu-trac-dia">Xác Định Ranh Đất & Cắm Mốc</a>
+                            <a href="#dich-vu-trac-dia">Đề Cương Quan Trắc Lún Nghiêng</a>
+                        </div>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#san-pham" onclick="filterCategory('may-thuy-binh')" class="nav-cat-item">
+                            MÁY THUỶ BÌNH <i class="fa-solid fa-angle-down ml-1 text-[10px]"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="#san-pham" onclick="filterCategory('may-thuy-binh')">Máy Thủy Bình Bán Chạy</a>
+                            <a href="#san-pham" onclick="filterCategory('may-thuy-binh')">Máy Thủy Bình Giá Rẻ</a>
+                            <a href="#san-pham" onclick="filterCategory('may-thuy-binh')">Máy Thủy Bình Leica</a>
+                            <a href="#san-pham" onclick="filterCategory('may-thuy-binh')">Máy Thủy Bình Sokkia</a>
+                            <a href="#san-pham" onclick="filterCategory('may-thuy-binh')">Máy Thủy Bình Topcon</a>
+                            <a href="#san-pham" onclick="filterCategory('may-thuy-binh')">Máy Thủy Bình Pentax</a>
+                            <a href="#san-pham" onclick="filterCategory('may-thuy-binh')">Máy Thủy Bình Bosch</a>
+                            <a href="#san-pham" onclick="filterCategory('may-thuy-binh')">Máy Thủy Bình Nikon</a>
+                            <a href="#san-pham" onclick="filterCategory('may-thuy-binh')">Máy Thủy Bình SatLab & Hi-Target</a>
+                        </div>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#san-pham" onclick="filterCategory('may-do-laser')" class="nav-cat-item">
+                            MÁY ĐO LASER <i class="fa-solid fa-angle-down ml-1 text-[10px]"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="#san-pham" onclick="filterCategory('may-do-laser')">Máy Cân Bằng Laser</a>
+                            <a href="#san-pham" onclick="filterCategory('may-do-laser')">Thước Đo Khoảng Cách Laser</a>
+                            <a href="#san-pham" onclick="filterCategory('may-do-laser')">Máy Cân Bằng Laisai</a>
+                            <a href="#san-pham" onclick="filterCategory('may-do-laser')">Máy Cân Bằng Sincon & Geotes</a>
+                            <a href="#san-pham" onclick="filterCategory('may-do-laser')">Phụ Kiện Máy Laser</a>
+                        </div>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#san-pham" onclick="filterCategory('may-gps-rtk')" class="nav-cat-item">
+                            MÁY GPS GNSS RTK <i class="fa-solid fa-angle-down ml-1 text-[10px]"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="#san-pham" onclick="filterCategory('may-gps-rtk')">Máy GNSS RTK 2 Tần Số</a>
+                            <a href="#san-pham" onclick="filterCategory('may-gps-rtk')">Máy Định Vị GPS Garmin</a>
+                        </div>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#san-pham" onclick="filterCategory('may-toan-dac')" class="nav-cat-item">
+                            MÁY TOÀN ĐẠC <i class="fa-solid fa-angle-down ml-1 text-[10px]"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="#san-pham" onclick="filterCategory('may-toan-dac')">Máy Toàn Đạc Leica</a>
+                            <a href="#san-pham" onclick="filterCategory('may-toan-dac')">Máy Toàn Đạc Nikon</a>
+                            <a href="#san-pham" onclick="filterCategory('may-toan-dac')">Máy Toàn Đạc Sokkia</a>
+                            <a href="#san-pham" onclick="filterCategory('may-toan-dac')">Máy Toàn Đạc Topcon</a>
+                            <a href="#san-pham" onclick="filterCategory('may-toan-dac')">Máy Toàn Đạc Geomax</a>
+                        </div>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#san-pham" onclick="filterCategory('may-kinh-vi-bo-dam')" class="nav-cat-item">
+                            MÁY KINH VĨ & BỘ ĐÀM <i class="fa-solid fa-angle-down ml-1 text-[10px]"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="#san-pham" onclick="filterCategory('may-kinh-vi-bo-dam')">Máy Kinh Vĩ Điện Tử</a>
+                            <a href="#san-pham" onclick="filterCategory('may-kinh-vi-bo-dam')">Máy Đo Sâu Hồi Âm</a>
+                            <a href="#san-pham" onclick="filterCategory('may-kinh-vi-bo-dam')">Bộ Đàm Cầm Tay Motorola</a>
+                        </div>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#san-pham" onclick="filterCategory('phu-kien-trac-dia')" class="nav-cat-item">
+                            PHỤ KIỆN TRẮC ĐỊA <i class="fa-solid fa-angle-down ml-1 text-[10px]"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="#san-pham" onclick="filterCategory('phu-kien-trac-dia')">Chân – Mia – Mốc – Bọt Thủy – Đế Máy</a>
+                            <a href="#san-pham" onclick="filterCategory('phu-kien-trac-dia')">Pin – Sạc – Adapter – Cáp Trút</a>
+                            <a href="#san-pham" onclick="filterCategory('phu-kien-trac-dia')">Thước Thép – Thước Cuộn – Thước Dây</a>
+                            <a href="#san-pham" onclick="filterCategory('phu-kien-trac-dia')">Gương Sáo – Kẹp Máy Toàn Đạc</a>
+                            <a href="#san-pham" onclick="filterCategory('phu-kien-trac-dia')">Bánh Xe Đo Khoảng Cách</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#san-pham" onclick="filterCategory('cho-thue-may')" class="nav-cat-item">
+                            CHO THUÊ MÁY ĐO ĐẠC
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#du-an-da-nang" class="nav-cat-item">
+                            DỰ ÁN ĐÀ NẴNG
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#hinh-anh-thuc-te" class="nav-cat-item">
+                            HÌNH ẢNH THỰC TẾ
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#bai-viet" class="nav-cat-item">
+                            BÀI VIẾT
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#form-bao-gia" class="nav-cat-item">
+                            LIÊN HỆ BÁO GIÁ
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- MENU DANH MỤC TRÊN ĐIỆN THOẠI (Thiết kế gọn đẹp, rõ ràng) -->
+        <div id="mobileMenuDrawer" class="hidden lg:hidden bg-white border-t border-slate-200 px-3 py-3 shadow-inner">
+            <div class="mb-2.5">
+                <input 
+                    type="text" 
+                    oninput="handleSearchProduct(this.value)"
+                    placeholder="Tìm nhanh sản phẩm, máy đo đạc..." 
+                    class="w-full px-3 py-1.5 text-xs border border-slate-300 rounded focus:outline-none focus:border-brand"
+                >
+            </div>
+            <div class="grid grid-cols-2 gap-1.5 text-xs font-semibold">
+                <a href="#dich-vu-trac-dia" onclick="toggleMobileMenu()" class="p-2 rounded bg-slate-100 text-brand flex items-center gap-1.5">
+                    <i class="fa-solid fa-compass-drafting text-brand-accent"></i> Dịch Vụ Trắc Địa
                 </a>
-                <a href="#san-pham-dich-vu" onclick="filterCategory('danh-bong-da'); toggleMobileMenu()" class="p-2.5 rounded bg-slate-100 hover:bg-mc-primary hover:text-white flex items-center gap-2">
-                    <i class="fa-solid fa-gem text-mc-accent"></i> Đánh bóng sàn đá
+                <a href="#san-pham" onclick="filterCategory('may-thuy-binh'); toggleMobileMenu()" class="p-2 rounded bg-slate-100 text-slate-700 flex items-center gap-1.5">
+                    <i class="fa-solid fa-crosshairs text-brand"></i> Máy Thuỷ Bình
                 </a>
-                <a href="#san-pham-dich-vu" onclick="filterCategory('son-epoxy'); toggleMobileMenu()" class="p-2.5 rounded bg-slate-100 hover:bg-mc-primary hover:text-white flex items-center gap-2">
-                    <i class="fa-solid fa-fill-drip text-mc-accent"></i> Sơn Epoxy
+                <a href="#san-pham" onclick="filterCategory('may-gps-rtk'); toggleMobileMenu()" class="p-2 rounded bg-slate-100 text-slate-700 flex items-center gap-1.5">
+                    <i class="fa-solid fa-satellite-dish text-brand"></i> Máy GPS GNSS RTK
                 </a>
-                <a href="#san-pham-dich-vu" onclick="filterCategory('mai-be-tong'); toggleMobileMenu()" class="p-2.5 rounded bg-slate-100 hover:bg-mc-primary hover:text-white flex items-center gap-2">
-                    <i class="fa-solid fa-layer-group text-mc-accent"></i> Mài bê tông
+                <a href="#san-pham" onclick="filterCategory('may-toan-dac'); toggleMobileMenu()" class="p-2 rounded bg-slate-100 text-slate-700 flex items-center gap-1.5">
+                    <i class="fa-solid fa-bullseye text-brand"></i> Máy Toàn Đạc
                 </a>
-                <a href="#san-pham-dich-vu" onclick="filterCategory('terrazzo'); toggleMobileMenu()" class="p-2.5 rounded bg-slate-100 hover:bg-mc-primary hover:text-white flex items-center gap-2">
-                    <i class="fa-solid fa-cubes text-mc-accent"></i> Đá mài Terrazzo
+                <a href="#san-pham" onclick="filterCategory('may-do-laser'); toggleMobileMenu()" class="p-2 rounded bg-slate-100 text-slate-700 flex items-center gap-1.5">
+                    <i class="fa-solid fa-bolt text-brand"></i> Máy Đo Laser
                 </a>
-                <a href="#san-pham-dich-vu" onclick="filterCategory('microcement'); toggleMobileMenu()" class="p-2.5 rounded bg-slate-100 hover:bg-mc-primary hover:text-white flex items-center gap-2">
-                    <i class="fa-solid fa-trowel-bricks text-mc-accent"></i> Thi công Microcement
+                <a href="#san-pham" onclick="filterCategory('may-kinh-vi-bo-dam'); toggleMobileMenu()" class="p-2 rounded bg-slate-100 text-slate-700 flex items-center gap-1.5">
+                    <i class="fa-solid fa-walkie-talkie text-brand"></i> Kinh Vĩ & Bộ Đàm
                 </a>
-                <a href="#du-an-da-nang" onclick="toggleMobileMenu()" class="p-2.5 rounded bg-slate-100 hover:bg-mc-primary hover:text-white flex items-center gap-2">
-                    <i class="fa-solid fa-building-circle-check text-mc-accent"></i> Dự án Đà Nẵng
+                <a href="#san-pham" onclick="filterCategory('phu-kien-trac-dia'); toggleMobileMenu()" class="p-2 rounded bg-slate-100 text-slate-700 flex items-center gap-1.5">
+                    <i class="fa-solid fa-screwdriver-wrench text-brand"></i> Phụ Kiện Trắc Địa
                 </a>
-                <a href="#tin-tuc" onclick="toggleMobileMenu()" class="p-2.5 rounded bg-slate-100 hover:bg-mc-primary hover:text-white flex items-center gap-2">
-                    <i class="fa-solid fa-newspaper text-mc-accent"></i> Bài viết & Tin tức
+                <a href="#san-pham" onclick="filterCategory('cho-thue-may'); toggleMobileMenu()" class="p-2 rounded bg-slate-100 text-slate-700 flex items-center gap-1.5">
+                    <i class="fa-solid fa-handshake text-brand"></i> Cho Thuê Máy
                 </a>
-                <a href="#bao-gia-lien-he" onclick="toggleMobileMenu()" class="col-span-2 p-2.5 rounded bg-mc-dark text-white text-center flex items-center justify-center gap-2">
-                    <i class="fa-solid fa-file-signature text-mc-accent"></i> Nhận Báo Giá & Liên Hệ Ngay
+                <a href="#du-an-da-nang" onclick="toggleMobileMenu()" class="p-2 rounded bg-slate-100 text-slate-700 flex items-center gap-1.5">
+                    <i class="fa-solid fa-city text-brand"></i> Dự Án Đà Nẵng
+                </a>
+                <a href="#form-bao-gia" onclick="toggleMobileMenu()" class="p-2 rounded bg-brand-accent text-white flex items-center gap-1.5">
+                    <i class="fa-solid fa-file-signature"></i> Nhận Báo Giá Ngay
                 </a>
             </div>
         </div>
     </header>
 
-    <!-- ===================================================================== -->
-    <!-- SLIDER 2 BANNER TỰ TRƯỢT KÍCH THƯỚC BẰNG NHAU                         -->
-    <!-- TÁCH RIÊNG ẢNH BANNER MÁY TÍNH & ẢNH BANNER ĐIỆN THOẠI                -->
-    <!-- CHỮ NHỎ GỌN NẰM HẾT BÊN TRONG ẢNH, KHÔNG TRÀN VIỀN                    -->
-    <!-- ===================================================================== -->
-    <section id="top" class="w-full bg-slate-900 relative overflow-hidden">
-        <div class="flatsome-container px-0 sm:px-4 py-0 sm:py-3">
-            <div class="relative w-full overflow-hidden sm:rounded-xl shadow-md">
-                
-                <!-- ================= SLIDE 1 ================= -->
-                <div class="banner-slide block w-full transition-opacity duration-700" data-slide="0">
-                    
-                    <!-- Bản Máy tính (Desktop Banner 1 - Kích thước chuẩn 1500x460 bằng nhau) -->
-                    <div class="hidden md:flex relative w-full h-[420px] lg:h-[460px] items-center justify-between px-12 lg:px-16 overflow-hidden bg-gradient-to-r from-[#07162c] via-[#0f2c52] to-[#163e6c]">
-                        <img src="https://drive.google.com/thumbnail?id=1QDZrsMiETa0VeHn5PFd8DgXq8nowxxT3&sz=w1600" 
-                             alt="Banner Minh Châu Stone 1" 
-                             class="absolute inset-0 w-full h-full object-cover opacity-30 mix-blend-luminosity">
-                        
-                        <!-- Nội dung chữ thu gọn nằm hoàn toàn bên trong khung an toàn của ảnh -->
-                        <div class="relative z-10 max-w-[58%] text-white space-y-3 bg-slate-950/45 p-6 rounded-xl backdrop-blur-sm border border-white/15">
-                            <div class="inline-flex items-center gap-2 text-mc-accent text-xs font-bold uppercase tracking-widest">
-                                <i class="fa-solid fa-certificate"></i> CÔNG TY TNHH TM-DV MINH CHÂU STONE
-                            </div>
-                            <h1 class="text-xl lg:text-2xl xl:text-3xl font-extrabold leading-snug text-white">
-                                CHUYÊN ĐÁNH BÓNG SÀN ĐÁ MARBLE, GRANITE & THI CÔNG ĐÁ MÀI TERRAZZO ĐÀ NẴNG
-                            </h1>
-                            <p class="text-xs lg:text-sm text-slate-200 leading-relaxed">
-                                Giải pháp phục hồi sàn đá tự nhiên, mài đánh bóng sàn bê tông, thi công sơn sàn Epoxy và hoàn thiện Microcement chuẩn chất lượng ISO cho khách sạn, resort, biệt thự.
-                            </p>
-                            <div class="pt-1 flex flex-wrap items-center gap-3 text-xs font-semibold">
-                                <span class="bg-mc-accent text-slate-950 px-3 py-1.5 rounded font-bold"><i class="fa-solid fa-phone mr-1"></i>0975.796.543 - 0355.698.490</span>
-                                <span class="bg-white/10 text-white px-3 py-1.5 rounded border border-white/20">Website: minhchaustone.com</span>
-                            </div>
-                        </div>
+    <!-- =====================================================================
+         SECTION BANNER TỰ TRƯỢT 2 SLIDE KÍCH THƯỚC BẰNG NHAU
+         Thiết kế tách biệt:
+         1. Banner Máy Tính (md:block): Bố cục ngang rộng, chữ gọn nằm trọn bên trong.
+         2. Banner Điện Thoại (md:hidden): Thiết kế mới riêng cho điện thoại, chữ nhỏ gọn không tràn viền.
+    ====================================================================== -->
+    <section id="trang-chu" class="py-3 bg-white border-b border-slate-200">
+        <div class="flatsome-container">
+            <div class="relative rounded-lg overflow-hidden shadow-md border border-slate-200">
 
-                        <!-- Khung ảnh thực tế bên phải trên Banner Desktop -->
-                        <div class="relative z-10 w-[38%] h-[320px] rounded-xl overflow-hidden border-2 border-mc-accent/70 shadow-2xl">
-                            <img src="https://drive.google.com/thumbnail?id=1PsUMnTiNF0vzi9P834jOPQcQ9inXCHSm&sz=w900" 
-                                 alt="Thi công đánh bóng đá thực tế" 
-                                 class="w-full h-full object-cover"
-                                 onerror="this.onerror=null;this.src='https://placehold.co/600x400/163e6c/ffffff?text=Minh+Chau+Stone';">
-                        </div>
-                    </div>
-
-                    <!-- Bản Điện thoại (Mobile Banner 1 thiết kế riêng biệt, chữ nhỏ gọn nằm trọn bên trong ảnh) -->
-                    <div class="flex md:hidden relative w-full h-[250px] sm:h-[280px] items-center justify-center p-4 overflow-hidden bg-gradient-to-b from-[#091e3a] to-[#12345b]">
-                        <img src="https://drive.google.com/thumbnail?id=1QDZrsMiETa0VeHn5PFd8DgXq8nowxxT3&sz=w800" 
-                             alt="Mobile Banner 1" 
-                             class="absolute inset-0 w-full h-full object-cover opacity-25">
-                        <div class="relative z-10 w-full max-w-[94%] bg-slate-950/65 border border-white/15 rounded-lg p-3.5 text-center text-white space-y-1.5">
-                            <p class="text-[10px] font-bold uppercase tracking-wider text-mc-accent">MINH CHÂU STONE - MINHCHAUSTONE.COM</p>
-                            <h2 class="text-sm sm:text-base font-extrabold leading-snug text-white">
-                                ĐÁNH BÓNG SÀN ĐÁ MARBLE - GRANITE & ĐÁ MÀI TERRAZZO ĐÀ NẴNG
-                            </h2>
-                            <p class="text-[11px] text-slate-200 leading-tight">
-                                Chuyên mài phục hồi sàn đá, mài sàn bê tông, sơn Epoxy & Microcement uy tín, tiết kiệm 20% chi phí.
-                            </p>
-                            <div class="pt-1">
-                                <span class="inline-block bg-mc-accent text-slate-950 text-[11px] font-extrabold px-2.5 py-1 rounded">
-                                    Hotline: 0975.796.543 - 0355.698.490
-                                </span>
+                <!-- 1. BANNER DÀNH RIÊNG CHO MÁY TÍNH (2 ảnh tự trượt kích thước bằng nhau 400px) -->
+                <div class="hidden md:block relative w-full h-[390px] lg:h-[410px] overflow-hidden bg-brand-dark">
+                    <!-- Slide 1 Desktop -->
+                    <div class="desktop-banner-slide absolute inset-0 transition-opacity duration-700 opacity-100 flex items-center bg-gradient-to-r from-[#062c50] via-[#0B4F8A] to-[#0f5fa6]">
+                        <div class="w-full h-full grid grid-cols-12 items-center px-10 lg:px-14 gap-6">
+                            <div class="col-span-7 text-white space-y-3 pr-4">
+                                <div class="inline-block bg-amber-500 text-slate-950 font-bold text-xs px-3 py-1 rounded uppercase tracking-wider">
+                                    CÔNG TY TNHH ĐO ĐẠC BẢN ĐỒ THỊNH PHÁT • DODACTHINHPHAT.COM
+                                </div>
+                                <h1 class="text-2xl lg:text-3xl font-extrabold leading-snug uppercase text-white">
+                                    DỊCH VỤ ĐO ĐẠC ĐỊA CHÍNH, KHẢO SÁT BẢN ĐỒ & QUAN TRẮC CÔNG TRÌNH TẠI ĐÀ NẴNG
+                                </h1>
+                                <p class="text-xs lg:text-sm text-slate-100 leading-relaxed max-w-2xl">
+                                    Chuyên đo đạc nhà đất, cắm mốc ranh giới, lập bản đồ hiện trạng, hồ sơ xin phép xây dựng, hoàn công và quan trắc lún nghiêng chuẩn TCVN. Chính xác từng mm – Nhanh chóng – Đúng pháp lý.
+                                </p>
+                                <div class="grid grid-cols-2 gap-2 pt-1 text-xs text-amber-200 font-medium">
+                                    <div><i class="fa-solid fa-circle-check text-amber-400 mr-1.5"></i>Địa chỉ: 03 Hoàng Diệu, P. Điện Bàn, TP Đà Nẵng</div>
+                                    <div><i class="fa-solid fa-phone-volume text-amber-400 mr-1.5"></i>Hotline/Zalo kỹ sư: 0933.210.234</div>
+                                </div>
+                                <div class="pt-2 flex items-center gap-3">
+                                    <a href="#form-bao-gia" class="bg-brand-accent hover:bg-orange-700 text-white text-xs font-bold px-5 py-2.5 rounded shadow transition">
+                                        ĐĂNG KÝ TƯ VẤN & BÁO GIÁ
+                                    </a>
+                                    <a href="#du-an-da-nang" class="bg-white/15 hover:bg-white/25 text-white border border-white/30 text-xs font-semibold px-4 py-2.5 rounded transition">
+                                        XEM DỰ ÁN ĐÀ NẴNG
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-span-5 h-full py-5 flex items-center justify-center">
+                                <div class="grid grid-cols-2 gap-2.5 w-full max-w-md h-[320px]">
+                                    <img 
+                                        src="https://lh3.googleusercontent.com/d/1kCcHmSxEfBLvAaDoNEChg6BXeU59GDpb" 
+                                        onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=1kCcHmSxEfBLvAaDoNEChg6BXeU59GDpb&sz=w800';"
+                                        alt="Hoạt động đo đạc thực tế Thịnh Phát" 
+                                        class="w-full h-full object-cover rounded-lg border-2 border-white/30 shadow-lg"
+                                    >
+                                    <img 
+                                        src="https://lh3.googleusercontent.com/d/1O8mgjTDAcUwEIDSWSqGMW4YcSnVg37UK" 
+                                        onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=1O8mgjTDAcUwEIDSWSqGMW4YcSnVg37UK&sz=w800';"
+                                        alt="Thiết bị đo đạc bản đồ Thịnh Phát" 
+                                        class="w-full h-full object-cover rounded-lg border-2 border-white/30 shadow-lg"
+                                    >
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- ================= SLIDE 2 ================= -->
-                <div class="banner-slide hidden w-full transition-opacity duration-700" data-slide="1">
-                    
-                    <!-- Bản Máy tính (Desktop Banner 2 - Kích thước chuẩn 1500x460 bằng nhau) -->
-                    <div class="hidden md:flex relative w-full h-[420px] lg:h-[460px] items-center justify-between px-12 lg:px-16 overflow-hidden bg-gradient-to-r from-[#0f2942] via-[#173f66] to-[#0c2340]">
-                        <img src="https://drive.google.com/thumbnail?id=1YSE0tN0WSfjeA0AYbRweC_pUP58nP02e&sz=w1600" 
-                             alt="Banner Minh Châu Stone 2" 
-                             class="absolute inset-0 w-full h-full object-cover opacity-30 mix-blend-luminosity">
-                        
-                        <div class="relative z-10 max-w-[58%] text-white space-y-3 bg-slate-950/45 p-6 rounded-xl backdrop-blur-sm border border-white/15">
-                            <div class="inline-flex items-center gap-2 text-mc-accent text-xs font-bold uppercase tracking-widest">
-                                <i class="fa-solid fa-award"></i> CÔNG NGHỆ MÀI BÓNG & PHỦ SÀN HIỆN ĐẠI
+                    <!-- Slide 2 Desktop (Kích thước bằng hệt Slide 1) -->
+                    <div class="desktop-banner-slide absolute inset-0 transition-opacity duration-700 opacity-0 pointer-events-none flex items-center bg-gradient-to-r from-[#073661] via-[#0B4F8A] to-[#083b66]">
+                        <div class="w-full h-full grid grid-cols-12 items-center px-10 lg:px-14 gap-6">
+                            <div class="col-span-7 text-white space-y-3 pr-4">
+                                <div class="inline-block bg-emerald-400 text-slate-950 font-bold text-xs px-3 py-1 rounded uppercase tracking-wider">
+                                    PHÂN PHỐI & CHO THUÊ THIẾT BỊ TRẮC ĐỊA CHÍNH HÃNG
+                                </div>
+                                <h2 class="text-2xl lg:text-3xl font-extrabold leading-snug uppercase text-white">
+                                    MÁY GPS GNSS RTK, MÁY TOÀN ĐẠC, MÁY THỦY BÌNH & MÁY LASER GIÁ TỐT NHẤT
+                                </h2>
+                                <p class="text-xs lg:text-sm text-slate-100 leading-relaxed max-w-2xl">
+                                    Cung cấp đầy đủ máy đo đạc Leica, Topcon, Sokkia, Nikon, Hi-Target, Garmin, Bosch cùng phụ kiện chân, mia, gương sáo, bộ đàm. Kiểm định miễn phí, giao hàng và chuyển giao kỹ thuật tận nơi.
+                                </p>
+                                <div class="grid grid-cols-2 gap-2 pt-1 text-xs text-amber-200 font-medium">
+                                    <div><i class="fa-solid fa-shield-halved text-amber-400 mr-1.5"></i>Bảo hành chính hãng – Có tem kiểm định</div>
+                                    <div><i class="fa-solid fa-headset text-amber-400 mr-1.5"></i>Tư vấn kỹ thuật: 0933.210.234 (Mr. Mến)</div>
+                                </div>
+                                <div class="pt-2 flex items-center gap-3">
+                                    <a href="#san-pham" class="bg-amber-500 hover:bg-amber-600 text-slate-950 text-xs font-bold px-5 py-2.5 rounded shadow transition">
+                                        XEM DANH MỤC SẢN PHẨM
+                                    </a>
+                                    <a href="#form-bao-gia" class="bg-white/15 hover:bg-white/25 text-white border border-white/30 text-xs font-semibold px-4 py-2.5 rounded transition">
+                                        YÊU CẦU BÁO GIÁ THIẾT BỊ
+                                    </a>
+                                </div>
                             </div>
-                            <h2 class="text-xl lg:text-2xl xl:text-3xl font-extrabold leading-snug text-white">
-                                THI CÔNG SƠN SÀN EPOXY, MÀI BÊ TÔNG LỘ CỐT LIỆU & SÀN MICROCEMENT CAO CẤP
-                            </h2>
-                            <p class="text-xs lg:text-sm text-slate-200 leading-relaxed">
-                                Đội ngũ kỹ thuật viên lành nghề cùng hệ thống máy mài công suất lớn, hóa chất nhập khẩu chính hãng. Khảo sát tận nơi tại Ngũ Hành Sơn và toàn TP Đà Nẵng.
-                            </p>
-                            <div class="pt-1 flex flex-wrap items-center gap-3 text-xs font-semibold">
-                                <span class="bg-mc-accent text-slate-950 px-3 py-1.5 rounded font-bold"><i class="fa-solid fa-location-dot mr-1"></i>TĐC Tân Trà, P. Ngũ Hành Sơn, Đà Nẵng</span>
-                                <span class="bg-white/10 text-white px-3 py-1.5 rounded border border-white/20">Tư vấn 24/7: 0975.796.543</span>
-                            </div>
-                        </div>
-
-                        <div class="relative z-10 w-[38%] h-[320px] rounded-xl overflow-hidden border-2 border-mc-accent/70 shadow-2xl">
-                            <img src="https://drive.google.com/thumbnail?id=1RfQNvz0pxQNUMwzSYgFimrwg34O16VYV&sz=w900" 
-                                 alt="Thi công mài bê tông và đá tự nhiên" 
-                                 class="w-full h-full object-cover"
-                                 onerror="this.onerror=null;this.src='https://placehold.co/600x400/0c2340/ffffff?text=Minh+Chau+Stone';">
-                        </div>
-                    </div>
-
-                    <!-- Bản Điện thoại (Mobile Banner 2 thiết kế riêng biệt, kích thước bằng Mobile Banner 1) -->
-                    <div class="flex md:hidden relative w-full h-[250px] sm:h-[280px] items-center justify-center p-4 overflow-hidden bg-gradient-to-b from-[#102a49] to-[#0a1d33]">
-                        <img src="https://drive.google.com/thumbnail?id=1YSE0tN0WSfjeA0AYbRweC_pUP58nP02e&sz=w800" 
-                             alt="Mobile Banner 2" 
-                             class="absolute inset-0 w-full h-full object-cover opacity-25">
-                        <div class="relative z-10 w-full max-w-[94%] bg-slate-950/65 border border-white/15 rounded-lg p-3.5 text-center text-white space-y-1.5">
-                            <p class="text-[10px] font-bold uppercase tracking-wider text-mc-accent">CÔNG NGHỆ ĐÁNH BÓNG & PHỦ SÀN</p>
-                            <h2 class="text-sm sm:text-base font-extrabold leading-snug text-white">
-                                THI CÔNG SƠN EPOXY, MÀI SÀN BÊ TÔNG & MICROCEMENT ĐÀ NẴNG
-                            </h2>
-                            <p class="text-[11px] text-slate-200 leading-tight">
-                                Địa chỉ: Lô 46-B2.21, TĐC Tân Trà, P. Ngũ Hành Sơn, TP Đà Nẵng. Khảo sát & báo giá miễn phí.
-                            </p>
-                            <div class="pt-1">
-                                <span class="inline-block bg-mc-accent text-slate-950 text-[11px] font-extrabold px-2.5 py-1 rounded">
-                                    Gọi ngay: 0975.796.543 - 0355.698.490
-                                </span>
+                            <div class="col-span-5 h-full py-5 flex items-center justify-center">
+                                <div class="grid grid-cols-2 gap-2.5 w-full max-w-md h-[320px]">
+                                    <img 
+                                        src="https://lh3.googleusercontent.com/d/1UP8YbcBZP0FX1BBqQ22VaWO8x_SrUuKd" 
+                                        onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=1UP8YbcBZP0FX1BBqQ22VaWO8x_SrUuKd&sz=w800';"
+                                        alt="Máy đo đạc trắc địa Thịnh Phát" 
+                                        class="w-full h-full object-cover rounded-lg border-2 border-white/30 shadow-lg"
+                                    >
+                                    <img 
+                                        src="https://lh3.googleusercontent.com/d/1ZP9TYdHxPGeRZIfF4tUGS14FrQmbosyB" 
+                                        onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=1ZP9TYdHxPGeRZIfF4tUGS14FrQmbosyB&sz=w800';"
+                                        alt="Máy RTK và Toàn đạc Thịnh Phát" 
+                                        class="w-full h-full object-cover rounded-lg border-2 border-white/30 shadow-lg"
+                                    >
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Nút điều hướng 2 Banner -->
-                <button onclick="changeSlide(-1)" aria-label="Slide trước" class="absolute left-2.5 top-1/2 -translate-y-1/2 w-8 h-8 md:w-10 md:h-10 rounded-full bg-black/45 text-white hover:bg-mc-accent hover:text-slate-900 flex items-center justify-center transition z-20">
-                    <i class="fa-solid fa-chevron-left text-xs md:text-sm"></i>
+                <!-- 2. BANNER THIẾT KẾ MỚI DÀNH RIÊNG CHO ĐIỆN THOẠI (Chữ nhỏ gọn nằm hết trong ảnh banner, không tràn viền, 2 slide bằng nhau 275px) -->
+                <div class="block md:hidden relative w-full h-[275px] overflow-hidden bg-brand-dark">
+                    <!-- Slide 1 Mobile -->
+                    <div class="mobile-banner-slide absolute inset-0 transition-opacity duration-700 opacity-100 flex flex-col justify-between p-3.5 bg-gradient-to-br from-[#062c50] via-[#0B4F8A] to-[#0a3f70]">
+                        <div class="flex items-center gap-2">
+                            <span class="bg-amber-400 text-slate-950 font-bold text-[10px] px-2 py-0.5 rounded uppercase">
+                                dodacthinhphat.com
+                            </span>
+                            <span class="text-[10.5px] text-amber-200 font-medium truncate">
+                                ĐT/Zalo: 0933.210.234
+                            </span>
+                        </div>
+                        <div class="grid grid-cols-12 gap-2.5 items-center my-auto">
+                            <div class="col-span-7 text-white space-y-1">
+                                <h2 class="text-[13px] font-extrabold uppercase leading-snug text-white">
+                                    CÔNG TY TNHH ĐO ĐẠC BẢN ĐỒ THỊNH PHÁT
+                                </h2>
+                                <p class="text-[11px] text-slate-100 leading-tight">
+                                    Chuyên đo đạc nhà đất, cắm mốc ranh giới, tách thửa, xin phép xây dựng & quan trắc tại Đà Nẵng.
+                                </p>
+                                <div class="text-[10.5px] text-amber-300 font-medium leading-tight pt-0.5">
+                                    Đ/c: 03 Hoàng Diệu, P. Điện Bàn, TP Đà Nẵng
+                                </div>
+                            </div>
+                            <div class="col-span-5">
+                                <img 
+                                    src="https://lh3.googleusercontent.com/d/1kCcHmSxEfBLvAaDoNEChg6BXeU59GDpb" 
+                                    onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=1kCcHmSxEfBLvAaDoNEChg6BXeU59GDpb&sz=w500';"
+                                    alt="Đo đạc Thịnh Phát Đà Nẵng" 
+                                    class="w-full h-[135px] object-cover rounded border border-white/40"
+                                >
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between gap-2 pt-1 border-t border-white/15">
+                            <a href="#form-bao-gia" class="bg-brand-accent text-white text-[11px] font-bold px-3 py-1.5 rounded text-center flex-1">
+                                NHẬN BÁO GIÁ ĐO ĐẠC
+                            </a>
+                            <a href="#du-an-da-nang" class="bg-white/15 text-white text-[11px] font-semibold px-3 py-1.5 rounded text-center flex-1">
+                                DỰ ÁN ĐÀ NẴNG
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 Mobile (Kích thước 275px bằng hệt Slide 1) -->
+                    <div class="mobile-banner-slide absolute inset-0 transition-opacity duration-700 opacity-0 pointer-events-none flex flex-col justify-between p-3.5 bg-gradient-to-br from-[#073661] via-[#0B4F8A] to-[#062d52]">
+                        <div class="flex items-center gap-2">
+                            <span class="bg-emerald-400 text-slate-950 font-bold text-[10px] px-2 py-0.5 rounded uppercase">
+                                Thiết Bị Chính Hãng
+                            </span>
+                            <span class="text-[10.5px] text-amber-200 font-medium truncate">
+                                Bảo hành & Kiểm định TCVN
+                            </span>
+                        </div>
+                        <div class="grid grid-cols-12 gap-2.5 items-center my-auto">
+                            <div class="col-span-7 text-white space-y-1">
+                                <h2 class="text-[13px] font-extrabold uppercase leading-snug text-white">
+                                    MÁY RTK, TOÀN ĐẠC, THỦY BÌNH & LASER
+                                </h2>
+                                <p class="text-[11px] text-slate-100 leading-tight">
+                                    Cung cấp & cho thuê máy đo đạc Leica, Sokkia, Topcon, Nikon, Hi-Target, phụ kiện trắc địa giá tốt.
+                                </p>
+                                <div class="text-[10.5px] text-amber-300 font-medium leading-tight pt-0.5">
+                                    Giao máy tận công trình • Hỗ trợ 24/7
+                                </div>
+                            </div>
+                            <div class="col-span-5">
+                                <img 
+                                    src="https://lh3.googleusercontent.com/d/1UP8YbcBZP0FX1BBqQ22VaWO8x_SrUuKd" 
+                                    onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=1UP8YbcBZP0FX1BBqQ22VaWO8x_SrUuKd&sz=w500';"
+                                    alt="Máy trắc địa Thịnh Phát" 
+                                    class="w-full h-[135px] object-cover rounded border border-white/40"
+                                >
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between gap-2 pt-1 border-t border-white/15">
+                            <a href="#san-pham" class="bg-amber-400 text-slate-950 text-[11px] font-bold px-3 py-1.5 rounded text-center flex-1">
+                                XEM SẢN PHẨM
+                            </a>
+                            <a href="#form-bao-gia" class="bg-white/15 text-white text-[11px] font-semibold px-3 py-1.5 rounded text-center flex-1">
+                                TƯ VẤN KỸ THUẬT
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nút điều hướng Slide Banner -->
+                <button type="button" onclick="changeBannerSlide(-1)" aria-label="Slide trước" class="absolute left-2 top-1/2 -translate-y-1/2 w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-black/35 hover:bg-black/60 text-white flex items-center justify-center z-20">
+                    <i class="fa-solid fa-chevron-left text-xs"></i>
                 </button>
-                <button onclick="changeSlide(1)" aria-label="Slide tiếp" class="absolute right-2.5 top-1/2 -translate-y-1/2 w-8 h-8 md:w-10 md:h-10 rounded-full bg-black/45 text-white hover:bg-mc-accent hover:text-slate-900 flex items-center justify-center transition z-20">
-                    <i class="fa-solid fa-chevron-right text-xs md:text-sm"></i>
+                <button type="button" onclick="changeBannerSlide(1)" aria-label="Slide tiếp" class="absolute right-2 top-1/2 -translate-y-1/2 w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-black/35 hover:bg-black/60 text-white flex items-center justify-center z-20">
+                    <i class="fa-solid fa-chevron-right text-xs"></i>
                 </button>
-
-                <!-- Chấm chỉ báo Slide -->
-                <div class="absolute bottom-2.5 left-1/2 -translate-x-1/2 flex items-center gap-2 z-20">
-                    <button onclick="goToSlide(0)" id="dot-0" class="w-6 h-2 rounded-full bg-mc-accent transition-all"></button>
-                    <button onclick="goToSlide(1)" id="dot-1" class="w-2.5 h-2 rounded-full bg-white/60 transition-all"></button>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- ===================================================================== -->
-    <!-- THANH KẾT NỐI NHANH GIỐNG BACTRUNG.COM (FACEBOOK - ZALO - HOTLINE)    -->
-    <!-- ===================================================================== -->
-    <section class="w-full py-4 bg-white border-b border-slate-200">
-        <div class="flatsome-container">
-            <div class="bg-mc-light border border-slate-200 rounded-xl p-4 flex flex-col lg:flex-row items-center justify-between gap-4">
-                <div class="text-center lg:text-left">
-                    <h2 class="text-sm sm:text-base font-extrabold text-mc-dark">
-                        Bạn cần tư vấn & báo giá nhanh dịch vụ đá và sàn tại Đà Nẵng?
-                    </h2>
-                    <p class="text-xs text-slate-600 mt-0.5">
-                        Liên hệ trực tiếp CÔNG TY TNHH TM-DV MINH CHÂU STONE qua các kênh hỗ trợ 24/7:
-                    </p>
-                </div>
-                <div class="grid grid-cols-3 gap-2 sm:gap-3 w-full lg:w-auto shrink-0">
-                    <a href="https://www.facebook.com" target="_blank" rel="noopener" class="bg-[#1877F2] hover:opacity-95 text-white font-bold text-xs sm:text-sm py-2.5 px-3 sm:px-5 rounded-lg flex items-center justify-center gap-1.5 shadow-sm">
-                        <i class="fa-brands fa-facebook-f"></i> <span>FACEBOOK</span>
-                    </a>
-                    <a href="https://zalo.me/0975796543" target="_blank" rel="noopener" class="bg-[#0068FF] hover:opacity-95 text-white font-bold text-xs sm:text-sm py-2.5 px-3 sm:px-5 rounded-lg flex items-center justify-center gap-1.5 shadow-sm">
-                        <i class="fa-solid fa-comment-dots"></i> <span>ZALO</span>
-                    </a>
-                    <a href="tel:0975796543" class="bg-red-600 hover:bg-red-700 text-white font-bold text-xs sm:text-sm py-2.5 px-3 sm:px-5 rounded-lg flex items-center justify-center gap-1.5 shadow-sm">
-                        <i class="fa-solid fa-phone"></i> <span>HOTLINE</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===================================================================== -->
-    <!-- GIỚI THIỆU MINH CHÂU STONE (THEO BỐ CỤC MẪU BACTRUNG.COM)             -->
-    <!-- ===================================================================== -->
-    <section class="w-full py-8 bg-white">
-        <div class="flatsome-container">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
-                <div class="lg:col-span-7 space-y-3">
-                    <div class="text-xs font-bold uppercase text-mc-primary tracking-wider">GIỚI THIỆU DOANH NGHIỆP</div>
-                    <h2 class="text-lg sm:text-2xl font-extrabold text-mc-dark">
-                        CÔNG TY TNHH TM-DV MINH CHÂU STONE
-                    </h2>
-                    <p class="text-sm text-slate-700 leading-relaxed">
-                        <strong>Công ty TNHH TM-DV Minh Châu Stone</strong> (<a href="https://minhchaustone.com" class="text-mc-primary font-semibold underline">minhchaustone.com</a>) là đơn vị chuyên cung cấp, thi công đá tự nhiên và dịch vụ mài đánh bóng sàn bê tông, xử lý phục hồi đánh bóng sàn đá Marble – Granite, đá mài Terrazzo, sơn sàn Epoxy và thi công Microcement tại Đà Nẵng uy tín, chất lượng với mức giá hợp lý nhất.
-                    </p>
-                    <p class="text-sm text-slate-700 leading-relaxed">
-                        Đá tự nhiên, đá Marble, đá Granite và đá mài Terrazzo được ứng dụng rộng rãi tại các công trình biệt thự, khách sạn, khu nghỉ dưỡng và tòa nhà thương mại. Sau một thời gian khai thác hoặc mới lắp đặt, bề mặt sàn cần được xử lý mài phẳng, đánh bóng gương và phủ chống thấm chuyên sâu. Minh Châu Stone cam kết mang lại mặt sàn sáng bóng bền bỉ như mới.
-                    </p>
-                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-2.5 pt-2 text-xs font-semibold text-mc-dark">
-                        <div class="p-2.5 rounded-lg bg-slate-50 border border-slate-200 flex items-center gap-2">
-                            <i class="fa-solid fa-circle-check text-mc-accent"></i> Máy móc công nghiệp hiện đại
-                        </div>
-                        <div class="p-2.5 rounded-lg bg-slate-50 border border-slate-200 flex items-center gap-2">
-                            <i class="fa-solid fa-circle-check text-mc-accent"></i> Hóa chất nhập khẩu Ý, Anh
-                        </div>
-                        <div class="col-span-2 sm:col-span-1 p-2.5 rounded-lg bg-slate-50 border border-slate-200 flex items-center gap-2">
-                            <i class="fa-solid fa-circle-check text-mc-accent"></i> Bảo hành dài hạn, đúng tiến độ
-                        </div>
-                    </div>
-                </div>
-                <div class="lg:col-span-5 grid grid-cols-2 gap-3">
-                    <div class="rounded-xl overflow-hidden border border-slate-200 shadow-sm h-44 sm:h-52">
-                        <img src="https://drive.google.com/thumbnail?id=1QDZrsMiETa0VeHn5PFd8DgXq8nowxxT3&sz=w800" 
-                             alt="Hình ảnh thực tế Minh Châu Stone 1" 
-                             class="w-full h-full object-cover"
-                             onerror="this.onerror=null;this.src='https://placehold.co/500x400/0c2340/ffffff?text=Minh+Chau+Stone';">
-                    </div>
-                    <div class="rounded-xl overflow-hidden border border-slate-200 shadow-sm h-44 sm:h-52">
-                        <img src="https://drive.google.com/thumbnail?id=1AXKSFrWkWGV_CIOqbGGYecZREk0VzU1k&sz=w800" 
-                             alt="Hình ảnh thực tế Minh Châu Stone 2" 
-                             class="w-full h-full object-cover"
-                             onerror="this.onerror=null;this.src='https://placehold.co/500x400/163e6c/ffffff?text=Thi+Cong+Da';">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===================================================================== -->
-    <!-- DANH MỤC & SẢN PHẨM / DỊCH VỤ (LẤY TỪ WEB MẪU + 10 ẢNH GOOGLE DRIVE)  -->
-    <!-- - Chữ danh mục ở trang chủ nhỏ gọn, viết liền trên 1 hàng             -->
-    <!-- - Điện thoại chia đúng 2 cột (grid-cols-2)                            -->
-    <!-- - Không để nhãn dán (badge/sticker) trên ảnh                          -->
-    <!-- - Tên sản phẩm hiển thị đầy đủ không bị tràn hay thiếu chữ            -->
-    <!-- ===================================================================== -->
-    <section id="san-pham-dich-vu" class="w-full py-8 bg-slate-50 border-t border-slate-200">
-        <div class="flatsome-container">
-            
-            <!-- Tiêu đề chuẩn Flatsome -->
-            <div class="ux-section-title">
-                <b></b>
-                <span>DANH MỤC SẢN PHẨM & DỊCH VỤ THI CÔNG</span>
-                <b></b>
-            </div>
-
-            <!-- Thanh Danh Mục Trang Chủ: Chữ nhỏ gọn, viết liền không xuống dòng trong từng nút -->
-            <div class="flex flex-wrap items-center justify-center gap-2 mb-6">
-                <button onclick="filterCategory('all')" data-cat-btn="all" class="category-pill active">
-                    <i class="fa-solid fa-border-all"></i> Tất cả danh mục
-                </button>
-                <button onclick="filterCategory('danh-bong-da')" data-cat-btn="danh-bong-da" class="category-pill">
-                    <i class="fa-solid fa-gem"></i> Đánh bóng sàn đá
-                </button>
-                <button onclick="filterCategory('son-epoxy')" data-cat-btn="son-epoxy" class="category-pill">
-                    <i class="fa-solid fa-fill-drip"></i> Sơn Epoxy
-                </button>
-                <button onclick="filterCategory('mai-be-tong')" data-cat-btn="mai-be-tong" class="category-pill">
-                    <i class="fa-solid fa-layer-group"></i> Mài bê tông
-                </button>
-                <button onclick="filterCategory('terrazzo')" data-cat-btn="terrazzo" class="category-pill">
-                    <i class="fa-solid fa-cubes"></i> Thi công đá mài Terrazzo
-                </button>
-                <button onclick="filterCategory('microcement')" data-cat-btn="microcement" class="category-pill">
-                    <i class="fa-solid fa-trowel-bricks"></i> Thi công Microcement
-                </button>
-            </div>
-
-            <!-- Lưới 10 Sản phẩm/Dịch vụ từ 10 file ảnh thực tế Google Drive -->
-            <!-- Trên điện thoại chia 2 cột (grid-cols-2), trên máy tính chia 5 cột (lg:grid-cols-5) -->
-            <div id="productGrid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4">
-
-                <!-- Sản phẩm 1 (File Drive 1: 1QDZrsMiETa0VeHn5PFd8DgXq8nowxxT3) -->
-                <div class="product-card bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col" data-category="danh-bong-da">
-                    <div class="aspect-[4/3] w-full bg-slate-100 overflow-hidden">
-                        <img src="https://drive.google.com/thumbnail?id=1QDZrsMiETa0VeHn5PFd8DgXq8nowxxT3&sz=w700" 
-                             alt="Đánh bóng sàn đá Marble Cẩm Thạch tự nhiên tại Đà Nẵng" 
-                             class="w-full h-full object-cover hover:scale-105 transition duration-300"
-                             onerror="this.onerror=null;this.src='https://placehold.co/600x450/0c2340/ffffff?text=Da+Marble';">
-                    </div>
-                    <div class="p-3 flex flex-col flex-1 justify-between gap-2">
-                        <div>
-                            <div class="text-[11px] font-semibold text-slate-500">Đánh bóng sàn đá</div>
-                            <h3 class="product-title-full font-bold text-mc-dark text-xs sm:text-sm mt-0.5">
-                                Dịch vụ mài phục hồi và đánh bóng sàn đá Marble (Đá Cẩm Thạch) tại Đà Nẵng
-                            </h3>
-                        </div>
-                        <div class="pt-2 border-t border-slate-100 flex items-center justify-between gap-1">
-                            <span class="text-[11px] sm:text-xs font-extrabold text-red-600">170.000đ - 250.000đ/m²</span>
-                            <a href="#bao-gia-lien-he" class="text-[11px] font-bold text-mc-primary hover:underline shrink-0">Báo giá</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Sản phẩm 2 (File Drive 2: 1PsUMnTiNF0vzi9P834jOPQcQ9inXCHSm) -->
-                <div class="product-card bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col" data-category="danh-bong-da">
-                    <div class="aspect-[4/3] w-full bg-slate-100 overflow-hidden">
-                        <img src="https://drive.google.com/thumbnail?id=1PsUMnTiNF0vzi9P834jOPQcQ9inXCHSm&sz=w700" 
-                             alt="Thi công mài phục hồi đánh bóng đá Granite Hoa Cương" 
-                             class="w-full h-full object-cover hover:scale-105 transition duration-300"
-                             onerror="this.onerror=null;this.src='https://placehold.co/600x450/0c2340/ffffff?text=Da+Granite';">
-                    </div>
-                    <div class="p-3 flex flex-col flex-1 justify-between gap-2">
-                        <div>
-                            <div class="text-[11px] font-semibold text-slate-500">Đánh bóng sàn đá</div>
-                            <h3 class="product-title-full font-bold text-mc-dark text-xs sm:text-sm mt-0.5">
-                                Dịch vụ mài phục hồi, đánh bóng sàn đá Granite (Đá Hoa Cương) chuyên nghiệp
-                            </h3>
-                        </div>
-                        <div class="pt-2 border-t border-slate-100 flex items-center justify-between gap-1">
-                            <span class="text-[11px] sm:text-xs font-extrabold text-red-600">150.000đ - 250.000đ/m²</span>
-                            <a href="#bao-gia-lien-he" class="text-[11px] font-bold text-mc-primary hover:underline shrink-0">Báo giá</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Sản phẩm 3 (File Drive 3: 1YSE0tN0WSfjeA0AYbRweC_pUP58nP02e) -->
-                <div class="product-card bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col" data-category="terrazzo">
-                    <div class="aspect-[4/3] w-full bg-slate-100 overflow-hidden">
-                        <img src="https://drive.google.com/thumbnail?id=1YSE0tN0WSfjeA0AYbRweC_pUP58nP02e&sz=w700" 
-                             alt="Thi công đá mài Terrazzo nội ngoại thất Đà Nẵng" 
-                             class="w-full h-full object-cover hover:scale-105 transition duration-300"
-                             onerror="this.onerror=null;this.src='https://placehold.co/600x450/0c2340/ffffff?text=Da+Terrazzo';">
-                    </div>
-                    <div class="p-3 flex flex-col flex-1 justify-between gap-2">
-                        <div>
-                            <div class="text-[11px] font-semibold text-slate-500">Thi công đá mài Terrazzo</div>
-                            <h3 class="product-title-full font-bold text-mc-dark text-xs sm:text-sm mt-0.5">
-                                Thi công sàn đá mài Terrazzo cao cấp cho biệt thự, khách sạn và showroom
-                            </h3>
-                        </div>
-                        <div class="pt-2 border-t border-slate-100 flex items-center justify-between gap-1">
-                            <span class="text-[11px] sm:text-xs font-extrabold text-red-600">Liên hệ báo giá</span>
-                            <a href="#bao-gia-lien-he" class="text-[11px] font-bold text-mc-primary hover:underline shrink-0">Báo giá</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Sản phẩm 4 (File Drive 4: 1RfQNvz0pxQNUMwzSYgFimrwg34O16VYV) -->
-                <div class="product-card bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col" data-category="terrazzo">
-                    <div class="aspect-[4/3] w-full bg-slate-100 overflow-hidden">
-                        <img src="https://drive.google.com/thumbnail?id=1RfQNvz0pxQNUMwzSYgFimrwg34O16VYV&sz=w700" 
-                             alt="Thi công hồ bơi cầu thang và bồn cây đá Terrazzo" 
-                             class="w-full h-full object-cover hover:scale-105 transition duration-300"
-                             onerror="this.onerror=null;this.src='https://placehold.co/600x450/0c2340/ffffff?text=Ho+Boi+Terrazzo';">
-                    </div>
-                    <div class="p-3 flex flex-col flex-1 justify-between gap-2">
-                        <div>
-                            <div class="text-[11px] font-semibold text-slate-500">Thi công đá mài Terrazzo</div>
-                            <h3 class="product-title-full font-bold text-mc-dark text-xs sm:text-sm mt-0.5">
-                                Thi công hồ bơi đá mài Terrazzo, cầu thang và bồn cây cảnh Terrazzo nguyên khối
-                            </h3>
-                        </div>
-                        <div class="pt-2 border-t border-slate-100 flex items-center justify-between gap-1">
-                            <span class="text-[11px] sm:text-xs font-extrabold text-red-600">120.000đ - 150.000đ/m²</span>
-                            <a href="#bao-gia-lien-he" class="text-[11px] font-bold text-mc-primary hover:underline shrink-0">Báo giá</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Sản phẩm 5 (File Drive 5: 1AXKSFrWkWGV_CIOqbGGYecZREk0VzU1k) -->
-                <div class="product-card bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col" data-category="mai-be-tong">
-                    <div class="aspect-[4/3] w-full bg-slate-100 overflow-hidden">
-                        <img src="https://drive.google.com/thumbnail?id=1AXKSFrWkWGV_CIOqbGGYecZREk0VzU1k&sz=w700" 
-                             alt="Mài đánh bóng sàn bê tông lộ cát lộ đá tại Đà Nẵng" 
-                             class="w-full h-full object-cover hover:scale-105 transition duration-300"
-                             onerror="this.onerror=null;this.src='https://placehold.co/600x450/0c2340/ffffff?text=Mai+Be+Tong';">
-                    </div>
-                    <div class="p-3 flex flex-col flex-1 justify-between gap-2">
-                        <div>
-                            <div class="text-[11px] font-semibold text-slate-500">Mài bê tông</div>
-                            <h3 class="product-title-full font-bold text-mc-dark text-xs sm:text-sm mt-0.5">
-                                Dịch vụ mài đánh bóng sàn bê tông lộ cát, lộ cốt liệu đá hạt tiêu tại Đà Nẵng
-                            </h3>
-                        </div>
-                        <div class="pt-2 border-t border-slate-100 flex items-center justify-between gap-1">
-                            <span class="text-[11px] sm:text-xs font-extrabold text-red-600">110.000đ - 120.000đ/m²</span>
-                            <a href="#bao-gia-lien-he" class="text-[11px] font-bold text-mc-primary hover:underline shrink-0">Báo giá</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Sản phẩm 6 (File Drive 6: 1tX9FDCFD64EgV2UM0c_P40ylsnGb4MP1) -->
-                <div class="product-card bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col" data-category="mai-be-tong">
-                    <div class="aspect-[4/3] w-full bg-slate-100 overflow-hidden">
-                        <img src="https://drive.google.com/thumbnail?id=1tX9FDCFD64EgV2UM0c_P40ylsnGb4MP1&sz=w700" 
-                             alt="Mài sàn bê tông tăng cứng Liquid Hardener nhà xưởng" 
-                             class="w-full h-full object-cover hover:scale-105 transition duration-300"
-                             onerror="this.onerror=null;this.src='https://placehold.co/600x450/0c2340/ffffff?text=San+Be+Tong';">
-                    </div>
-                    <div class="p-3 flex flex-col flex-1 justify-between gap-2">
-                        <div>
-                            <div class="text-[11px] font-semibold text-slate-500">Mài bê tông</div>
-                            <h3 class="product-title-full font-bold text-mc-dark text-xs sm:text-sm mt-0.5">
-                                Thi công mài phẳng và phủ hóa chất tăng cứng sàn bê tông nhà xưởng, tầng hầm
-                            </h3>
-                        </div>
-                        <div class="pt-2 border-t border-slate-100 flex items-center justify-between gap-1">
-                            <span class="text-[11px] sm:text-xs font-extrabold text-red-600">Báo giá theo diện tích</span>
-                            <a href="#bao-gia-lien-he" class="text-[11px] font-bold text-mc-primary hover:underline shrink-0">Báo giá</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Sản phẩm 7 (File Drive 7: 1TXR9-xdfBuhNTGh1VVouv-qgJ4071leV) -->
-                <div class="product-card bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col" data-category="son-epoxy">
-                    <div class="aspect-[4/3] w-full bg-slate-100 overflow-hidden">
-                        <img src="https://drive.google.com/thumbnail?id=1TXR9-xdfBuhNTGh1VVouv-qgJ4071leV&sz=w700" 
-                             alt="Thi công sơn sàn Epoxy hệ lăn và tự san phẳng Đà Nẵng" 
-                             class="w-full h-full object-cover hover:scale-105 transition duration-300"
-                             onerror="this.onerror=null;this.src='https://placehold.co/600x450/0c2340/ffffff?text=Son+Epoxy';">
-                    </div>
-                    <div class="p-3 flex flex-col flex-1 justify-between gap-2">
-                        <div>
-                            <div class="text-[11px] font-semibold text-slate-500">Sơn Epoxy</div>
-                            <h3 class="product-title-full font-bold text-mc-dark text-xs sm:text-sm mt-0.5">
-                                Thi công sơn sàn Epoxy tự san phẳng kháng khuẩn cho showroom, bệnh viện, nhà máy
-                            </h3>
-                        </div>
-                        <div class="pt-2 border-t border-slate-100 flex items-center justify-between gap-1">
-                            <span class="text-[11px] sm:text-xs font-extrabold text-red-600">Liên hệ báo giá</span>
-                            <a href="#bao-gia-lien-he" class="text-[11px] font-bold text-mc-primary hover:underline shrink-0">Báo giá</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Sản phẩm 8 (File Drive 8: 1CDzDZ3Em_reh2GBq9vU_28L4KRaZ6Ay2) -->
-                <div class="product-card bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col" data-category="son-epoxy">
-                    <div class="aspect-[4/3] w-full bg-slate-100 overflow-hidden">
-                        <img src="https://drive.google.com/thumbnail?id=1CDzDZ3Em_reh2GBq9vU_28L4KRaZ6Ay2&sz=w700" 
-                             alt="Thi công sơn sàn Epoxy hệ lăn kẻ vạch nhà kho gara" 
-                             class="w-full h-full object-cover hover:scale-105 transition duration-300"
-                             onerror="this.onerror=null;this.src='https://placehold.co/600x450/0c2340/ffffff?text=Epoxy+He+Lan';">
-                    </div>
-                    <div class="p-3 flex flex-col flex-1 justify-between gap-2">
-                        <div>
-                            <div class="text-[11px] font-semibold text-slate-500">Sơn Epoxy</div>
-                            <h3 class="product-title-full font-bold text-mc-dark text-xs sm:text-sm mt-0.5">
-                                Dịch vụ sơn sàn Epoxy hệ lăn 3 lớp chống thấm, kẻ vạch tầng hầm và gara ô tô
-                            </h3>
-                        </div>
-                        <div class="pt-2 border-t border-slate-100 flex items-center justify-between gap-1">
-                            <span class="text-[11px] sm:text-xs font-extrabold text-red-600">Liên hệ báo giá</span>
-                            <a href="#bao-gia-lien-he" class="text-[11px] font-bold text-mc-primary hover:underline shrink-0">Báo giá</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Sản phẩm 9 (File Drive 9: 1g_-n827VKRmoUoQOfMVu6lJj4U7hmoc2) -->
-                <div class="product-card bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col" data-category="microcement">
-                    <div class="aspect-[4/3] w-full bg-slate-100 overflow-hidden">
-                        <img src="https://drive.google.com/thumbnail?id=1g_-n827VKRmoUoQOfMVu6lJj4U7hmoc2&sz=w700" 
-                             alt="Thi công sàn và tường hiệu ứng Microcement Đà Nẵng" 
-                             class="w-full h-full object-cover hover:scale-105 transition duration-300"
-                             onerror="this.onerror=null;this.src='https://placehold.co/600x450/0c2340/ffffff?text=Microcement';">
-                    </div>
-                    <div class="p-3 flex flex-col flex-1 justify-between gap-2">
-                        <div>
-                            <div class="text-[11px] font-semibold text-slate-500">Thi công Microcement</div>
-                            <h3 class="product-title-full font-bold text-mc-dark text-xs sm:text-sm mt-0.5">
-                                Thi công sàn và tường Microcement liền mạch không đường ron hiện đại tại Đà Nẵng
-                            </h3>
-                        </div>
-                        <div class="pt-2 border-t border-slate-100 flex items-center justify-between gap-1">
-                            <span class="text-[11px] sm:text-xs font-extrabold text-red-600">500.000đ - 900.000đ/m²</span>
-                            <a href="#bao-gia-lien-he" class="text-[11px] font-bold text-mc-primary hover:underline shrink-0">Báo giá</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Sản phẩm 10 (File Drive 10: 1S_YaA0IhlBeHsUxLKUaAoe00gV1ZD519) -->
-                <div class="product-card bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col" data-category="danh-bong-da">
-                    <div class="aspect-[4/3] w-full bg-slate-100 overflow-hidden">
-                        <img src="https://drive.google.com/thumbnail?id=1S_YaA0IhlBeHsUxLKUaAoe00gV1ZD519&sz=w700" 
-                             alt="Cung cấp ốp lát và bảo dưỡng đá tự nhiên bàn bếp cầu thang" 
-                             class="w-full h-full object-cover hover:scale-105 transition duration-300"
-                             onerror="this.onerror=null;this.src='https://placehold.co/600x450/0c2340/ffffff?text=Da+Tu+Nhien';">
-                    </div>
-                    <div class="p-3 flex flex-col flex-1 justify-between gap-2">
-                        <div>
-                            <div class="text-[11px] font-semibold text-slate-500">Đánh bóng sàn đá</div>
-                            <h3 class="product-title-full font-bold text-mc-dark text-xs sm:text-sm mt-0.5">
-                                Thi công ốp lát, phủ chống thấm và đánh bóng đá tự nhiên mặt bếp, cầu thang, đại sảnh
-                            </h3>
-                        </div>
-                        <div class="pt-2 border-t border-slate-100 flex items-center justify-between gap-1">
-                            <span class="text-[11px] sm:text-xs font-extrabold text-red-600">180.000đ - 300.000đ/m²</span>
-                            <a href="#bao-gia-lien-he" class="text-[11px] font-bold text-mc-primary hover:underline shrink-0">Báo giá</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- ===================================================================== -->
-    <!-- VÌ SAO CHỌN MINH CHÂU STONE (THEO MẪU BACTRUNG.COM)                   -->
-    <!-- ===================================================================== -->
-    <section class="w-full py-8 bg-white border-t border-slate-200">
-        <div class="flatsome-container">
-            <div class="ux-section-title">
-                <b></b>
-                <span>VÌ SAO CHỌN MINH CHÂU STONE</span>
-                <b></b>
-            </div>
-            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4">
-                <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 text-center space-y-1.5">
-                    <div class="w-10 h-10 mx-auto rounded-full bg-mc-dark text-mc-accent flex items-center justify-center text-base">
-                        <i class="fa-solid fa-tags"></i>
-                    </div>
-                    <h3 class="font-bold text-xs sm:text-sm text-mc-dark">Giá thành cạnh tranh</h3>
-                    <p class="text-xs text-slate-600 leading-relaxed">Tiết kiệm hơn 20% chi phí, báo giá minh bạch trực tiếp tại xưởng và công trình.</p>
-                </div>
-                <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 text-center space-y-1.5">
-                    <div class="w-10 h-10 mx-auto rounded-full bg-mc-dark text-mc-accent flex items-center justify-center text-base">
-                        <i class="fa-solid fa-helmet-safety"></i>
-                    </div>
-                    <h3 class="font-bold text-xs sm:text-sm text-mc-dark">Năng lực chuyên môn cao</h3>
-                    <p class="text-xs text-slate-600 leading-relaxed">Trực tiếp nhận thầu nhiều công trình lớn tại Đà Nẵng, đảm bảo tiến độ & thẩm mỹ.</p>
-                </div>
-                <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 text-center space-y-1.5">
-                    <div class="w-10 h-10 mx-auto rounded-full bg-mc-dark text-mc-accent flex items-center justify-center text-base">
-                        <i class="fa-solid fa-medal"></i>
-                    </div>
-                    <h3 class="font-bold text-xs sm:text-sm text-mc-dark">Chất lượng ISO 9001</h3>
-                    <p class="text-xs text-slate-600 leading-relaxed">Quy trình mài bóng 7 bước tiêu chuẩn, độ bóng gương bền bỉ theo thời gian.</p>
-                </div>
-                <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 text-center space-y-1.5">
-                    <div class="w-10 h-10 mx-auto rounded-full bg-mc-dark text-mc-accent flex items-center justify-center text-base">
-                        <i class="fa-solid fa-wand-magic-sparkles"></i>
-                    </div>
-                    <h3 class="font-bold text-xs sm:text-sm text-mc-dark">Giá trị & Sự khác biệt</h3>
-                    <p class="text-xs text-slate-600 leading-relaxed">Xử lý triệt để các hạng mục sàn đá ố vàng, trầy xước sâu và dự án độ khó cao.</p>
-                </div>
-                <div class="col-span-2 md:col-span-1 p-4 rounded-xl bg-slate-50 border border-slate-200 text-center space-y-1.5">
-                    <div class="w-10 h-10 mx-auto rounded-full bg-mc-dark text-mc-accent flex items-center justify-center text-base">
-                        <i class="fa-solid fa-leaf"></i>
-                    </div>
-                    <h3 class="font-bold text-xs sm:text-sm text-mc-dark">Thân thiện môi trường</h3>
-                    <p class="text-xs text-slate-600 leading-relaxed">Sử dụng hóa chất đánh bóng, phủ chống thấm nhập khẩu an toàn tuyệt đối.</p>
+                <div class="absolute bottom-2 left-1/2 -translate-x-1/2 flex items-center gap-2 z-20">
+                    <button type="button" onclick="goToBannerSlide(0)" id="bannerDot0" class="w-6 h-1.5 rounded-full bg-amber-400 transition-all"></button>
+                    <button type="button" onclick="goToBannerSlide(1)" id="bannerDot1" class="w-2.5 h-1.5 rounded-full bg-white/60 transition-all"></button>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ===================================================================== -->
-    <!-- DANH MỤC CÁC DỰ ÁN TIÊU BIỂU Ở ĐÀ NẴNG TRÊN TRANG CHỦ                 -->
-    <!-- ===================================================================== -->
-    <section id="du-an-da-nang" class="w-full py-8 bg-slate-50 border-t border-slate-200">
+    <!-- =====================================================================
+         SECTION 1: CÁC HẠNG MỤC DỊCH VỤ TRẮC ĐỊA CHUYÊN NGHIỆP (Giống web mẫu nguyenhoangdodac.com)
+    ====================================================================== -->
+    <section id="dich-vu-trac-dia" class="py-6 sm:py-8">
         <div class="flatsome-container">
-            <div class="ux-section-title">
-                <b></b>
-                <span>DỰ ÁN THI CÔNG THỰC TẾ TẠI ĐÀ NẴNG</span>
-                <b></b>
+            <div class="flatsome-section-title">
+                <h2 class="text-sm sm:text-base md:text-lg">CÁC HẠNG MỤC DỊCH VỤ ĐO ĐẠC TRẮC ĐỊA CHUYÊN NGHIỆP</h2>
+                <a href="#form-bao-gia" class="text-xs font-semibold text-brand hover:text-brand-accent whitespace-nowrap">
+                    Nhận báo giá nhanh <i class="fa-solid fa-arrow-right ml-1"></i>
+                </a>
             </div>
 
-            <!-- Chia 2 cột trên điện thoại, 4 cột trên máy tính -->
-            <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
-                
-                <div class="bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm flex flex-col">
-                    <div class="aspect-[16/10] w-full overflow-hidden bg-slate-100">
-                        <img src="https://drive.google.com/thumbnail?id=1QDZrsMiETa0VeHn5PFd8DgXq8nowxxT3&sz=w700" 
-                             alt="Dự án Resort & Villa đường Trường Sa Ngũ Hành Sơn Đà Nẵng" 
-                             class="w-full h-full object-cover">
-                    </div>
-                    <div class="p-3 flex-1 flex flex-col justify-between">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
+                <!-- Dịch vụ 1 -->
+                <div class="bg-white rounded-lg border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col">
+                    <img 
+                        src="https://lh3.googleusercontent.com/d/1kCcHmSxEfBLvAaDoNEChg6BXeU59GDpb" 
+                        onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=1kCcHmSxEfBLvAaDoNEChg6BXeU59GDpb&sz=w600';"
+                        alt="Đo Đạc Nhà Đất Đà Nẵng" 
+                        class="w-full h-36 sm:h-44 object-cover"
+                    >
+                    <div class="p-3 sm:p-4 flex flex-col flex-1 justify-between">
                         <div>
-                            <span class="text-[11px] font-semibold text-mc-primary">Quận Ngũ Hành Sơn, Đà Nẵng</span>
-                            <h3 class="product-title-full font-bold text-xs sm:text-sm text-mc-dark mt-1">
-                                Thi công đánh bóng sàn đá Marble & sảnh đón Khu nghỉ dưỡng ven biển Tân Trà - Ngũ Hành Sơn
+                            <h3 class="font-bold text-xs sm:text-sm text-brand uppercase product-title-full">
+                                ĐO ĐẠC NHÀ ĐẤT & HIỆN TRẠNG
                             </h3>
-                        </div>
-                        <p class="text-[11px] text-slate-500 mt-2">Hạng mục: Phục hồi đánh bóng 1.800m² sàn đá Marble</p>
-                    </div>
-                </div>
-
-                <div class="bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm flex flex-col">
-                    <div class="aspect-[16/10] w-full overflow-hidden bg-slate-100">
-                        <img src="https://drive.google.com/thumbnail?id=1YSE0tN0WSfjeA0AYbRweC_pUP58nP02e&sz=w700" 
-                             alt="Dự án đá mài Terrazzo Bảo tàng và Trường Đại học tại Đà Nẵng" 
-                             class="w-full h-full object-cover">
-                    </div>
-                    <div class="p-3 flex-1 flex flex-col justify-between">
-                        <div>
-                            <span class="text-[11px] font-semibold text-mc-primary">Quận Hải Châu, Đà Nẵng</span>
-                            <h3 class="product-title-full font-bold text-xs sm:text-sm text-mc-dark mt-1">
-                                Thi công đá mài Terrazzo nghệ thuật tại Khu trưng bày & Tòa nhà văn phòng đường Trần Phú, Đà Nẵng
-                            </h3>
-                        </div>
-                        <p class="text-[11px] text-slate-500 mt-2">Hạng mục: Đá mài Terrazzo nguyên khối & cầu thang</p>
-                    </div>
-                </div>
-
-                <div class="bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm flex flex-col">
-                    <div class="aspect-[16/10] w-full overflow-hidden bg-slate-100">
-                        <img src="https://drive.google.com/thumbnail?id=1AXKSFrWkWGV_CIOqbGGYecZREk0VzU1k&sz=w700" 
-                             alt="Dự án mài sàn bê tông và sơn Epoxy KCN Hòa Khánh Đà Nẵng" 
-                             class="w-full h-full object-cover">
-                    </div>
-                    <div class="p-3 flex-1 flex flex-col justify-between">
-                        <div>
-                            <span class="text-[11px] font-semibold text-mc-primary">Quận Liên Chiểu, Đà Nẵng</span>
-                            <h3 class="product-title-full font-bold text-xs sm:text-sm text-mc-dark mt-1">
-                                Mài đánh bóng sàn bê tông lộ cốt liệu & Sơn Epoxy nhà xưởng tại KCN Hòa Khánh, TP Đà Nẵng
-                            </h3>
-                        </div>
-                        <p class="text-[11px] text-slate-500 mt-2">Hạng mục: Mài bê tông 3.500m² & kẻ vạch Epoxy</p>
-                    </div>
-                </div>
-
-                <div class="bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm flex flex-col">
-                    <div class="aspect-[16/10] w-full overflow-hidden bg-slate-100">
-                        <img src="https://drive.google.com/thumbnail?id=1g_-n827VKRmoUoQOfMVu6lJj4U7hmoc2&sz=w700" 
-                             alt="Dự án thi công sàn Microcement Khách sạn Sơn Trà Đà Nẵng" 
-                             class="w-full h-full object-cover">
-                    </div>
-                    <div class="p-3 flex-1 flex flex-col justify-between">
-                        <div>
-                            <span class="text-[11px] font-semibold text-mc-primary">Quận Sơn Trà, Đà Nẵng</span>
-                            <h3 class="product-title-full font-bold text-xs sm:text-sm text-mc-dark mt-1">
-                                Hoàn thiện sàn & tường hiệu ứng Microcement cho chuỗi Showroom, Cafe và Khách sạn ven biển Mỹ Khê
-                            </h3>
-                        </div>
-                        <p class="text-[11px] text-slate-500 mt-2">Hạng mục: Sàn Microcement chống thấm liền mạch</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- ===================================================================== -->
-    <!-- DANH MỤC CÁC BÀI VIẾT / TIN TỨC TRÊN TRANG CHỦ                        -->
-    <!-- ===================================================================== -->
-    <section id="tin-tuc" class="w-full py-8 bg-white border-t border-slate-200">
-        <div class="flatsome-container">
-            <div class="ux-section-title">
-                <b></b>
-                <span>DANH MỤC BÀI VIẾT & KINH NGHIỆM THI CÔNG</span>
-                <b></b>
-            </div>
-
-            <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
-                
-                <article class="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden flex flex-col">
-                    <div class="aspect-[16/10] w-full bg-slate-200 overflow-hidden">
-                        <img src="https://drive.google.com/thumbnail?id=1PsUMnTiNF0vzi9P834jOPQcQ9inXCHSm&sz=w600" 
-                             alt="Quy trình 7 bước đánh bóng sàn đá Marble Granite" 
-                             class="w-full h-full object-cover">
-                    </div>
-                    <div class="p-3 flex-1 flex flex-col justify-between">
-                        <div>
-                            <span class="text-[10.5px] font-bold text-mc-primary uppercase">Kỹ thuật sàn đá</span>
-                            <h3 class="product-title-full font-bold text-xs sm:text-sm text-mc-dark mt-1">
-                                Quy trình 7 bước mài phục hồi và đánh bóng sàn đá Marble, Granite đạt độ bóng gương tại Đà Nẵng
-                            </h3>
-                            <p class="text-xs text-slate-600 mt-1.5 hidden sm:block">
-                                Hướng dẫn chi tiết cách xử lý đường ron ố vàng, mài lá số kim cương từ 50# đến 3000# và phủ chống thấm...
+                            <p class="text-[11.5px] sm:text-xs text-slate-600 mt-1.5 leading-relaxed">
+                                Đo vẽ bản đồ hiện trạng nhà đất, đo tách thửa, hợp thửa, phục vụ cấp mới và cấp đổi giấy chứng nhận tại Đà Nẵng.
                             </p>
                         </div>
-                        <a href="#bao-gia-lien-he" class="text-xs font-bold text-mc-primary hover:underline mt-2 inline-block">Xem chi tiết &raquo;</a>
+                        <a href="#form-bao-gia" onclick="prefillService('Đo đạc nhà đất & hiện trạng')" class="mt-3 inline-block text-center py-1.5 px-3 rounded bg-brand-light text-brand hover:bg-brand hover:text-white text-xs font-semibold transition">
+                            Yêu cầu tư vấn
+                        </a>
                     </div>
-                </article>
+                </div>
 
-                <article class="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden flex flex-col">
-                    <div class="aspect-[16/10] w-full bg-slate-200 overflow-hidden">
-                        <img src="https://drive.google.com/thumbnail?id=1RfQNvz0pxQNUMwzSYgFimrwg34O16VYV&sz=w600" 
-                             alt="Hướng dẫn thi công đá mài Terrazzo bồn cây và hồ bơi" 
-                             class="w-full h-full object-cover">
-                    </div>
-                    <div class="p-3 flex-1 flex flex-col justify-between">
+                <!-- Dịch vụ 2 -->
+                <div class="bg-white rounded-lg border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col">
+                    <img 
+                        src="https://lh3.googleusercontent.com/d/1nCMnRmj98lMlRMzoG9KKGuoxXIeADqLj" 
+                        onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=1nCMnRmj98lMlRMzoG9KKGuoxXIeADqLj&sz=w600';"
+                        alt="Giấy Tờ Nhà Đất" 
+                        class="w-full h-36 sm:h-44 object-cover"
+                    >
+                    <div class="p-3 sm:p-4 flex flex-col flex-1 justify-between">
                         <div>
-                            <span class="text-[10.5px] font-bold text-mc-primary uppercase">Kiến thức Terrazzo</span>
-                            <h3 class="product-title-full font-bold text-xs sm:text-sm text-mc-dark mt-1">
-                                Hướng dẫn thi công hồ bơi, cầu thang và bồn cây bằng đá mài Terrazzo bền đẹp cho biệt thự
+                            <h3 class="font-bold text-xs sm:text-sm text-brand uppercase product-title-full">
+                                GIẤY TỜ NHÀ ĐẤT & HOÀN CÔNG
                             </h3>
-                            <p class="text-xs text-slate-600 mt-1.5 hidden sm:block">
-                                Bí quyết phối hạt đá Granite, đá cẩm thạch và thủy tinh tạo điểm nhấn sang trọng cho không gian xanh...
+                            <p class="text-[11.5px] sm:text-xs text-slate-600 mt-1.5 leading-relaxed">
+                                Tư vấn thủ tục hồ sơ pháp lý nhà đất, bản vẽ hoàn công công trình xây dựng, trích lục bản đồ địa chính chuẩn quy định.
                             </p>
                         </div>
-                        <a href="#bao-gia-lien-he" class="text-xs font-bold text-mc-primary hover:underline mt-2 inline-block">Xem chi tiết &raquo;</a>
+                        <a href="#form-bao-gia" onclick="prefillService('Giấy tờ nhà đất & Hoàn công')" class="mt-3 inline-block text-center py-1.5 px-3 rounded bg-brand-light text-brand hover:bg-brand hover:text-white text-xs font-semibold transition">
+                            Yêu cầu tư vấn
+                        </a>
                     </div>
-                </article>
+                </div>
 
-                <article class="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden flex flex-col">
-                    <div class="aspect-[16/10] w-full bg-slate-200 overflow-hidden">
-                        <img src="https://drive.google.com/thumbnail?id=1tX9FDCFD64EgV2UM0c_P40ylsnGb4MP1&sz=w600" 
-                             alt="Bảng giá mài đánh bóng sàn bê tông lộ cát tại Đà Nẵng" 
-                             class="w-full h-full object-cover">
-                    </div>
-                    <div class="p-3 flex-1 flex flex-col justify-between">
+                <!-- Dịch vụ 3 -->
+                <div class="bg-white rounded-lg border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col">
+                    <img 
+                        src="https://lh3.googleusercontent.com/d/167OPIOUV5gCQmJi5cGimSpVXyUmPUT1_" 
+                        onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=167OPIOUV5gCQmJi5cGimSpVXyUmPUT1_&sz=w600';"
+                        alt="Xin Phép Xây Dựng & Trắc Địa Công Trình" 
+                        class="w-full h-36 sm:h-44 object-cover"
+                    >
+                    <div class="p-3 sm:p-4 flex flex-col flex-1 justify-between">
                         <div>
-                            <span class="text-[10.5px] font-bold text-mc-primary uppercase">Báo giá mài bê tông</span>
-                            <h3 class="product-title-full font-bold text-xs sm:text-sm text-mc-dark mt-1">
-                                Bảng giá dịch vụ mài đánh bóng sàn bê tông lộ cát, lộ đá hạt tiêu mới nhất tại Đà Nẵng
+                            <h3 class="font-bold text-xs sm:text-sm text-brand uppercase product-title-full">
+                                XIN PHÉP XÂY DỰNG & ĐỀ CƯƠNG QUAN TRẮC
                             </h3>
-                            <p class="text-xs text-slate-600 mt-1.5 hidden sm:block">
-                                Phân tích các yếu tố ảnh hưởng đến đơn giá mài sàn bê tông: độ lộ cốt liệu, diện tích và độ cứng Mac bê tông...
+                            <p class="text-[11.5px] sm:text-xs text-slate-600 mt-1.5 leading-relaxed">
+                                Lập bản vẽ xin phép xây dựng, định vị tim cọc, bu lông móng nhà xưởng và quan trắc lún nghiêng công trình.
                             </p>
                         </div>
-                        <a href="#bao-gia-lien-he" class="text-xs font-bold text-mc-primary hover:underline mt-2 inline-block">Xem chi tiết &raquo;</a>
+                        <a href="#form-bao-gia" onclick="prefillService('Xin phép xây dựng & Quan trắc')" class="mt-3 inline-block text-center py-1.5 px-3 rounded bg-brand-light text-brand hover:bg-brand hover:text-white text-xs font-semibold transition">
+                            Yêu cầu tư vấn
+                        </a>
                     </div>
-                </article>
+                </div>
 
-                <article class="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden flex flex-col">
-                    <div class="aspect-[16/10] w-full bg-slate-200 overflow-hidden">
-                        <img src="https://drive.google.com/thumbnail?id=1TXR9-xdfBuhNTGh1VVouv-qgJ4071leV&sz=w600" 
-                             alt="Ứng dụng sàn Microcement và Sơn Epoxy trong nội thất" 
-                             class="w-full h-full object-cover">
-                    </div>
-                    <div class="p-3 flex-1 flex flex-col justify-between">
+                <!-- Dịch vụ 4 -->
+                <div class="bg-white rounded-lg border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col">
+                    <img 
+                        src="https://lh3.googleusercontent.com/d/1dUprwy90bMe1p55R81-NMyiH4_N7WuMr" 
+                        onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=1dUprwy90bMe1p55R81-NMyiH4_N7WuMr&sz=w600';"
+                        alt="Xác Định Ranh Đất" 
+                        class="w-full h-36 sm:h-44 object-cover"
+                    >
+                    <div class="p-3 sm:p-4 flex flex-col flex-1 justify-between">
                         <div>
-                            <span class="text-[10.5px] font-bold text-mc-primary uppercase">Xu hướng vật liệu</span>
-                            <h3 class="product-title-full font-bold text-xs sm:text-sm text-mc-dark mt-1">
-                                So sánh sàn Microcement liền mạch và sơn sàn Epoxy tự san phẳng cho công trình hiện đại
+                            <h3 class="font-bold text-xs sm:text-sm text-brand uppercase product-title-full">
+                                XÁC ĐỊNH RANH ĐẤT & CẮM MỐC TỌA ĐỘ
                             </h3>
-                            <p class="text-xs text-slate-600 mt-1.5 hidden sm:block">
-                                Tư vấn lựa chọn giải pháp hoàn thiện bề mặt sàn tối ưu theo công năng sử dụng và ngân sách đầu tư...
+                            <p class="text-[11.5px] sm:text-xs text-slate-600 mt-1.5 leading-relaxed">
+                                Đo đạc khôi phục mốc ranh giới thửa đất bằng máy RTK và Toàn đạc điện tử độ chính xác cao, giải quyết chồng lấn.
                             </p>
                         </div>
-                        <a href="#bao-gia-lien-he" class="text-xs font-bold text-mc-primary hover:underline mt-2 inline-block">Xem chi tiết &raquo;</a>
+                        <a href="#form-bao-gia" onclick="prefillService('Xác định ranh đất & Cắm mốc')" class="mt-3 inline-block text-center py-1.5 px-3 rounded bg-brand-light text-brand hover:bg-brand hover:text-white text-xs font-semibold transition">
+                            Yêu cầu tư vấn
+                        </a>
                     </div>
-                </article>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- ===================================================================== -->
-    <!-- DANH MỤC CÁC ĐỐI TÁC & KHÁCH HÀNG TIÊU BIỂU                           -->
-    <!-- ===================================================================== -->
-    <section class="w-full py-8 bg-slate-50 border-t border-slate-200">
-        <div class="flatsome-container">
-            <div class="ux-section-title">
-                <b></b>
-                <span>ĐỐI TÁC & KHÁCH HÀNG CỦA MINH CHÂU STONE</span>
-                <b></b>
-            </div>
-            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
-                <div class="bg-white p-3.5 rounded-xl border border-slate-200 text-center flex flex-col items-center justify-center h-24 shadow-sm">
-                    <i class="fa-solid fa-hotel text-xl text-mc-primary mb-1"></i>
-                    <span class="font-extrabold text-xs text-mc-dark">SUN GROUP RESORT</span>
-                    <span class="text-[10px] text-slate-500">Đối tác Dự án Nghỉ dưỡng</span>
-                </div>
-                <div class="bg-white p-3.5 rounded-xl border border-slate-200 text-center flex flex-col items-center justify-center h-24 shadow-sm">
-                    <i class="fa-solid fa-building text-xl text-mc-primary mb-1"></i>
-                    <span class="font-extrabold text-xs text-mc-dark">VINACONEX MIỀN TRUNG</span>
-                    <span class="text-[10px] text-slate-500">Đối tác Xây dựng Hạ tầng</span>
-                </div>
-                <div class="bg-white p-3.5 rounded-xl border border-slate-200 text-center flex flex-col items-center justify-center h-24 shadow-sm">
-                    <i class="fa-solid fa-city text-xl text-mc-primary mb-1"></i>
-                    <span class="font-extrabold text-xs text-mc-dark">COTECCONS DESIGN</span>
-                    <span class="text-[10px] text-slate-500">Tổng thầu Thi công</span>
-                </div>
-                <div class="bg-white p-3.5 rounded-xl border border-slate-200 text-center flex flex-col items-center justify-center h-24 shadow-sm">
-                    <i class="fa-solid fa-flask text-xl text-mc-primary mb-1"></i>
-                    <span class="font-extrabold text-xs text-mc-dark">KCC PAINT & EPOXY</span>
-                    <span class="text-[10px] text-slate-500">Đối tác Hóa chất & Sơn</span>
-                </div>
-                <div class="bg-white p-3.5 rounded-xl border border-slate-200 text-center flex flex-col items-center justify-center h-24 shadow-sm">
-                    <i class="fa-solid fa-industry text-xl text-mc-primary mb-1"></i>
-                    <span class="font-extrabold text-xs text-mc-dark">SIKA VIỆT NAM</span>
-                    <span class="text-[10px] text-slate-500">Phụ gia & Chống thấm</span>
-                </div>
-                <div class="bg-white p-3.5 rounded-xl border border-slate-200 text-center flex flex-col items-center justify-center h-24 shadow-sm">
-                    <i class="fa-solid fa-gem text-xl text-mc-primary mb-1"></i>
-                    <span class="font-extrabold text-xs text-mc-dark">3M FLOOR CARE</span>
-                    <span class="text-[10px] text-slate-500">Thiết bị Pad Đánh bóng</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ===================================================================== -->
-    <!-- KHU VỰC TRANG CHỦ:                                                    -->
-    <!-- 1. FORM YÊU CẦU TƯ VẤN VÀ BÁO GIÁ NHANH                               -->
-    <!-- 2. FANPAGE FACEBOOK ĐƯA RA NGOÀI TRANG CHỦ                            -->
-    <!-- 3. BẢN ĐỒ GOOGLE MAP ĐƯA RA NGOÀI TRANG CHỦ                           -->
-    <!-- ===================================================================== -->
-    <section id="bao-gia-lien-he" class="w-full py-8 bg-white border-t border-slate-200">
+    <!-- =====================================================================
+         SECTION 2: DANH MỤC SẢN PHẨM & THIẾT BỊ TRẮC ĐỊA (Lấy đúng danh mục web mẫu nguyenhoangdodac.com)
+         - Chữ danh mục ở trang chủ nhỏ gọn, viết liền trên 1 hàng trong từng nút.
+         - Sản phẩm chia 2 cột trên điện thoại (grid-cols-2), không nhãn dán, tên sản phẩm không bị cắt chữ.
+    ====================================================================== -->
+    <section id="san-pham" class="py-6 sm:py-8 bg-white border-y border-slate-200">
         <div class="flatsome-container">
-            <div class="ux-section-title">
-                <b></b>
-                <span>YÊU CẦU BÁO GIÁ & KẾT NỐI TRỰC TIẾP</span>
-                <b></b>
+            <div class="flatsome-section-title">
+                <h2 class="text-sm sm:text-base md:text-lg">DANH MỤC MÁY ĐO ĐẠC TRẮC ĐỊA & PHỤ KIỆN CHÍNH HÃNG</h2>
+                <span class="text-xs text-slate-500 hidden sm:inline">Đầy đủ CO/CQ & Giấy kiểm định</span>
             </div>
 
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 items-stretch">
-                
-                <!-- Cột 1 (5/12): Form Yêu Cầu & Báo Giá Trang Chủ -->
-                <div class="lg:col-span-5 bg-slate-50 rounded-xl border border-slate-200 p-4 sm:p-5 flex flex-col justify-between shadow-sm">
-                    <div>
-                        <h3 class="text-base font-extrabold text-mc-dark uppercase flex items-center gap-2">
-                            <i class="fa-solid fa-file-invoice-dollar text-mc-accent"></i> Đăng ký nhận báo giá miễn phí
-                        </h3>
-                        <p class="text-xs text-slate-600 mt-1 mb-4">
-                            Điền thông tin diện tích và hạng mục cần thi công, kỹ thuật viên Minh Châu Stone sẽ gọi lại báo giá chi tiết trong 15 phút.
+            <!-- Thanh danh mục sản phẩm tối ưu trên máy tính & điện thoại: mỗi tên danh mục viết liền trên 1 hàng -->
+            <div class="flex flex-wrap items-center gap-1.5 sm:gap-2 mb-5">
+                <button type="button" onclick="filterCategory('all')" data-cat="all" class="home-cat-pill active">
+                    Tất Cả Sản Phẩm
+                </button>
+                <button type="button" onclick="filterCategory('may-thuy-binh')" data-cat="may-thuy-binh" class="home-cat-pill">
+                    Máy Thuỷ Bình
+                </button>
+                <button type="button" onclick="filterCategory('may-gps-rtk')" data-cat="may-gps-rtk" class="home-cat-pill">
+                    Máy GPS GNSS RTK
+                </button>
+                <button type="button" onclick="filterCategory('may-toan-dac')" data-cat="may-toan-dac" class="home-cat-pill">
+                    Máy Toàn Đạc
+                </button>
+                <button type="button" onclick="filterCategory('may-do-laser')" data-cat="may-do-laser" class="home-cat-pill">
+                    Máy Đo Laser
+                </button>
+                <button type="button" onclick="filterCategory('may-kinh-vi-bo-dam')" data-cat="may-kinh-vi-bo-dam" class="home-cat-pill">
+                    Máy Kinh Vĩ & Bộ Đàm
+                </button>
+                <button type="button" onclick="filterCategory('phu-kien-trac-dia')" data-cat="phu-kien-trac-dia" class="home-cat-pill">
+                    Phụ Kiện Máy Trắc Địa
+                </button>
+                <button type="button" onclick="filterCategory('cho-thue-may')" data-cat="cho-thue-may" class="home-cat-pill">
+                    Cho Thuê Máy Đo Đạc
+                </button>
+            </div>
+
+            <!-- Danh sách danh mục con từ nguyenhoangdodac.com hiển thị gọn đẹp -->
+            <div class="bg-slate-50 border border-slate-200 rounded-lg p-2.5 sm:p-3 mb-5">
+                <div class="flex flex-wrap items-center gap-x-3 gap-y-1.5 text-[11.5px] text-slate-600">
+                    <span class="font-bold text-brand whitespace-nowrap"><i class="fa-solid fa-layer-group mr-1"></i>Phân loại nhanh:</span>
+                    <button type="button" onclick="filterCategory('may-thuy-binh')" class="hover:text-brand whitespace-nowrap">Máy Thủy Bình Leica</button>
+                    <span>•</span>
+                    <button type="button" onclick="filterCategory('may-thuy-binh')" class="hover:text-brand whitespace-nowrap">Máy Thủy Bình Sokkia</button>
+                    <span>•</span>
+                    <button type="button" onclick="filterCategory('may-thuy-binh')" class="hover:text-brand whitespace-nowrap">Máy Thủy Bình Topcon</button>
+                    <span>•</span>
+                    <button type="button" onclick="filterCategory('may-thuy-binh')" class="hover:text-brand whitespace-nowrap">Máy Thủy Bình Nikon</button>
+                    <span>•</span>
+                    <button type="button" onclick="filterCategory('may-do-laser')" class="hover:text-brand whitespace-nowrap">Máy Cân Bằng Laisai / Sincon</button>
+                    <span>•</span>
+                    <button type="button" onclick="filterCategory('may-gps-rtk')" class="hover:text-brand whitespace-nowrap">Máy Định Vị GPS Garmin</button>
+                    <span>•</span>
+                    <button type="button" onclick="filterCategory('may-toan-dac')" class="hover:text-brand whitespace-nowrap">Máy Toàn Đạc Leica / Topcon / Sokkia</button>
+                    <span>•</span>
+                    <button type="button" onclick="filterCategory('phu-kien-trac-dia')" class="hover:text-brand whitespace-nowrap">Chân – Mia – Mốc – Bọt Thủy – Đế Máy</button>
+                    <span>•</span>
+                    <button type="button" onclick="filterCategory('phu-kien-trac-dia')" class="hover:text-brand whitespace-nowrap">Thước Thép – Gương Sáo – Pin Sạc</button>
+                </div>
+            </div>
+
+            <!-- LƯỚI SẢN PHẨM: Chia đúng 2 cột trên điện thoại (grid-cols-2), 4-5 cột trên máy tính, KHÔNG để nhãn dán ở trang chủ, tên sản phẩm đầy đủ không tràn -->
+            <div id="productGrid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2.5 sm:gap-4">
+                <!-- Các sản phẩm được render từ danh sách chuẩn bên dưới -->
+            </div>
+        </div>
+    </section>
+
+    <!-- =====================================================================
+         SECTION 3: HÌNH ẢNH THỰC TẾ TỪ GOOGLE DRIVE (Đưa toàn bộ ảnh thực tế của Công ty Thịnh Phát lên trang chủ)
+    ====================================================================== -->
+    <section id="hinh-anh-thuc-te" class="py-6 sm:py-8">
+        <div class="flatsome-container">
+            <div class="flatsome-section-title">
+                <h2 class="text-sm sm:text-base md:text-lg">HÌNH ẢNH THỰC TẾ THIẾT BỊ & HOẠT ĐỘNG ĐO ĐẠC THỊNH PHÁT</h2>
+                <span class="text-xs text-slate-500 hidden sm:inline">Ảnh thực tế tại công trình & văn phòng</span>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2.5 sm:gap-3.5">
+                <div class="bg-white rounded-lg border border-slate-200 p-2 shadow-sm">
+                    <img src="https://lh3.googleusercontent.com/d/1kCcHmSxEfBLvAaDoNEChg6BXeU59GDpb" onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=1kCcHmSxEfBLvAaDoNEChg6BXeU59GDpb&sz=w600';" alt="Thực tế đo đạc Thịnh Phát 1" class="w-full h-36 sm:h-44 object-cover rounded">
+                    <p class="text-[11.5px] font-semibold text-slate-700 mt-2 text-center product-title-full">Đo đạc khảo sát thực địa tại Đà Nẵng</p>
+                </div>
+                <div class="bg-white rounded-lg border border-slate-200 p-2 shadow-sm">
+                    <img src="https://lh3.googleusercontent.com/d/1O8mgjTDAcUwEIDSWSqGMW4YcSnVg37UK" onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=1O8mgjTDAcUwEIDSWSqGMW4YcSnVg37UK&sz=w600';" alt="Thực tế đo đạc Thịnh Phát 2" class="w-full h-36 sm:h-44 object-cover rounded">
+                    <p class="text-[11.5px] font-semibold text-slate-700 mt-2 text-center product-title-full">Thiết bị máy trắc địa độ chính xác cao</p>
+                </div>
+                <div class="bg-white rounded-lg border border-slate-200 p-2 shadow-sm">
+                    <img src="https://lh3.googleusercontent.com/d/1UP8YbcBZP0FX1BBqQ22VaWO8x_SrUuKd" onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=1UP8YbcBZP0FX1BBqQ22VaWO8x_SrUuKd&sz=w600';" alt="Thực tế đo đạc Thịnh Phát 3" class="w-full h-36 sm:h-44 object-cover rounded">
+                    <p class="text-[11.5px] font-semibold text-slate-700 mt-2 text-center product-title-full">Kiểm định & hiệu chuẩn máy đo đạc</p>
+                </div>
+                <div class="bg-white rounded-lg border border-slate-200 p-2 shadow-sm">
+                    <img src="https://lh3.googleusercontent.com/d/1ZP9TYdHxPGeRZIfF4tUGS14FrQmbosyB" onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=1ZP9TYdHxPGeRZIfF4tUGS14FrQmbosyB&sz=w600';" alt="Thực tế đo đạc Thịnh Phát 4" class="w-full h-36 sm:h-44 object-cover rounded">
+                    <p class="text-[11.5px] font-semibold text-slate-700 mt-2 text-center product-title-full">Vận hành máy GNSS RTK & Toàn đạc</p>
+                </div>
+                <div class="bg-white rounded-lg border border-slate-200 p-2 shadow-sm">
+                    <img src="https://lh3.googleusercontent.com/d/1kAFP7UQniZTymYgfu912MCupDO4qZKkr" onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=1kAFP7UQniZTymYgfu912MCupDO4qZKkr&sz=w600';" alt="Thực tế đo đạc Thịnh Phát 5" class="w-full h-36 sm:h-44 object-cover rounded">
+                    <p class="text-[11.5px] font-semibold text-slate-700 mt-2 text-center product-title-full">Đo đạc cắm mốc ranh giới thửa đất</p>
+                </div>
+                <div class="bg-white rounded-lg border border-slate-200 p-2 shadow-sm">
+                    <img src="https://lh3.googleusercontent.com/d/1nCMnRmj98lMlRMzoG9KKGuoxXIeADqLj" onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=1nCMnRmj98lMlRMzoG9KKGuoxXIeADqLj&sz=w600';" alt="Thực tế đo đạc Thịnh Phát 6" class="w-full h-36 sm:h-44 object-cover rounded">
+                    <p class="text-[11.5px] font-semibold text-slate-700 mt-2 text-center product-title-full">Khảo sát địa hình dự án hạ tầng</p>
+                </div>
+                <div class="bg-white rounded-lg border border-slate-200 p-2 shadow-sm">
+                    <img src="https://lh3.googleusercontent.com/d/167OPIOUV5gCQmJi5cGimSpVXyUmPUT1_" onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=167OPIOUV5gCQmJi5cGimSpVXyUmPUT1_&sz=w600';" alt="Thực tế đo đạc Thịnh Phát 7" class="w-full h-36 sm:h-44 object-cover rounded">
+                    <p class="text-[11.5px] font-semibold text-slate-700 mt-2 text-center product-title-full">Trắc địa định vị tim trục công trình</p>
+                </div>
+                <div class="bg-white rounded-lg border border-slate-200 p-2 shadow-sm">
+                    <img src="https://lh3.googleusercontent.com/d/1dUprwy90bMe1p55R81-NMyiH4_N7WuMr" onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=1dUprwy90bMe1p55R81-NMyiH4_N7WuMr&sz=w600';" alt="Thực tế đo đạc Thịnh Phát 8" class="w-full h-36 sm:h-44 object-cover rounded">
+                    <p class="text-[11.5px] font-semibold text-slate-700 mt-2 text-center product-title-full">Bàn giao mốc tọa độ & hồ sơ bản vẽ</p>
+                </div>
+                <div class="bg-white rounded-lg border border-slate-200 p-2 shadow-sm">
+                    <img src="https://lh3.googleusercontent.com/d/1T7oYR_UOH23klAmpo9qd8lZDqVHPqfl1" onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=1T7oYR_UOH23klAmpo9qd8lZDqVHPqfl1&sz=w600';" alt="Thực tế đo đạc Thịnh Phát 9" class="w-full h-36 sm:h-44 object-cover rounded">
+                    <p class="text-[11.5px] font-semibold text-slate-700 mt-2 text-center product-title-full">Đội ngũ kỹ sư trắc địa Thịnh Phát</p>
+                </div>
+                <div class="bg-white rounded-lg border border-slate-200 p-2 shadow-sm flex flex-col items-center justify-center text-center">
+                    <img src="https://lh3.googleusercontent.com/d/1ylpV3nYsUV8yzyT1BcMmwl435tdVhAtk" onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=1ylpV3nYsUV8yzyT1BcMmwl435tdVhAtk&sz=w600';" alt="Logo Thịnh Phát" class="w-24 h-24 object-contain mb-2">
+                    <p class="text-[11.5px] font-bold text-brand uppercase product-title-full">CÔNG TY TNHH ĐO ĐẠC BẢN ĐỒ THỊNH PHÁT</p>
+                    <p class="text-[11px] text-slate-500 mt-0.5">Hotline: 0933.210.234</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =====================================================================
+         SECTION 4: DANH MỤC CÁC DỰ ÁN TIÊU BIỂU Ở ĐÀ NẴNG
+    ====================================================================== -->
+    <section id="du-an-da-nang" class="py-6 sm:py-8 bg-white border-y border-slate-200">
+        <div class="flatsome-container">
+            <div class="flatsome-section-title">
+                <h2 class="text-sm sm:text-base md:text-lg">DANH MỤC CÁC DỰ ÁN ĐO ĐẠC TIÊU BIỂU TẠI ĐÀ NẴNG</h2>
+                <a href="#form-bao-gia" class="text-xs font-semibold text-brand hover:text-brand-accent whitespace-nowrap">
+                    Tư vấn dự án <i class="fa-solid fa-angle-right ml-1"></i>
+                </a>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-3 sm:gap-5">
+                <!-- Dự án 1 -->
+                <div class="bg-slate-50 rounded-lg border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col">
+                    <img src="https://lh3.googleusercontent.com/d/1kCcHmSxEfBLvAaDoNEChg6BXeU59GDpb" onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=1kCcHmSxEfBLvAaDoNEChg6BXeU59GDpb&sz=w600';" alt="Dự án Đo đạc Điện Bàn Đà Nẵng" class="w-full h-36 sm:h-48 object-cover">
+                    <div class="p-3 sm:p-4 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-bold text-xs sm:text-sm text-brand product-title-full">
+                                Dự Án Đo Đạc Địa Chính & Cắm Mốc Ranh Giới Khu Đô Thị Điện Bàn – TP. Đà Nẵng
+                            </h3>
+                            <p class="text-[11.5px] sm:text-xs text-slate-600 mt-1.5 leading-relaxed">
+                                Thực hiện đo đạc hiện trạng, xác định mốc tọa độ VN-2000 và lập hồ sơ kỹ thuật thửa đất phục vụ quy hoạch hạ tầng đô thị tại Phường Điện Bàn, TP. Đà Nẵng.
+                            </p>
+                        </div>
+                        <div class="mt-2.5 pt-2 border-t border-slate-200 text-[11px] text-slate-500 font-medium">
+                            <i class="fa-solid fa-location-dot text-brand-accent mr-1"></i>Khu vực: Phường Điện Bàn, TP. Đà Nẵng
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dự án 2 -->
+                <div class="bg-slate-50 rounded-lg border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col">
+                    <img src="https://lh3.googleusercontent.com/d/167OPIOUV5gCQmJi5cGimSpVXyUmPUT1_" onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=167OPIOUV5gCQmJi5cGimSpVXyUmPUT1_&sz=w600';" alt="Dự án Trắc địa nhà xưởng Hòa Khánh Đà Nẵng" class="w-full h-36 sm:h-48 object-cover">
+                    <div class="p-3 sm:p-4 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-bold text-xs sm:text-sm text-brand product-title-full">
+                                Dự Án Trắc Địa Nhà Xưởng & Định Vị Bu Lông Móng KCN Hòa Khánh – Liên Chiểu, Đà Nẵng
+                            </h3>
+                            <p class="text-[11.5px] sm:text-xs text-slate-600 mt-1.5 leading-relaxed">
+                                Đo đạc truyền dẫn mốc cao độ, định vị tim cọc, kiểm tra độ thẳng đứng kết cấu thép và lập bản vẽ hoàn công nhà xưởng chuẩn TCVN.
+                            </p>
+                        </div>
+                        <div class="mt-2.5 pt-2 border-t border-slate-200 text-[11px] text-slate-500 font-medium">
+                            <i class="fa-solid fa-location-dot text-brand-accent mr-1"></i>Khu vực: Liên Chiểu, TP. Đà Nẵng
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dự án 3 -->
+                <div class="bg-slate-50 rounded-lg border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col">
+                    <img src="https://lh3.googleusercontent.com/d/1nCMnRmj98lMlRMzoG9KKGuoxXIeADqLj" onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=1nCMnRmj98lMlRMzoG9KKGuoxXIeADqLj&sz=w600';" alt="Dự án Quan trắc lún nghiêng Sơn Trà Đà Nẵng" class="w-full h-36 sm:h-48 object-cover">
+                    <div class="p-3 sm:p-4 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-bold text-xs sm:text-sm text-brand product-title-full">
+                                Dự Án Quan Trắc Lún Nghiêng & Chuyển Vị Tòa Nhà Cao Tầng Ven Biển Sơn Trà, Đà Nẵng
+                            </h3>
+                            <p class="text-[11.5px] sm:text-xs text-slate-600 mt-1.5 leading-relaxed">
+                                Lập đề cương quan trắc và thực hiện đo lún, đo nghiêng định kỳ theo TCVN 9360:2012 và TCVN 9364:2012 bảo vệ pháp lý công trình.
+                            </p>
+                        </div>
+                        <div class="mt-2.5 pt-2 border-t border-slate-200 text-[11px] text-slate-500 font-medium">
+                            <i class="fa-solid fa-location-dot text-brand-accent mr-1"></i>Khu vực: Sơn Trà, TP. Đà Nẵng
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dự án 4 -->
+                <div class="bg-slate-50 rounded-lg border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col">
+                    <img src="https://lh3.googleusercontent.com/d/1dUprwy90bMe1p55R81-NMyiH4_N7WuMr" onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=1dUprwy90bMe1p55R81-NMyiH4_N7WuMr&sz=w600';" alt="Dự án Đo vẽ bản đồ Ngũ Hành Sơn Đà Nẵng" class="w-full h-36 sm:h-48 object-cover">
+                    <div class="p-3 sm:p-4 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-bold text-xs sm:text-sm text-brand product-title-full">
+                                Dự Án Khảo Sát Địa Hình 1/500 Khu Du Lịch Ven Biển Ngũ Hành Sơn – TP. Đà Nẵng
+                            </h3>
+                            <p class="text-[11.5px] sm:text-xs text-slate-600 mt-1.5 leading-relaxed">
+                                Đo vẽ bản đồ địa hình tỷ lệ 1/500, lưới khống chế mặt bằng và độ cao phục vụ thiết kế quy hoạch tổng mặt bằng kiến trúc.
+                            </p>
+                        </div>
+                        <div class="mt-2.5 pt-2 border-t border-slate-200 text-[11px] text-slate-500 font-medium">
+                            <i class="fa-solid fa-location-dot text-brand-accent mr-1"></i>Khu vực: Ngũ Hành Sơn, TP. Đà Nẵng
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dự án 5 -->
+                <div class="bg-slate-50 rounded-lg border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col">
+                    <img src="https://lh3.googleusercontent.com/d/1kAFP7UQniZTymYgfu912MCupDO4qZKkr" onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=1kAFP7UQniZTymYgfu912MCupDO4qZKkr&sz=w600';" alt="Dự án Tách thửa Hòa Xuân Cẩm Lệ Đà Nẵng" class="w-full h-36 sm:h-48 object-cover">
+                    <div class="p-3 sm:p-4 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-bold text-xs sm:text-sm text-brand product-title-full">
+                                Dự Án Đo Đạc Phân Lô Tách Thửa & Xác Định Ranh Đất Khu Đô Thị Hòa Xuân – Cẩm Lệ, Đà Nẵng
+                            </h3>
+                            <p class="text-[11.5px] sm:text-xs text-slate-600 mt-1.5 leading-relaxed">
+                                Đo đạc kiểm tra diện tích thực tế, cắm mốc ranh giới bằng máy RTK 2 tần số và hoàn thiện hồ sơ tách thửa cho chủ sử dụng đất.
+                            </p>
+                        </div>
+                        <div class="mt-2.5 pt-2 border-t border-slate-200 text-[11px] text-slate-500 font-medium">
+                            <i class="fa-solid fa-location-dot text-brand-accent mr-1"></i>Khu vực: Cẩm Lệ, TP. Đà Nẵng
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dự án 6 -->
+                <div class="bg-slate-50 rounded-lg border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col">
+                    <img src="https://lh3.googleusercontent.com/d/1T7oYR_UOH23klAmpo9qd8lZDqVHPqfl1" onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=1T7oYR_UOH23klAmpo9qd8lZDqVHPqfl1&sz=w600';" alt="Dự án Khảo sát giao thông Hòa Vang Đà Nẵng" class="w-full h-36 sm:h-48 object-cover">
+                    <div class="p-3 sm:p-4 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-bold text-xs sm:text-sm text-brand product-title-full">
+                                Dự Án Khảo Sát Trắc Địa Tuyến Giao Thông & Hạ Tầng Kỹ Thuật Hòa Vang – TP. Đà Nẵng
+                            </h3>
+                            <p class="text-[11.5px] sm:text-xs text-slate-600 mt-1.5 leading-relaxed">
+                                Đo trắc dọc, trắc ngang, tính toán khối lượng đào đắp san lấp mặt bằng và bàn giao mốc thi công cho chủ đầu tư.
+                            </p>
+                        </div>
+                        <div class="mt-2.5 pt-2 border-t border-slate-200 text-[11px] text-slate-500 font-medium">
+                            <i class="fa-solid fa-location-dot text-brand-accent mr-1"></i>Khu vực: Hòa Vang, TP. Đà Nẵng
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =====================================================================
+         SECTION 5: VỀ CHÚNG TÔI & TẠI SAO CHỌN THỊNH PHÁT & QUY TRÌNH LÀM VIỆC (Chuẩn mẫu nguyenhoangdodac.com)
+    ====================================================================== -->
+    <section class="py-6 sm:py-8">
+        <div class="flatsome-container space-y-6">
+            <!-- Khối Về Chúng Tôi -->
+            <div class="bg-white rounded-lg border border-slate-200 p-4 sm:p-6 shadow-sm">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 items-center">
+                    <div class="lg:col-span-7 space-y-3">
+                        <div class="text-xs font-bold text-brand-accent uppercase">VỀ CHÚNG TÔI • DODACTHINHPHAT.COM</div>
+                        <h2 class="text-base sm:text-xl font-extrabold text-brand uppercase">
+                            CÔNG TY TNHH ĐO ĐẠC BẢN ĐỒ THỊNH PHÁT
+                        </h2>
+                        <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                            <strong>Công Ty TNHH Đo Đạc Bản Đồ Thịnh Phát</strong> (MST: 4001175930) có trụ sở tại <strong>03 Hoàng Diệu, Phường Điện Bàn, TP Đà Nẵng</strong> là đơn vị uy tín chuyên cung cấp các dịch vụ đo đạc địa chính, khảo sát địa hình, trắc địa công trình, thiết kế kiến trúc – tổng mặt bằng và phân phối thiết bị trắc địa chính hãng.
                         </p>
-
-                        <form id="quoteForm" onsubmit="submitQuoteForm(event)" class="space-y-3">
-                            <div>
-                                <label class="block text-xs font-bold text-slate-700 mb-1">Họ và tên khách hàng *</label>
-                                <input type="text" id="custName" required placeholder="Nhập họ và tên của bạn..." class="w-full px-3 py-2 text-xs sm:text-sm rounded-lg border border-slate-300 focus:outline-none focus:border-mc-primary bg-white">
+                        <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                            Với đội ngũ kỹ sư trắc địa giàu kinh nghiệm thực chiến cùng hệ thống máy móc hiện đại (Máy toàn đạc Leica/Topcon, máy GNSS RTK 2 tần số, máy thủy bình chuẩn TCVN), chúng tôi cam kết mang đến giải pháp chính xác từng milimet, đúng tiến độ và tối ưu chi phí cho khách hàng cá nhân lẫn doanh nghiệp.
+                        </p>
+                        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5 pt-2">
+                            <div class="bg-brand-light p-2.5 rounded text-center border border-brand/15">
+                                <div class="text-base sm:text-lg font-extrabold text-brand">1.500+</div>
+                                <div class="text-[11px] text-slate-600 font-medium">Hồ sơ & Dự án</div>
                             </div>
-                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                                <div>
-                                    <label class="block text-xs font-bold text-slate-700 mb-1">Số điện thoại / Zalo *</label>
-                                    <input type="tel" id="custPhone" required placeholder="Ví dụ: 0975.796.543" class="w-full px-3 py-2 text-xs sm:text-sm rounded-lg border border-slate-300 focus:outline-none focus:border-mc-primary bg-white">
-                                </div>
-                                <div>
-                                    <label class="block text-xs font-bold text-slate-700 mb-1">Diện tích ước tính (m²)</label>
-                                    <input type="text" id="custArea" placeholder="Ví dụ: 150 m²" class="w-full px-3 py-2 text-xs sm:text-sm rounded-lg border border-slate-300 focus:outline-none focus:border-mc-primary bg-white">
-                                </div>
+                            <div class="bg-brand-light p-2.5 rounded text-center border border-brand/15">
+                                <div class="text-base sm:text-lg font-extrabold text-brand">100%</div>
+                                <div class="text-[11px] text-slate-600 font-medium">Chuẩn Pháp Lý TCVN</div>
                             </div>
-                            <div>
-                                <label class="block text-xs font-bold text-slate-700 mb-1">Hạng mục cần tư vấn & báo giá *</label>
-                                <select id="custService" class="w-full px-3 py-2 text-xs sm:text-sm rounded-lg border border-slate-300 focus:outline-none focus:border-mc-primary bg-white">
-                                    <option value="Đánh bóng sàn đá Marble / Granite">Đánh bóng sàn đá Marble / Granite</option>
-                                    <option value="Thi công đá mài Terrazzo">Thi công đá mài Terrazzo</option>
-                                    <option value="Mài đánh bóng sàn bê tông">Mài đánh bóng sàn bê tông</option>
-                                    <option value="Thi công sơn sàn Epoxy">Thi công sơn sàn Epoxy</option>
-                                    <option value="Thi công sàn & tường Microcement">Thi công sàn & tường Microcement</option>
-                                    <option value="Cung cấp & ốp lát đá tự nhiên">Cung cấp & ốp lát đá tự nhiên</option>
-                                </select>
+                            <div class="bg-brand-light p-2.5 rounded text-center border border-brand/15">
+                                <div class="text-base sm:text-lg font-extrabold text-brand">15+</div>
+                                <div class="text-[11px] text-slate-600 font-medium">Kỹ Sư Chuyên Môn</div>
                             </div>
-                            <div>
-                                <label class="block text-xs font-bold text-slate-700 mb-1">Địa chỉ công trình & Ghi chú</label>
-                                <textarea id="custNote" rows="2" placeholder="Nhập địa chỉ công trình tại Đà Nẵng hoặc yêu cầu cụ thể..." class="w-full px-3 py-2 text-xs sm:text-sm rounded-lg border border-slate-300 focus:outline-none focus:border-mc-primary bg-white"></textarea>
+                            <div class="bg-brand-light p-2.5 rounded text-center border border-brand/15">
+                                <div class="text-base sm:text-lg font-extrabold text-brand">24/7</div>
+                                <div class="text-[11px] text-slate-600 font-medium">Hỗ Trợ Tận Nơi</div>
                             </div>
-                            <button type="submit" class="w-full bg-mc-dark hover:bg-mc-primary text-white font-extrabold text-xs sm:text-sm py-3 px-4 rounded-lg transition shadow flex items-center justify-center gap-2">
-                                <i class="fa-solid fa-paper-plane text-mc-accent"></i> GỬI YÊU CẦU BÁO GIÁ NGAY
-                            </button>
-                        </form>
-
-                        <!-- Hộp thông báo xác nhận gửi thành công (không dùng alert) -->
-                        <div id="quoteSuccessBox" class="hidden mt-3 p-3 rounded-lg bg-emerald-50 border border-emerald-300 text-emerald-900 text-xs">
-                            <p class="font-bold"><i class="fa-solid fa-circle-check text-emerald-600 mr-1"></i> Đã tiếp nhận yêu cầu báo giá!</p>
-                            <p id="quoteSuccessText" class="mt-0.5"></p>
                         </div>
+                    </div>
+                    <div class="lg:col-span-5 grid grid-cols-2 gap-2.5">
+                        <img src="https://lh3.googleusercontent.com/d/1O8mgjTDAcUwEIDSWSqGMW4YcSnVg37UK" onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=1O8mgjTDAcUwEIDSWSqGMW4YcSnVg37UK&sz=w600';" alt="Giới thiệu Thịnh Phát 1" class="w-full h-44 sm:h-52 object-cover rounded-lg border border-slate-200">
+                        <img src="https://lh3.googleusercontent.com/d/1ZP9TYdHxPGeRZIfF4tUGS14FrQmbosyB" onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=1ZP9TYdHxPGeRZIfF4tUGS14FrQmbosyB&sz=w600';" alt="Giới thiệu Thịnh Phát 2" class="w-full h-44 sm:h-52 object-cover rounded-lg border border-slate-200">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cam kết & Quy trình làm việc 4 bước giống mẫu nguyenhoangdodac.com -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
+                <div class="bg-white p-3.5 sm:p-4 rounded-lg border border-slate-200 shadow-sm">
+                    <div class="w-9 h-9 rounded-full bg-brand text-white flex items-center justify-center font-bold text-xs mb-2.5">01</div>
+                    <h3 class="font-bold text-xs sm:text-sm text-brand uppercase">TIẾP NHẬN YÊU CẦU</h3>
+                    <p class="text-[11.5px] sm:text-xs text-slate-600 mt-1">Tư vấn sơ bộ hồ sơ pháp lý, nhu cầu đo đạc hoặc thiết bị trắc địa qua Hotline/Zalo 0933.210.234.</p>
+                </div>
+                <div class="bg-white p-3.5 sm:p-4 rounded-lg border border-slate-200 shadow-sm">
+                    <div class="w-9 h-9 rounded-full bg-brand text-white flex items-center justify-center font-bold text-xs mb-2.5">02</div>
+                    <h3 class="font-bold text-xs sm:text-sm text-brand uppercase">KHẢO SÁT & LẬP KẾ HOẠCH</h3>
+                    <p class="text-[11.5px] sm:text-xs text-slate-600 mt-1">Kiểm tra thông tin thửa đất/công trình, báo giá minh bạch, thống nhất phương án kỹ thuật.</p>
+                </div>
+                <div class="bg-white p-3.5 sm:p-4 rounded-lg border border-slate-200 shadow-sm">
+                    <div class="w-9 h-9 rounded-full bg-brand text-white flex items-center justify-center font-bold text-xs mb-2.5">03</div>
+                    <h3 class="font-bold text-xs sm:text-sm text-brand uppercase">THỰC HIỆN ĐO ĐẠC</h3>
+                    <p class="text-[11.5px] sm:text-xs text-slate-600 mt-1">Kỹ sư sử dụng máy Toàn đạc & GPS RTK đo đạc thực địa chính xác theo hệ tọa độ VN-2000.</p>
+                </div>
+                <div class="bg-white p-3.5 sm:p-4 rounded-lg border border-slate-200 shadow-sm">
+                    <div class="w-9 h-9 rounded-full bg-brand text-white flex items-center justify-center font-bold text-xs mb-2.5">04</div>
+                    <h3 class="font-bold text-xs sm:text-sm text-brand uppercase">BÁO CÁO & BÀN GIAO</h3>
+                    <p class="text-[11.5px] sm:text-xs text-slate-600 mt-1">Nội nghiệp xử lý số liệu, xuất bản vẽ CAD/PDF có pháp lý và bàn giao mốc ngoài thực địa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =====================================================================
+         SECTION 6: DANH MỤC CÁC BÀI VIẾT TRANG CHỦ (Tin tức & Kinh nghiệm đo đạc)
+    ====================================================================== -->
+    <section id="bai-viet" class="py-6 sm:py-8 bg-white border-y border-slate-200">
+        <div class="flatsome-container">
+            <div class="flatsome-section-title">
+                <h2 class="text-sm sm:text-base md:text-lg">DANH MỤC BÀI VIẾT & KIẾN THỨC ĐO ĐẠC BẢN ĐỒ</h2>
+                <span class="text-xs text-slate-500 hidden sm:inline">Cập nhật quy định & kỹ thuật trắc địa mới nhất</span>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
+                <!-- Bài viết 1 -->
+                <article class="bg-slate-50 rounded-lg border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col">
+                    <img src="https://lh3.googleusercontent.com/d/1kCcHmSxEfBLvAaDoNEChg6BXeU59GDpb" onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=1kCcHmSxEfBLvAaDoNEChg6BXeU59GDpb&sz=w600';" alt="Chi phí đo đạc địa chính Đà Nẵng" class="w-full h-32 sm:h-40 object-cover">
+                    <div class="p-3 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-bold text-xs sm:text-sm text-slate-800 hover:text-brand product-title-full">
+                                Chi phí đo đạc địa chính, tách thửa và xác định ranh đất tại Đà Nẵng là bao nhiêu?
+                            </h3>
+                            <p class="text-[11px] sm:text-xs text-slate-600 mt-1.5 leading-relaxed">
+                                Bảng báo giá chi tiết dịch vụ đo vẽ hiện trạng nhà đất, cắm mốc ranh giới và lập hồ sơ kỹ thuật thửa đất tại Điện Bàn, Đà Nẵng.
+                            </p>
+                        </div>
+                        <a href="#form-bao-gia" class="text-[11.5px] font-semibold text-brand mt-2.5 inline-block">
+                            Nhận bảng giá chi tiết <i class="fa-solid fa-angle-right ml-0.5"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Bài viết 2 -->
+                <article class="bg-slate-50 rounded-lg border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col">
+                    <img src="https://lh3.googleusercontent.com/d/1UP8YbcBZP0FX1BBqQ22VaWO8x_SrUuKd" onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=1UP8YbcBZP0FX1BBqQ22VaWO8x_SrUuKd&sz=w600';" alt="Hướng dẫn chọn máy thủy bình" class="w-full h-32 sm:h-40 object-cover">
+                    <div class="p-3 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-bold text-xs sm:text-sm text-slate-800 hover:text-brand product-title-full">
+                                Kinh nghiệm chọn mua Máy Thủy Bình Leica, Sokkia, Topcon chính hãng cho kỹ sư xây dựng
+                            </h3>
+                            <p class="text-[11px] sm:text-xs text-slate-600 mt-1.5 leading-relaxed">
+                                So sánh độ phóng đại, sai số tiêu chuẩn trên 1km đo đi về và độ bền của các dòng máy thủy chuẩn phổ biến nhất hiện nay.
+                            </p>
+                        </div>
+                        <a href="#san-pham" onclick="filterCategory('may-thuy-binh')" class="text-[11.5px] font-semibold text-brand mt-2.5 inline-block">
+                            Xem các dòng máy <i class="fa-solid fa-angle-right ml-0.5"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Bài viết 3 -->
+                <article class="bg-slate-50 rounded-lg border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col">
+                    <img src="https://lh3.googleusercontent.com/d/1ZP9TYdHxPGeRZIfF4tUGS14FrQmbosyB" onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=1ZP9TYdHxPGeRZIfF4tUGS14FrQmbosyB&sz=w600';" alt="Ứng dụng máy GPS RTK 2 tần số" class="w-full h-32 sm:h-40 object-cover">
+                    <div class="p-3 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-bold text-xs sm:text-sm text-slate-800 hover:text-brand product-title-full">
+                                Ứng dụng máy định vị vệ tinh GPS GNSS RTK 2 tần số gắn trạm CORS trong đo đạc bản đồ
+                            </h3>
+                            <p class="text-[11px] sm:text-xs text-slate-600 mt-1.5 leading-relaxed">
+                                Giải pháp đo RTK kết nối trạm Base và mạng lưới trạm CORS Cục Đo đạc giúp tăng gấp 3 lần năng suất khảo sát ngoại nghiệp.
+                            </p>
+                        </div>
+                        <a href="#san-pham" onclick="filterCategory('may-gps-rtk')" class="text-[11.5px] font-semibold text-brand mt-2.5 inline-block">
+                            Xem máy GPS RTK <i class="fa-solid fa-angle-right ml-0.5"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Bài viết 4 -->
+                <article class="bg-slate-50 rounded-lg border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col">
+                    <img src="https://lh3.googleusercontent.com/d/167OPIOUV5gCQmJi5cGimSpVXyUmPUT1_" onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=167OPIOUV5gCQmJi5cGimSpVXyUmPUT1_&sz=w600';" alt="Quy trình quan trắc lún nghiêng" class="w-full h-32 sm:h-40 object-cover">
+                    <div class="p-3 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-bold text-xs sm:text-sm text-slate-800 hover:text-brand product-title-full">
+                                Quy trình lập đề cương và quan trắc lún nghiêng công trình theo TCVN 9360:2012 & 9364:2012
+                            </h3>
+                            <p class="text-[11px] sm:text-xs text-slate-600 mt-1.5 leading-relaxed">
+                                Hướng dẫn chi tiết chu kỳ quan trắc chuyển vị ngang, lún nền móng và nghiêng công trình lân cận phục vụ nghiệm thu hoàn công.
+                            </p>
+                        </div>
+                        <a href="#form-bao-gia" class="text-[11.5px] font-semibold text-brand mt-2.5 inline-block">
+                            Tư vấn đề cương <i class="fa-solid fa-angle-right ml-0.5"></i>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- =====================================================================
+         SECTION 7: DANH MỤC CÁC ĐỐI TÁC & THƯƠNG HIỆU ĐỒNG HÀNH
+    ====================================================================== -->
+    <section id="doi-tac" class="py-6 sm:py-8">
+        <div class="flatsome-container">
+            <div class="flatsome-section-title">
+                <h2 class="text-sm sm:text-base md:text-lg">DANH MỤC CÁC ĐỐI TÁC & THƯƠNG HIỆU THIẾT BỊ</h2>
+                <span class="text-xs text-slate-500 hidden sm:inline">Đối tác phân phối & thi công trắc địa</span>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-2.5 sm:gap-3">
+                <div class="bg-white border border-slate-200 rounded-lg p-3 text-center shadow-sm flex flex-col items-center justify-center">
+                    <div class="font-black text-sm sm:text-base text-red-700 tracking-wide">LEICA</div>
+                    <div class="text-[10.5px] text-slate-500 mt-0.5">Thụy Sĩ • Geosystems</div>
+                </div>
+                <div class="bg-white border border-slate-200 rounded-lg p-3 text-center shadow-sm flex flex-col items-center justify-center">
+                    <div class="font-black text-sm sm:text-base text-amber-600 tracking-wide">TOPCON</div>
+                    <div class="text-[10.5px] text-slate-500 mt-0.5">Nhật Bản • Positioning</div>
+                </div>
+                <div class="bg-white border border-slate-200 rounded-lg p-3 text-center shadow-sm flex flex-col items-center justify-center">
+                    <div class="font-black text-sm sm:text-base text-blue-800 tracking-wide">SOKKIA</div>
+                    <div class="text-[10.5px] text-slate-500 mt-0.5">Nhật Bản • Trắc Địa</div>
+                </div>
+                <div class="bg-white border border-slate-200 rounded-lg p-3 text-center shadow-sm flex flex-col items-center justify-center">
+                    <div class="font-black text-sm sm:text-base text-slate-800 tracking-wide">NIKON</div>
+                    <div class="text-[10.5px] text-slate-500 mt-0.5">Nhật Bản • Quang Học</div>
+                </div>
+                <div class="bg-white border border-slate-200 rounded-lg p-3 text-center shadow-sm flex flex-col items-center justify-center">
+                    <div class="font-black text-sm sm:text-base text-orange-600 tracking-wide">HI-TARGET</div>
+                    <div class="text-[10.5px] text-slate-500 mt-0.5">GNSS RTK • Surveying</div>
+                </div>
+                <div class="bg-white border border-slate-200 rounded-lg p-3 text-center shadow-sm flex flex-col items-center justify-center">
+                    <div class="font-black text-sm sm:text-base text-sky-700 tracking-wide">GARMIN</div>
+                    <div class="text-[10.5px] text-slate-500 mt-0.5">Hoa Kỳ • Định Vị GPS</div>
+                </div>
+                <div class="bg-white border border-slate-200 rounded-lg p-3 text-center shadow-sm flex flex-col items-center justify-center">
+                    <div class="font-black text-sm sm:text-base text-emerald-700 tracking-wide">BOSCH</div>
+                    <div class="text-[10.5px] text-slate-500 mt-0.5">CHLB Đức • Máy Laser</div>
+                </div>
+                <div class="bg-white border border-slate-200 rounded-lg p-3 text-center shadow-sm flex flex-col items-center justify-center">
+                    <div class="font-black text-sm sm:text-base text-indigo-800 tracking-wide">MOTOROLA</div>
+                    <div class="text-[10.5px] text-slate-500 mt-0.5">Bộ Đàm Công Trình</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =====================================================================
+         SECTION 8: FORM YÊU CẦU TƯ VẤN & BÁO GIÁ + FANPAGE FACEBOOK + GOOGLE MAP NGOÀI TRANG CHỦ
+    ====================================================================== -->
+    <section id="form-bao-gia" class="py-6 sm:py-8 bg-white border-t border-slate-200">
+        <div class="flatsome-container">
+            <div class="flatsome-section-title">
+                <h2 class="text-sm sm:text-base md:text-lg">FORM YÊU CẦU BÁO GIÁ • FANPAGE & BẢN ĐỒ GOOGLE MAP</h2>
+                <span class="text-xs text-brand font-bold">Hotline/Zalo: 0933.210.234</span>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-5">
+                <!-- Cột 1 (5/12): FORM YÊU CẦU VÀ BÁO GIÁ TRANG CHỦ -->
+                <div class="lg:col-span-5 bg-slate-50 rounded-lg border border-slate-200 p-4 sm:p-5 shadow-sm">
+                    <h3 class="text-sm sm:text-base font-extrabold text-brand uppercase mb-1">
+                        GỬI YÊU CẦU TƯ VẤN & NHẬN BÁO GIÁ
+                    </h3>
+                    <p class="text-xs text-slate-600 mb-4">
+                        Quý khách cần đo đạc nhà đất tại Đà Nẵng hoặc báo giá máy trắc địa, vui lòng điền thông tin bên dưới:
+                    </p>
+
+                    <form id="quoteRequestForm" onsubmit="submitQuoteForm(event)" class="space-y-3">
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-700 mb-1">Họ và tên khách hàng *</label>
+                            <input type="text" id="custName" required placeholder="Nhập họ và tên của bạn" class="w-full px-3 py-2 text-xs bg-white border border-slate-300 rounded focus:outline-none focus:border-brand">
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-700 mb-1">Số điện thoại / Zalo *</label>
+                                <input type="tel" id="custPhone" required placeholder="VD: 0933210234" class="w-full px-3 py-2 text-xs bg-white border border-slate-300 rounded focus:outline-none focus:border-brand">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-700 mb-1">Khu vực / Địa chỉ</label>
+                                <input type="text" id="custArea" placeholder="Điện Bàn, Hải Châu, Cẩm Lệ..." class="w-full px-3 py-2 text-xs bg-white border border-slate-300 rounded focus:outline-none focus:border-brand">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-700 mb-1">Hạng mục cần tư vấn / báo giá *</label>
+                            <select id="custService" class="w-full px-3 py-2 text-xs bg-white border border-slate-300 rounded focus:outline-none focus:border-brand">
+                                <option value="Đo đạc nhà đất, tách thửa, cắm mốc ranh giới">Đo đạc nhà đất, tách thửa, cắm mốc ranh giới</option>
+                                <option value="Giấy tờ nhà đất, xin phép xây dựng, hoàn công">Giấy tờ nhà đất, xin phép xây dựng, hoàn công</option>
+                                <option value="Khảo sát địa hình, định vị công trình, quan trắc lún">Khảo sát địa hình, định vị công trình, quan trắc lún</option>
+                                <option value="Báo giá Máy Thủy Bình / Máy Toàn Đạc / Máy GPS RTK">Báo giá Máy Thủy Bình / Máy Toàn Đạc / Máy GPS RTK</option>
+                                <option value="Báo giá Máy Đo Laser / Bộ Đàm / Phụ Kiện Trắc Địa">Báo giá Máy Đo Laser / Bộ Đàm / Phụ Kiện Trắc Địa</option>
+                                <option value="Thuê máy đo đạc trắc địa tại Đà Nẵng">Thuê máy đo đạc trắc địa tại Đà Nẵng</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-700 mb-1">Nội dung chi tiết</label>
+                            <textarea id="custNote" rows="3" placeholder="Nhập diện tích thửa đất, vị trí hoặc tên máy trắc địa cần báo giá..." class="w-full px-3 py-2 text-xs bg-white border border-slate-300 rounded focus:outline-none focus:border-brand"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-brand-accent hover:bg-orange-700 text-white font-bold text-xs sm:text-sm py-2.5 rounded shadow transition uppercase">
+                            <i class="fa-solid fa-paper-plane mr-1.5"></i>GỬI YÊU CẦU BÁO GIÁ NGAY
+                        </button>
+                    </form>
+
+                    <!-- Hộp thông báo gửi thành công (không dùng alert) -->
+                    <div id="formSuccessBox" class="hidden mt-3 p-3 rounded bg-emerald-50 border border-emerald-300 text-emerald-800 text-xs">
+                        <div class="font-bold"><i class="fa-solid fa-circle-check mr-1"></i>Đã ghi nhận yêu cầu báo giá!</div>
+                        <p id="formSuccessText" class="mt-1"></p>
                     </div>
                 </div>
 
-                <!-- Cột 2 (3/12): Đưa Fanpage ra ngoài Trang Chủ -->
-                <div class="lg:col-span-3 bg-slate-50 rounded-xl border border-slate-200 p-4 flex flex-col justify-between shadow-sm">
+                <!-- Cột 2 (3/12): ĐƯA FANPAGE RA NGOÀI TRANG CHỦ -->
+                <div class="lg:col-span-3 bg-slate-50 rounded-lg border border-slate-200 p-4 flex flex-col justify-between shadow-sm">
                     <div>
-                        <h3 class="text-base font-extrabold text-mc-dark uppercase flex items-center gap-2 mb-3">
-                            <i class="fa-brands fa-facebook text-[#1877F2]"></i> Fanpage Minh Châu Stone
+                        <h3 class="text-sm font-extrabold text-brand uppercase mb-2 flex items-center gap-1.5">
+                            <i class="fa-brands fa-facebook text-blue-600 text-base"></i>
+                            <span>FANPAGE CHÍNH THỨC</span>
                         </h3>
-
-                        <!-- Khung hiển thị Fanpage trực quan ngoài trang chủ -->
-                        <div class="rounded-xl overflow-hidden border border-slate-200 bg-white shadow-sm">
-                            <div class="relative h-28 bg-mc-dark overflow-hidden">
-                                <img src="https://drive.google.com/thumbnail?id=1QDZrsMiETa0VeHn5PFd8DgXq8nowxxT3&sz=w600" 
-                                     alt="Ảnh bìa Fanpage Minh Châu Stone" 
-                                     class="w-full h-full object-cover opacity-55">
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
-                                <div class="absolute bottom-2.5 left-2.5 right-2.5 flex items-center gap-2.5">
-                                    <img src="https://drive.google.com/thumbnail?id=11N1b7m-M43TQlNNmNUDPbXiDRWtZwVYB&sz=w200" 
-                                         alt="Logo Fanpage" 
-                                         class="w-12 h-12 rounded-lg border-2 border-white bg-white object-contain p-0.5 shrink-0">
-                                    <div class="text-white overflow-hidden">
-                                        <p class="font-extrabold text-xs sm:text-sm truncate">Minh Châu Stone Đà Nẵng</p>
-                                        <p class="text-[11px] text-slate-200">4.850 người theo dõi • Đang hoạt động</p>
+                        <!-- Khung thông tin Fanpage trực quan + Plugin Facebook -->
+                        <div class="bg-white rounded-lg border border-slate-200 overflow-hidden shadow-sm">
+                            <div class="relative h-24 bg-gradient-to-r from-brand-dark to-brand p-3 flex items-end">
+                                <div class="flex items-center gap-2.5">
+                                    <img 
+                                        src="https://lh3.googleusercontent.com/d/1ylpV3nYsUV8yzyT1BcMmwl435tdVhAtk" 
+                                        onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=1ylpV3nYsUV8yzyT1BcMmwl435tdVhAtk&sz=w300';"
+                                        alt="Logo Fanpage Thịnh Phát" 
+                                        class="w-12 h-12 rounded-md bg-white p-0.5 object-contain border border-white shadow"
+                                    >
+                                    <div class="text-white min-w-0">
+                                        <a href="https://www.facebook.com/Thinhphatdodac" target="_blank" rel="noopener noreferrer" class="font-bold text-xs hover:underline block truncate">
+                                            Đo Đạc Bản Đồ Thịnh Phát
+                                        </a>
+                                        <span class="text-[11px] text-amber-200 block">@Thinhphatdodac</span>
                                     </div>
                                 </div>
                             </div>
-                            <div class="p-3 space-y-2.5">
-                                <p class="text-xs text-slate-600 leading-relaxed">
-                                    Cập nhật hình ảnh công trình thi công đá mài Terrazzo, đánh bóng đá Marble - Granite, mài sàn bê tông thực tế mỗi ngày tại Đà Nẵng.
+                            <div class="p-3 space-y-2 text-xs">
+                                <p class="text-slate-600 text-[11.5px] leading-relaxed">
+                                    Chuyên đo đạc bản đồ, khảo sát địa chính, cắm mốc ranh giới và cung cấp máy trắc địa tại Đà Nẵng.
                                 </p>
-                                <div class="grid grid-cols-3 gap-1.5">
-                                    <img src="https://drive.google.com/thumbnail?id=1PsUMnTiNF0vzi9P834jOPQcQ9inXCHSm&sz=w300" alt="Ảnh Fanpage 1" class="h-14 w-full object-cover rounded">
-                                    <img src="https://drive.google.com/thumbnail?id=1YSE0tN0WSfjeA0AYbRweC_pUP58nP02e&sz=w300" alt="Ảnh Fanpage 2" class="h-14 w-full object-cover rounded">
-                                    <img src="https://drive.google.com/thumbnail?id=1RfQNvz0pxQNUMwzSYgFimrwg34O16VYV&sz=w300" alt="Ảnh Fanpage 3" class="h-14 w-full object-cover rounded">
-                                </div>
-                                <div class="pt-1 flex gap-2">
-                                    <a href="https://www.facebook.com" target="_blank" rel="noopener" class="flex-1 bg-[#1877F2] hover:bg-blue-700 text-white text-xs font-bold py-2 px-3 rounded text-center flex items-center justify-center gap-1.5">
-                                        <i class="fa-brands fa-facebook-f"></i> Theo dõi Trang
-                                    </a>
-                                    <a href="https://zalo.me/0975796543" target="_blank" rel="noopener" class="flex-1 bg-slate-100 hover:bg-slate-200 text-mc-dark text-xs font-bold py-2 px-3 rounded text-center flex items-center justify-center gap-1.5">
-                                        <i class="fa-brands fa-facebook-messenger text-[#1877F2]"></i> Nhắn tin
-                                    </a>
+                                <!-- Nhúng Facebook Page Plugin chuẩn -->
+                                <div class="w-full overflow-hidden rounded border border-slate-100 bg-slate-50">
+                                    <iframe 
+                                        title="Fanpage Đo Đạc Thịnh Phát"
+                                        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FThinhphatdodac&tabs&width=280&height=130&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true" 
+                                        width="100%" 
+                                        height="130" 
+                                        style="border:none;overflow:hidden" 
+                                        scrolling="no" 
+                                        frameborder="0" 
+                                        allowfullscreen="true" 
+                                        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                                    </iframe>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="mt-3 p-3 rounded-lg bg-white border border-slate-200 text-xs space-y-1">
-                        <div class="font-bold text-mc-dark">Thông tin trực tuyến:</div>
-                        <div><i class="fa-solid fa-globe text-mc-primary mr-1.5"></i>Website: <strong>minhchaustone.com</strong></div>
-                        <div><i class="fa-solid fa-phone text-mc-primary mr-1.5"></i>Hotline: <strong>0975.796.543 - 0355.698.490</strong></div>
+                    <div class="mt-3 space-y-2">
+                        <a 
+                            href="https://www.facebook.com/Thinhphatdodac" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            class="w-full py-2 px-3 rounded bg-[#1877F2] hover:bg-blue-700 text-white font-bold text-xs flex items-center justify-center gap-1.5 shadow-sm transition"
+                        >
+                            <i class="fa-brands fa-facebook-messenger"></i>
+                            <span>TRUY CẬP FANPAGE THỊNH PHÁT</span>
+                        </a>
+                        <div class="text-[11px] text-slate-500 text-center">
+                            facebook.com/Thinhphatdodac
+                        </div>
                     </div>
                 </div>
 
-                <!-- Cột 3 (4/12): Đưa Google Map ra ngoài Trang Chủ -->
-                <div class="lg:col-span-4 bg-slate-50 rounded-xl border border-slate-200 p-4 flex flex-col justify-between shadow-sm">
+                <!-- Cột 3 (4/12): ĐƯA ẢNH & BẢN ĐỒ GOOGLE MAP RA NGOÀI TRANG CHỦ -->
+                <div class="lg:col-span-4 bg-slate-50 rounded-lg border border-slate-200 p-4 flex flex-col justify-between shadow-sm">
                     <div>
-                        <h3 class="text-base font-extrabold text-mc-dark uppercase flex items-center gap-2 mb-2">
-                            <i class="fa-solid fa-map-location-dot text-red-600"></i> Bản đồ Google Map
+                        <h3 class="text-sm font-extrabold text-brand uppercase mb-2 flex items-center gap-1.5">
+                            <i class="fa-solid fa-map-location-dot text-red-600 text-base"></i>
+                            <span>BẢN ĐỒ GOOGLE MAP TRỤ SỞ</span>
                         </h3>
-                        <p class="text-xs text-slate-600 mb-3">
-                            <strong>Địa chỉ:</strong> Thửa đất số 217, Tờ bản đồ số 159, Lô 46-B2.21, TĐC Tân Trà, Phường Ngũ Hành Sơn, TP Đà Nẵng.
+                        <p class="text-xs text-slate-700 font-semibold mb-2">
+                            <i class="fa-solid fa-location-dot text-brand-accent mr-1"></i>03 Hoàng Diệu, Phường Điện Bàn, TP Đà Nẵng
                         </p>
-                        <div class="w-full h-64 sm:h-72 rounded-xl overflow-hidden border border-slate-300 shadow-inner bg-slate-200">
+
+                        <!-- Bản đồ Google Map trực tiếp ngoài trang chủ -->
+                        <div class="rounded-lg overflow-hidden border border-slate-300 bg-white shadow-sm">
                             <iframe 
-                                title="Bản đồ Công ty TNHH TM-DV Minh Châu Stone"
-                                src="https://maps.google.com/maps?q=Khu%20T%C3%A1i%20%C4%90%E1%BB%8Bnh%20C%C6%B0%20T%C3%A2n%20Tr%C3%A0%2C%20Ng%C5%A9%20H%C3%A0nh%20S%C6%A1n%2C%20%C4%90%C3%A0%20N%E1%BA%B5ng&t=&z=15&ie=UTF8&iwloc=&output=embed" 
-                                class="w-full h-full border-0" 
+                                title="Bản đồ Công Ty TNHH Đo Đạc Bản Đồ Thịnh Phát - 03 Hoàng Diệu, Điện Bàn, Đà Nẵng"
+                                src="https://maps.google.com/maps?q=03%20Ho%C3%A0ng%20Di%E1%BB%87u,%20%C4%90i%E1%BB%87n%20B%C3%A0n,%20%C4%90%C3%A0%20N%E1%BA%B5ng&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                                width="100%" 
+                                height="225" 
+                                style="border:0;" 
                                 allowfullscreen="" 
                                 loading="lazy" 
                                 referrerpolicy="no-referrer-when-downgrade">
                             </iframe>
                         </div>
                     </div>
-                    <div class="mt-3 flex items-center justify-between gap-2 pt-2 border-t border-slate-200 text-xs">
-                        <span class="text-slate-600 font-medium"><i class="fa-solid fa-diamond-turn-right text-mc-primary mr-1"></i>Khu TĐC Tân Trà, Ngũ Hành Sơn</span>
-                        <a href="https://www.google.com/maps/search/?api=1&query=T%C3%A2n+Tr%C3%A0+Ng%C5%A9+H%C3%A0nh+S%C6%A1n+%C4%90%C3%A0+N%E1%BA%B5ng" target="_blank" rel="noopener" class="font-bold text-mc-primary hover:underline shrink-0">
-                            Mở bản đồ lớn &raquo;
+
+                    <div class="mt-3 flex flex-col sm:flex-row items-center gap-2">
+                        <a 
+                            href="https://maps.app.goo.gl/HaoxaQqEpM7oMdmp6" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            class="w-full py-2 px-3 rounded bg-brand hover:bg-brand-dark text-white font-bold text-xs flex items-center justify-center gap-1.5 shadow-sm transition"
+                        >
+                            <i class="fa-solid fa-diamond-turn-right"></i>
+                            <span>MỞ BẢN ĐỒ GOOGLE MAPS CHỈ ĐƯỜNG</span>
                         </a>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
 
-    <!-- ===================================================================== -->
-    <!-- KHU VỰC COPY MÃ SHORTCODE UX BUILDER FLATSOME DỄ DÀNG CHỈNH SỬA       -->
-    <!-- ===================================================================== -->
-    <section class="w-full py-6 bg-slate-100 border-t border-slate-200">
+    <!-- =====================================================================
+         FOOTER CHUẨN FLATSOME
+    ====================================================================== -->
+    <footer class="bg-brand-dark text-slate-200 pt-8 pb-20 md:pb-8 border-t-4 border-brand-accent">
         <div class="flatsome-container">
-            <div class="bg-white rounded-xl border border-slate-200 p-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
-                <div>
-                    <h3 class="text-xs sm:text-sm font-extrabold text-mc-dark flex items-center gap-2">
-                        <i class="fa-solid fa-code text-mc-primary"></i> Mã cấu trúc chuẩn UX Builder Flatsome (Dành cho Quản trị viên)
-                    </h3>
-                    <p class="text-xs text-slate-600 mt-0.5">
-                        Giao diện được thiết kế theo khối <code class="bg-slate-100 px-1 rounded">[section]</code>, <code class="bg-slate-100 px-1 rounded">[row]</code>, <code class="bg-slate-100 px-1 rounded">[col]</code> đơn giản để bạn dán vào trang chủ Flatsome và chỉnh sửa lại dễ dàng.
-                    </p>
-                </div>
-                <div class="flex items-center gap-2 shrink-0">
-                    <button onclick="toggleShortcodeModal()" class="bg-slate-800 hover:bg-slate-900 text-white text-xs font-bold py-2 px-3.5 rounded-lg transition">
-                        Xem / Sao chép Shortcode UX Builder
-                    </button>
-                </div>
-            </div>
-
-            <div id="uxShortcodePanel" class="hidden mt-3 bg-slate-900 text-slate-100 rounded-xl p-4 text-xs font-mono">
-                <div class="flex items-center justify-between pb-2 mb-2 border-b border-slate-700">
-                    <span class="text-mc-accent font-bold">Shortcode UX Builder Flatsome (minhchaustone.com)</span>
-                    <button onclick="copyUxShortcode()" id="copyShortcodeBtn" class="bg-mc-accent text-slate-950 font-sans font-bold px-3 py-1 rounded text-xs">
-                        Sao chép mã
-                    </button>
-                </div>
-                <textarea id="uxShortcodeText" readonly class="w-full h-44 bg-slate-950 text-emerald-300 p-3 rounded border border-slate-700 focus:outline-none text-xs">[section label="Banner Slider Minh Chau Stone" padding="0px"]
-[ux_slider timer="4500" arrows="true" bullets="true"]
-[ux_banner height="450px" height__sm="260px" bg="https://drive.google.com/thumbnail?id=1QDZrsMiETa0VeHn5PFd8DgXq8nowxxT3&sz=w1600" bg_overlay="rgba(12,35,64,0.75)"]
-[text_box width="75" width__sm="92" position_x="50" position_y="50" text_align="center"]
-<h4>CÔNG TY TNHH TM-DV MINH CHÂU STONE</h4>
-<h2>CHUYÊN ĐÁNH BÓNG SÀN ĐÁ MARBLE, GRANITE & ĐÁ MÀI TERRAZZO ĐÀ NẴNG</h2>
-<p>Hotline: 0975.796.543 - 0355.698.490 | Website: minhchaustone.com</p>
-[/text_box]
-[/ux_banner]
-[ux_banner height="450px" height__sm="260px" bg="https://drive.google.com/thumbnail?id=1YSE0tN0WSfjeA0AYbRweC_pUP58nP02e&sz=w1600" bg_overlay="rgba(12,35,64,0.75)"]
-[text_box width="75" width__sm="92" position_x="50" position_y="50" text_align="center"]
-<h4>CÔNG NGHỆ MÀI BÓNG & PHỦ SÀN HIỆN ĐẠI</h4>
-<h2>THI CÔNG SƠN EPOXY, MÀI BÊ TÔNG & SÀN MICROCEMENT ĐÀ NẴNG</h2>
-<p>Địa chỉ: Thửa đất số 217, Tờ bản đồ số 159, Lô 46-B2.21, TĐC Tân Trà, P. Ngũ Hành Sơn, TP Đà Nẵng</p>
-[/text_box]
-[/ux_banner]
-[/ux_slider]
-[/section]
-
-[section label="Danh muc Dich vu & San pham" padding="40px"]
-[title style="center" text="DANH MỤC SẢN PHẨM & DỊCH VỤ THI CÔNG"]
-[ux_products columns="5" columns__sm="2" ids="1,2,3,4,5,6,7,8,9,10"]
-[/section]
-
-[section label="Du an Da Nang" bg="#f8fafc" padding="40px"]
-[title style="center" text="DỰ ÁN THI CÔNG THỰC TẾ TẠI ĐÀ NẴNG"]
-[blog_posts style="normal" columns="4" columns__sm="2" posts="4"]
-[/section]</textarea>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===================================================================== -->
-    <!-- FOOTER CHÂN TRANG GIỐNG MẪU BACTRUNG.COM                              -->
-    <!-- ===================================================================== -->
-    <footer class="bg-mc-dark text-slate-200 pt-10 pb-20 md:pb-8 border-t-4 border-mc-accent w-full mt-auto">
-        <div class="flatsome-container">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-6 pb-8 border-b border-slate-700/80">
-                
-                <!-- Cột 1: Thông tin liên hệ -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-6 pb-6 border-b border-white/10">
+                <!-- Cột thông tin công ty -->
                 <div class="lg:col-span-5 space-y-2.5">
                     <div class="flex items-center gap-2.5">
-                        <img src="https://drive.google.com/thumbnail?id=11N1b7m-M43TQlNNmNUDPbXiDRWtZwVYB&sz=w200" 
-                             alt="Logo Minh Châu Stone" 
-                             class="w-10 h-10 rounded bg-white p-1 object-contain">
+                        <img 
+                            src="https://lh3.googleusercontent.com/d/1ylpV3nYsUV8yzyT1BcMmwl435tdVhAtk" 
+                            onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=1ylpV3nYsUV8yzyT1BcMmwl435tdVhAtk&sz=w300';"
+                            alt="Logo Công Ty TNHH Đo Đạc Bản Đồ Thịnh Phát" 
+                            class="w-10 h-10 rounded bg-white p-0.5 object-contain shrink-0"
+                        >
                         <div>
-                            <h3 class="font-extrabold text-white text-sm sm:text-base uppercase">CÔNG TY TNHH TM-DV MINH CHÂU STONE</h3>
-                            <p class="text-xs text-mc-accent font-semibold">Website: minhchaustone.com</p>
+                            <h3 class="font-extrabold text-sm sm:text-base text-white uppercase">
+                                CÔNG TY TNHH ĐO ĐẠC BẢN ĐỒ THỊNH PHÁT
+                            </h3>
+                            <p class="text-[11px] text-amber-300 font-medium">Website: dodacthinhphat.com • MST: 4001175930</p>
                         </div>
                     </div>
-                    <ul class="text-xs space-y-2 text-slate-300 pt-1">
-                        <li class="flex items-start gap-2">
-                            <i class="fa-solid fa-location-dot text-mc-accent mt-1 shrink-0"></i>
-                            <span><strong>Địa chỉ:</strong> Thửa đất số 217, Tờ bản đồ số 159, Lô 46-B2.21, TĐC Tân Trà, Phường Ngũ Hành Sơn, TP Đà Nẵng</span>
-                        </li>
-                        <li class="flex items-center gap-2">
-                            <i class="fa-solid fa-phone-volume text-mc-accent shrink-0"></i>
-                            <span><strong>Điện thoại / Hotline:</strong> 0975.796.543 - 0355.698.490</span>
-                        </li>
-                        <li class="flex items-center gap-2">
-                            <i class="fa-solid fa-globe text-mc-accent shrink-0"></i>
-                            <span><strong>Trang web:</strong> https://minhchaustone.com</span>
-                        </li>
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        Đơn vị chuyên cung cấp dịch vụ đo đạc địa chính, khảo sát địa hình, trắc địa công trình, tư vấn thiết kế và phân phối máy đo đạc trắc địa chính hãng tại Đà Nẵng & toàn quốc.
+                    </p>
+                    <ul class="space-y-1.5 text-xs text-slate-200 pt-1">
+                        <li><i class="fa-solid fa-location-dot text-amber-400 w-5"></i>Địa chỉ: 03 Hoàng Diệu, Phường Điện Bàn, TP Đà Nẵng</li>
+                        <li><i class="fa-solid fa-phone-volume text-amber-400 w-5"></i>Hotline / Zalo: <a href="tel:0933210234" class="font-bold text-amber-300 hover:underline">0933.210.234</a></li>
+                        <li><i class="fa-solid fa-globe text-amber-400 w-5"></i>Website: <a href="https://dodacthinhphat.com" class="hover:underline">www.dodacthinhphat.com</a></li>
+                        <li><i class="fa-brands fa-facebook text-amber-400 w-5"></i>Fanpage: <a href="https://www.facebook.com/Thinhphatdodac" target="_blank" rel="noopener noreferrer" class="hover:underline">facebook.com/Thinhphatdodac</a></li>
+                        <li><i class="fa-solid fa-map-pin text-amber-400 w-5"></i>Google Map: <a href="https://maps.app.goo.gl/HaoxaQqEpM7oMdmp6" target="_blank" rel="noopener noreferrer" class="hover:underline">maps.app.goo.gl/HaoxaQqEpM7oMdmp6</a></li>
                     </ul>
                 </div>
 
-                <!-- Cột 2: Dịch vụ chính (Lấy từ web mẫu) -->
+                <!-- Cột Dịch vụ -->
                 <div class="lg:col-span-3 space-y-2">
-                    <h4 class="font-extrabold text-white text-sm uppercase border-b border-slate-700 pb-1.5">DỊCH VỤ CHÍNH</h4>
-                    <ul class="text-xs space-y-2 text-slate-300">
-                        <li><a href="#san-pham-dich-vu" onclick="filterCategory('danh-bong-da')" class="hover:text-mc-accent transition"><i class="fa-solid fa-angle-right text-mc-accent mr-1.5"></i>Đánh bóng sàn đá Marble - Granite</a></li>
-                        <li><a href="#san-pham-dich-vu" onclick="filterCategory('son-epoxy')" class="hover:text-mc-accent transition"><i class="fa-solid fa-angle-right text-mc-accent mr-1.5"></i>Thi công Sơn sàn Epoxy Đà Nẵng</a></li>
-                        <li><a href="#san-pham-dich-vu" onclick="filterCategory('mai-be-tong')" class="hover:text-mc-accent transition"><i class="fa-solid fa-angle-right text-mc-accent mr-1.5"></i>Mài đánh bóng sàn bê tông</a></li>
-                        <li><a href="#san-pham-dich-vu" onclick="filterCategory('terrazzo')" class="hover:text-mc-accent transition"><i class="fa-solid fa-angle-right text-mc-accent mr-1.5"></i>Thi công đá mài Terrazzo</a></li>
-                        <li><a href="#san-pham-dich-vu" onclick="filterCategory('microcement')" class="hover:text-mc-accent transition"><i class="fa-solid fa-angle-right text-mc-accent mr-1.5"></i>Thi công sàn & tường Microcement</a></li>
+                    <h4 class="font-bold text-xs sm:text-sm text-white uppercase border-b border-white/15 pb-1.5">
+                        DỊCH VỤ ĐO ĐẠC TRẮC ĐỊA
+                    </h4>
+                    <ul class="space-y-1.5 text-xs text-slate-300">
+                        <li><a href="#dich-vu-trac-dia" class="hover:text-amber-300"><i class="fa-solid fa-angle-right mr-1.5 text-amber-400"></i>Đo đạc nhà đất & tách thửa</a></li>
+                        <li><a href="#dich-vu-trac-dia" class="hover:text-amber-300"><i class="fa-solid fa-angle-right mr-1.5 text-amber-400"></i>Xác định ranh đất & cắm mốc</a></li>
+                        <li><a href="#dich-vu-trac-dia" class="hover:text-amber-300"><i class="fa-solid fa-angle-right mr-1.5 text-amber-400"></i>Giấy tờ nhà đất & hoàn công</a></li>
+                        <li><a href="#dich-vu-trac-dia" class="hover:text-amber-300"><i class="fa-solid fa-angle-right mr-1.5 text-amber-400"></i>Xin phép xây dựng Đà Nẵng</a></li>
+                        <li><a href="#dich-vu-trac-dia" class="hover:text-amber-300"><i class="fa-solid fa-angle-right mr-1.5 text-amber-400"></i>Đề cương & Quan trắc lún nghiêng</a></li>
+                        <li><a href="#du-an-da-nang" class="hover:text-amber-300"><i class="fa-solid fa-angle-right mr-1.5 text-amber-400"></i>Dự án đo đạc tại Đà Nẵng</a></li>
                     </ul>
                 </div>
 
-                <!-- Cột 3: Chứng nhận & Hỗ trợ khách hàng -->
+                <!-- Cột Danh mục sản phẩm -->
                 <div class="lg:col-span-4 space-y-2">
-                    <h4 class="font-extrabold text-white text-sm uppercase border-b border-slate-700 pb-1.5">THÔNG TIN HỖ TRỢ</h4>
-                    <div class="grid grid-cols-2 gap-2 text-xs text-slate-300">
-                        <a href="#du-an-da-nang" class="hover:text-mc-accent"><i class="fa-solid fa-angle-right text-mc-accent mr-1"></i>Hồ sơ năng lực</a>
-                        <a href="#bao-gia-lien-he" class="hover:text-mc-accent"><i class="fa-solid fa-angle-right text-mc-accent mr-1"></i>Chính sách bảo hành</a>
-                        <a href="#du-an-da-nang" class="hover:text-mc-accent"><i class="fa-solid fa-angle-right text-mc-accent mr-1"></i>Dự án tại Đà Nẵng</a>
-                        <a href="#bao-gia-lien-he" class="hover:text-mc-accent"><i class="fa-solid fa-angle-right text-mc-accent mr-1"></i>Quy trình nghiệm thu</a>
-                        <a href="#tin-tuc" class="hover:text-mc-accent"><i class="fa-solid fa-angle-right text-mc-accent mr-1"></i>Tin tức & Chia sẻ</a>
-                        <a href="#bao-gia-lien-he" class="hover:text-mc-accent"><i class="fa-solid fa-angle-right text-mc-accent mr-1"></i>Liên hệ báo giá</a>
+                    <h4 class="font-bold text-xs sm:text-sm text-white uppercase border-b border-white/15 pb-1.5">
+                        DANH MỤC MÁY TRẮC ĐỊA
+                    </h4>
+                    <div class="grid grid-cols-2 gap-1.5 text-xs text-slate-300">
+                        <a href="#san-pham" onclick="filterCategory('may-thuy-binh')" class="hover:text-amber-300"><i class="fa-solid fa-angle-right mr-1 text-amber-400"></i>Máy Thuỷ Bình</a>
+                        <a href="#san-pham" onclick="filterCategory('may-gps-rtk')" class="hover:text-amber-300"><i class="fa-solid fa-angle-right mr-1 text-amber-400"></i>Máy GPS GNSS RTK</a>
+                        <a href="#san-pham" onclick="filterCategory('may-toan-dac')" class="hover:text-amber-300"><i class="fa-solid fa-angle-right mr-1 text-amber-400"></i>Máy Toàn Đạc Điện Tử</a>
+                        <a href="#san-pham" onclick="filterCategory('may-do-laser')" class="hover:text-amber-300"><i class="fa-solid fa-angle-right mr-1 text-amber-400"></i>Máy Cân Bằng Laser</a>
+                        <a href="#san-pham" onclick="filterCategory('may-kinh-vi-bo-dam')" class="hover:text-amber-300"><i class="fa-solid fa-angle-right mr-1 text-amber-400"></i>Máy Kinh Vĩ Điện Tử</a>
+                        <a href="#san-pham" onclick="filterCategory('may-kinh-vi-bo-dam')" class="hover:text-amber-300"><i class="fa-solid fa-angle-right mr-1 text-amber-400"></i>Bộ Đàm Motorola</a>
+                        <a href="#san-pham" onclick="filterCategory('phu-kien-trac-dia')" class="hover:text-amber-300"><i class="fa-solid fa-angle-right mr-1 text-amber-400"></i>Phụ Kiện Trắc Địa</a>
+                        <a href="#san-pham" onclick="filterCategory('cho-thue-may')" class="hover:text-amber-300"><i class="fa-solid fa-angle-right mr-1 text-amber-400"></i>Cho Thuê Máy Đo Đạc</a>
                     </div>
                 </div>
-
             </div>
 
-            <div class="pt-4 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-2 text-center">
-                <p>Copyright 2026 © <strong>CÔNG TY TNHH TM-DV MINH CHÂU STONE</strong> (minhchaustone.com)</p>
-                <p>Giao diện chuẩn Flatsome UX Builder - Tối ưu Máy tính (1500px) & Điện thoại</p>
+            <div class="pt-4 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-2">
+                <div>© Bản quyền thuộc về <strong>CÔNG TY TNHH ĐO ĐẠC BẢN ĐỒ THỊNH PHÁT</strong> (dodacthinhphat.com).</div>
+                <div>Thiết kế chuẩn bố cục Flatsome UX Builder • Tối ưu máy tính (1500px) & điện thoại.</div>
             </div>
         </div>
     </footer>
 
-    <!-- ===================================================================== -->
-    <!-- CÁC NÚT LIÊN HỆ NỔI BẬT (ZALO, FACEBOOK, HOTLINE)                     -->
-    <!-- TƯƠNG THÍCH MƯỢT MÀ TRÊN CẢ MÁY TÍNH VÀ ĐIỆN THOẠI                    -->
-    <!-- ===================================================================== -->
-    <div class="fixed bottom-4 left-3 z-50 flex flex-col gap-2.5 max-w-[calc(100vw-24px)]">
-        
-        <!-- Nút Facebook nổi bật -->
-        <a href="https://www.facebook.com" target="_blank" rel="noopener" 
-           class="flex items-center gap-2 bg-[#1877F2] hover:bg-blue-700 text-white rounded-full p-2 sm:pr-3.5 shadow-lg transition transform hover:-translate-y-0.5 w-fit">
-            <span class="w-8 h-8 rounded-full bg-white text-[#1877F2] flex items-center justify-center font-bold text-base shrink-0">
-                <i class="fa-brands fa-facebook-f"></i>
-            </span>
-            <span class="text-xs font-extrabold hidden sm:inline whitespace-nowrap">Facebook</span>
-        </a>
-
+    <!-- =====================================================================
+         CÁC NÚT LIÊN HỆ NỔI BẬT (ZALO, FACEBOOK, HOTLINE) TƯƠNG THÍCH MÁY TÍNH & ĐIỆN THOẠI
+         Đặt gọn bên trong khung nhìn, không gây tràn viền
+    ====================================================================== -->
+    <div class="fixed bottom-3 right-3 z-50 flex flex-col items-end gap-2.5">
         <!-- Nút Zalo nổi bật -->
-        <a href="https://zalo.me/0975796543" target="_blank" rel="noopener" 
-           class="flex items-center gap-2 bg-[#0068FF] hover:bg-blue-600 text-white rounded-full p-2 sm:pr-3.5 shadow-lg transition transform hover:-translate-y-0.5 w-fit">
-            <span class="w-8 h-8 rounded-full bg-white text-[#0068FF] flex items-center justify-center font-extrabold text-[11px] shrink-0">
-                Zalo
-            </span>
-            <span class="text-xs font-extrabold hidden sm:inline whitespace-nowrap">Chat Zalo: 0975.796.543</span>
+        <a 
+            href="https://zalo.me/0933210234" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="flex items-center gap-2 bg-[#0068FF] hover:bg-blue-700 text-white pl-3 pr-3.5 py-2 rounded-full shadow-lg transition transform hover:-translate-y-0.5"
+            title="Chat Zalo: 0933.210.234"
+        >
+            <span class="w-6 h-6 rounded-full bg-white text-[#0068FF] font-black text-[10px] flex items-center justify-center shrink-0">Zalo</span>
+            <span class="text-xs font-bold whitespace-nowrap">Chat Zalo</span>
         </a>
 
-        <!-- Nút Hotline 1 & 2 nổi bật -->
-        <div class="flex flex-wrap items-center gap-1.5">
-            <a href="tel:0975796543" 
-               class="pulse-btn flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white rounded-full py-1.5 pl-2 pr-3.5 shadow-lg transition">
-                <span class="w-7 h-7 rounded-full bg-white text-red-600 flex items-center justify-center text-xs shrink-0">
-                    <i class="fa-solid fa-phone-volume"></i>
-                </span>
-                <span class="text-xs font-extrabold whitespace-nowrap">0975.796.543</span>
-            </a>
+        <!-- Nút Facebook Fanpage nổi bật -->
+        <a 
+            href="https://www.facebook.com/Thinhphatdodac" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="flex items-center gap-2 bg-[#1877F2] hover:bg-blue-800 text-white pl-3 pr-3.5 py-2 rounded-full shadow-lg transition transform hover:-translate-y-0.5"
+            title="Fanpage Đo Đạc Thịnh Phát"
+        >
+            <i class="fa-brands fa-facebook-f w-6 h-6 rounded-full bg-white text-[#1877F2] flex items-center justify-center text-xs shrink-0"></i>
+            <span class="text-xs font-bold whitespace-nowrap">Facebook</span>
+        </a>
 
-            <a href="tel:0355698490" 
-               class="flex items-center gap-1.5 bg-mc-dark hover:bg-mc-primary text-white border border-mc-accent rounded-full py-1.5 pl-2 pr-3 shadow-lg transition">
-                <span class="w-7 h-7 rounded-full bg-mc-accent text-slate-950 flex items-center justify-center text-xs shrink-0">
-                    <i class="fa-solid fa-phone"></i>
-                </span>
-                <span class="text-xs font-extrabold whitespace-nowrap">0355.698.490</span>
-            </a>
-        </div>
+        <!-- Nút Hotline nổi bật -->
+        <a 
+            href="tel:0933210234" 
+            class="pulse-btn flex items-center gap-2 bg-brand-accent hover:bg-orange-700 text-white pl-3 pr-4 py-2.5 rounded-full shadow-xl transition"
+            title="Gọi ngay Hotline: 0933.210.234"
+        >
+            <i class="fa-solid fa-phone-volume w-6 h-6 rounded-full bg-white text-brand-accent flex items-center justify-center text-xs shrink-0"></i>
+            <span class="text-xs sm:text-sm font-extrabold whitespace-nowrap">0933.210.234</span>
+        </a>
     </div>
 
-    <!-- ===================================================================== -->
-    <!-- JAVASCRIPT XỬ LÝ SLIDER TỰ TRƯỢT, LỌC DANH MỤC & FORM BÁO GIÁ         -->
-    <!-- ===================================================================== -->
+    <!-- =====================================================================
+         JAVASCRIPT XỬ LÝ SLIDER BANNER, LỌC DANH MỤC SẢN PHẨM & FORM BÁO GIÁ
+    ====================================================================== -->
     <script>
-        // 1. Tự động trượt 2 Banner chuyên nghiệp
-        let currentSlideIndex = 0;
-        const slides = document.querySelectorAll('.banner-slide');
-        const totalSlides = slides.length;
-        let slideInterval = null;
+        // Danh sách sản phẩm lấy từ danh mục web mẫu nguyenhoangdodac.com kết hợp 9 ảnh thực tế Google Drive
+        const productsData = [
+            // 1. Máy Thủy Bình
+            {
+                id: 1,
+                category: 'may-thuy-binh',
+                catName: 'Máy Thuỷ Bình',
+                name: 'Bộ Máy Thủy Bình Tự Động Leica NA532 Chính Hãng (32X)',
+                price: 'Liên hệ: 0933.210.234',
+                img: 'https://lh3.googleusercontent.com/d/1UP8YbcBZP0FX1BBqQ22VaWO8x_SrUuKd',
+                fallback: 'https://drive.google.com/thumbnail?id=1UP8YbcBZP0FX1BBqQ22VaWO8x_SrUuKd&sz=w600'
+            },
+            {
+                id: 2,
+                category: 'may-thuy-binh',
+                catName: 'Máy Thuỷ Bình',
+                name: 'Bộ Máy Thủy Bình Sokkia B40A Nhật Bản Kèm Chân Nhôm & Mia 5m',
+                price: 'Liên hệ: 0933.210.234',
+                img: 'https://lh3.googleusercontent.com/d/1O8mgjTDAcUwEIDSWSqGMW4YcSnVg37UK',
+                fallback: 'https://drive.google.com/thumbnail?id=1O8mgjTDAcUwEIDSWSqGMW4YcSnVg37UK&sz=w600'
+            },
+            {
+                id: 3,
+                category: 'may-thuy-binh',
+                catName: 'Máy Thuỷ Bình',
+                name: 'Máy Thủy Bình Tự Động Topcon AT-B4A Chống Nước IPX6',
+                price: 'Liên hệ: 0933.210.234',
+                img: 'https://lh3.googleusercontent.com/d/1ZP9TYdHxPGeRZIfF4tUGS14FrQmbosyB',
+                fallback: 'https://drive.google.com/thumbnail?id=1ZP9TYdHxPGeRZIfF4tUGS14FrQmbosyB&sz=w600'
+            },
+            {
+                id: 4,
+                category: 'may-thuy-binh',
+                catName: 'Máy Thuỷ Bình',
+                name: 'Máy Thủy Bình Nikon AC-2S / AX-2S Chính Hãng Đầy Đủ Kiểm Định',
+                price: 'Liên hệ: 0933.210.234',
+                img: 'https://lh3.googleusercontent.com/d/1kAFP7UQniZTymYgfu912MCupDO4qZKkr',
+                fallback: 'https://drive.google.com/thumbnail?id=1kAFP7UQniZTymYgfu912MCupDO4qZKkr&sz=w600'
+            },
+            {
+                id: 5,
+                category: 'may-thuy-binh',
+                catName: 'Máy Thuỷ Bình',
+                name: 'Máy Thủy Bình Pentax AP-228 & Bosch GOL 26D Chuyên Công Trình',
+                price: 'Liên hệ: 0933.210.234',
+                img: 'https://lh3.googleusercontent.com/d/167OPIOUV5gCQmJi5cGimSpVXyUmPUT1_',
+                fallback: 'https://drive.google.com/thumbnail?id=167OPIOUV5gCQmJi5cGimSpVXyUmPUT1_&sz=w600'
+            },
 
-        function showSlide(index) {
-            currentSlideIndex = (index + totalSlides) % totalSlides;
-            slides.forEach((slide, idx) => {
-                if (idx === currentSlideIndex) {
-                    slide.classList.remove('hidden');
-                    slide.classList.add('block');
-                } else {
-                    slide.classList.remove('block');
-                    slide.classList.add('hidden');
-                }
+            // 2. Máy GPS GNSS RTK
+            {
+                id: 6,
+                category: 'may-gps-rtk',
+                catName: 'Máy GPS GNSS RTK',
+                name: 'Máy Định Vị Vệ Tinh GNSS RTK 2 Tần Số Hi-Target V200 Bù Nghiêng IMU',
+                price: 'Liên hệ: 0933.210.234',
+                img: 'https://lh3.googleusercontent.com/d/1kCcHmSxEfBLvAaDoNEChg6BXeU59GDpb',
+                fallback: 'https://drive.google.com/thumbnail?id=1kCcHmSxEfBLvAaDoNEChg6BXeU59GDpb&sz=w600'
+            },
+            {
+                id: 7,
+                category: 'may-gps-rtk',
+                catName: 'Máy GPS GNSS RTK',
+                name: 'Máy GNSS RTK SatLab SL7 / E-Survey E300 Pro Kết Nối Trạm CORS Đà Nẵng',
+                price: 'Liên hệ: 0933.210.234',
+                img: 'https://lh3.googleusercontent.com/d/1nCMnRmj98lMlRMzoG9KKGuoxXIeADqLj',
+                fallback: 'https://drive.google.com/thumbnail?id=1nCMnRmj98lMlRMzoG9KKGuoxXIeADqLj&sz=w600'
+            },
+            {
+                id: 8,
+                category: 'may-gps-rtk',
+                catName: 'Máy GPS GNSS RTK',
+                name: 'Máy Định Vị GPS Cầm Tay Garmin GPSMAP 65s / eTrex 22x Đo Diện Tích',
+                price: 'Liên hệ: 0933.210.234',
+                img: 'https://lh3.googleusercontent.com/d/1dUprwy90bMe1p55R81-NMyiH4_N7WuMr',
+                fallback: 'https://drive.google.com/thumbnail?id=1dUprwy90bMe1p55R81-NMyiH4_N7WuMr&sz=w600'
+            },
+
+            // 3. Máy Toàn Đạc Điện Tử
+            {
+                id: 9,
+                category: 'may-toan-dac',
+                catName: 'Máy Toàn Đạc',
+                name: 'Máy Toàn Đạc Điện Tử Leica TS06 Plus / TS07 Độ Chính Xác Cao',
+                price: 'Liên hệ: 0933.210.234',
+                img: 'https://lh3.googleusercontent.com/d/1T7oYR_UOH23klAmpo9qd8lZDqVHPqfl1',
+                fallback: 'https://drive.google.com/thumbnail?id=1T7oYR_UOH23klAmpo9qd8lZDqVHPqfl1&sz=w600'
+            },
+            {
+                id: 10,
+                category: 'may-toan-dac',
+                catName: 'Máy Toàn Đạc',
+                name: 'Máy Toàn Đạc Điện Tử Topcon GM-52 / GM-55 Đo Không Gương 500m',
+                price: 'Liên hệ: 0933.210.234',
+                img: 'https://lh3.googleusercontent.com/d/1O8mgjTDAcUwEIDSWSqGMW4YcSnVg37UK',
+                fallback: 'https://drive.google.com/thumbnail?id=1O8mgjTDAcUwEIDSWSqGMW4YcSnVg37UK&sz=w600'
+            },
+            {
+                id: 11,
+                category: 'may-toan-dac',
+                catName: 'Máy Toàn Đạc',
+                name: 'Máy Toàn Đạc Điện Tử Sokkia IM-52 & Nikon XF Chính Hãng',
+                price: 'Liên hệ: 0933.210.234',
+                img: 'https://lh3.googleusercontent.com/d/1UP8YbcBZP0FX1BBqQ22VaWO8x_SrUuKd',
+                fallback: 'https://drive.google.com/thumbnail?id=1UP8YbcBZP0FX1BBqQ22VaWO8x_SrUuKd&sz=w600'
+            },
+
+            // 4. Máy Đo Laser
+            {
+                id: 12,
+                category: 'may-do-laser',
+                catName: 'Máy Đo Laser',
+                name: 'Máy Cân Bằng Laser Tia Xanh Laisai LSG686SPD & Sincon 5 Tia Xanh',
+                price: 'Liên hệ: 0933.210.234',
+                img: 'https://lh3.googleusercontent.com/d/1ZP9TYdHxPGeRZIfF4tUGS14FrQmbosyB',
+                fallback: 'https://drive.google.com/thumbnail?id=1ZP9TYdHxPGeRZIfF4tUGS14FrQmbosyB&sz=w600'
+            },
+            {
+                id: 13,
+                category: 'may-do-laser',
+                catName: 'Máy Đo Laser',
+                name: 'Thước Đo Khoảng Cách Laser Leica Disto D2 / Bosch GLM 50-27 CG',
+                price: 'Liên hệ: 0933.210.234',
+                img: 'https://lh3.googleusercontent.com/d/1kAFP7UQniZTymYgfu912MCupDO4qZKkr',
+                fallback: 'https://drive.google.com/thumbnail?id=1kAFP7UQniZTymYgfu912MCupDO4qZKkr&sz=w600'
+            },
+
+            // 5. Máy Kinh Vĩ Điện Tử & Bộ Đàm
+            {
+                id: 14,
+                category: 'may-kinh-vi-bo-dam',
+                catName: 'Máy Kinh Vĩ & Bộ Đàm',
+                name: 'Máy Kinh Vĩ Điện Tử Nikon NE-100 / NE-101 & Máy Đo Sâu Hồi Âm',
+                price: 'Liên hệ: 0933.210.234',
+                img: 'https://lh3.googleusercontent.com/d/167OPIOUV5gCQmJi5cGimSpVXyUmPUT1_',
+                fallback: 'https://drive.google.com/thumbnail?id=167OPIOUV5gCQmJi5cGimSpVXyUmPUT1_&sz=w600'
+            },
+            {
+                id: 15,
+                category: 'may-kinh-vi-bo-dam',
+                catName: 'Máy Kinh Vĩ & Bộ Đàm',
+                name: 'Bộ Đàm Cầm Tay Motorola GP-3588 Plus Chuyên Dụng Công Trình Đo Đạc',
+                price: 'Liên hệ: 0933.210.234',
+                img: 'https://lh3.googleusercontent.com/d/1dUprwy90bMe1p55R81-NMyiH4_N7WuMr',
+                fallback: 'https://drive.google.com/thumbnail?id=1dUprwy90bMe1p55R81-NMyiH4_N7WuMr&sz=w600'
+            },
+
+            // 6. Phụ Kiện Máy Trắc Địa
+            {
+                id: 16,
+                category: 'phu-kien-trac-dia',
+                catName: 'Phụ Kiện Trắc Địa',
+                name: 'Chân Nhôm Máy Thủy Bình & Chân Máy Toàn Đạc 2 Khóa Loại Tốt + Mia Nhôm 5m',
+                price: 'Liên hệ: 0933.210.234',
+                img: 'https://lh3.googleusercontent.com/d/1nCMnRmj98lMlRMzoG9KKGuoxXIeADqLj',
+                fallback: 'https://drive.google.com/thumbnail?id=1nCMnRmj98lMlRMzoG9KKGuoxXIeADqLj&sz=w600'
+            },
+            {
+                id: 17,
+                category: 'phu-kien-trac-dia',
+                catName: 'Phụ Kiện Trắc Địa',
+                name: 'Gương Đơn, Gương Mini, Sào Gương, Kẹp Sào, Đế Máy, Pin Sạc & Thước Thép',
+                price: 'Liên hệ: 0933.210.234',
+                img: 'https://lh3.googleusercontent.com/d/1T7oYR_UOH23klAmpo9qd8lZDqVHPqfl1',
+                fallback: 'https://drive.google.com/thumbnail?id=1T7oYR_UOH23klAmpo9qd8lZDqVHPqfl1&sz=w600'
+            },
+            {
+                id: 18,
+                category: 'phu-kien-trac-dia',
+                catName: 'Phụ Kiện Trắc Địa',
+                name: 'Mốc Sứ Địa Chính, Mốc Quan Trắc Lún, Bánh Xe Đo Khoảng Cách & Bọt Thủy',
+                price: 'Liên hệ: 0933.210.234',
+                img: 'https://lh3.googleusercontent.com/d/1kCcHmSxEfBLvAaDoNEChg6BXeU59GDpb',
+                fallback: 'https://drive.google.com/thumbnail?id=1kCcHmSxEfBLvAaDoNEChg6BXeU59GDpb&sz=w600'
+            },
+
+            // 7. Cho Thuê Máy Đo Đạc
+            {
+                id: 19,
+                category: 'cho-thue-may',
+                catName: 'Cho Thuê Máy Đo Đạc',
+                name: 'Dịch Vụ Cho Thuê Máy Định Vị GPS GNSS RTK 2 Tần Số Theo Ngày/Tháng Tại Đà Nẵng',
+                price: 'Liên hệ: 0933.210.234',
+                img: 'https://lh3.googleusercontent.com/d/1O8mgjTDAcUwEIDSWSqGMW4YcSnVg37UK',
+                fallback: 'https://drive.google.com/thumbnail?id=1O8mgjTDAcUwEIDSWSqGMW4YcSnVg37UK&sz=w600'
+            },
+            {
+                id: 20,
+                category: 'cho-thue-may',
+                catName: 'Cho Thuê Máy Đo Đạc',
+                name: 'Dịch Vụ Cho Thuê Máy Toàn Đạc Điện Tử Leica/Topcon & Máy Thủy Bình Tự Động',
+                price: 'Liên hệ: 0933.210.234',
+                img: 'https://lh3.googleusercontent.com/d/1UP8YbcBZP0FX1BBqQ22VaWO8x_SrUuKd',
+                fallback: 'https://drive.google.com/thumbnail?id=1UP8YbcBZP0FX1BBqQ22VaWO8x_SrUuKd&sz=w600'
+            }
+        ];
+
+        let currentCategory = 'all';
+        let currentSearchQuery = '';
+
+        // Render danh sách sản phẩm (Không để nhãn dán trên sản phẩm, tên sản phẩm đầy đủ không cắt chữ)
+        function renderProducts() {
+            const grid = document.getElementById('productGrid');
+            if (!grid) return;
+
+            const filtered = productsData.filter(item => {
+                const matchCat = currentCategory === 'all' || item.category === currentCategory;
+                const matchSearch = !currentSearchQuery || 
+                    item.name.toLowerCase().includes(currentSearchQuery.toLowerCase()) ||
+                    item.catName.toLowerCase().includes(currentSearchQuery.toLowerCase());
+                return matchCat && matchSearch;
             });
 
-            // Cập nhật chấm tròn
-            const dot0 = document.getElementById('dot-0');
-            const dot1 = document.getElementById('dot-1');
-            if (dot0 && dot1) {
-                if (currentSlideIndex === 0) {
-                    dot0.className = 'w-6 h-2 rounded-full bg-mc-accent transition-all';
-                    dot1.className = 'w-2.5 h-2 rounded-full bg-white/60 transition-all';
-                } else {
-                    dot1.className = 'w-6 h-2 rounded-full bg-mc-accent transition-all';
-                    dot0.className = 'w-2.5 h-2 rounded-full bg-white/60 transition-all';
-                }
+            if (filtered.length === 0) {
+                grid.innerHTML = `
+                    <div class="col-span-full py-8 text-center text-xs sm:text-sm text-slate-500 bg-slate-50 rounded border border-slate-200">
+                        Không tìm thấy sản phẩm phù hợp. Vui lòng liên hệ Hotline/Zalo <strong>0933.210.234</strong> để được hỗ trợ ngay!
+                    </div>
+                `;
+                return;
             }
+
+            grid.innerHTML = filtered.map(item => `
+                <div class="bg-white rounded-lg border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col justify-between">
+                    <div>
+                        <div class="w-full h-32 sm:h-40 bg-slate-100 overflow-hidden border-b border-slate-100">
+                            <img 
+                                src="${item.img}" 
+                                onerror="this.onerror=null;this.src='${item.fallback}';"
+                                alt="${item.name}" 
+                                class="w-full h-full object-cover hover:scale-105 transition duration-300"
+                            >
+                        </div>
+                        <div class="p-2.5 sm:p-3">
+                            <div class="text-[10.5px] text-slate-500 font-medium mb-1">
+                                ${item.catName}
+                            </div>
+                            <h3 class="font-bold text-xs sm:text-[13px] text-slate-800 hover:text-brand product-title-full">
+                                ${item.name}
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="px-2.5 pb-2.5 sm:px-3 sm:pb-3 pt-1">
+                        <div class="text-xs font-extrabold text-brand-accent mb-2">
+                            ${item.price}
+                        </div>
+                        <a 
+                            href="#form-bao-gia" 
+                            onclick="prefillService('${item.name.replace(/'/g, "\\'")}')"
+                            class="block w-full text-center py-1.5 px-2 rounded bg-brand hover:bg-brand-dark text-white text-[11px] sm:text-xs font-semibold transition"
+                        >
+                            Nhận báo giá
+                        </a>
+                    </div>
+                </div>
+            `).join('');
         }
 
-        function changeSlide(step) {
-            showSlide(currentSlideIndex + step);
-            resetSlideTimer();
+        function filterCategory(cat) {
+            currentCategory = cat;
+            document.querySelectorAll('.home-cat-pill').forEach(btn => {
+                if (btn.getAttribute('data-cat') === cat) {
+                    btn.classList.add('active');
+                } else {
+                    btn.classList.remove('active');
+                }
+            });
+            renderProducts();
         }
 
-        function goToSlide(index) {
-            showSlide(index);
-            resetSlideTimer();
+        function handleSearchProduct(query) {
+            currentSearchQuery = query || '';
+            renderProducts();
         }
 
-        function resetSlideTimer() {
-            if (slideInterval) clearInterval(slideInterval);
-            slideInterval = setInterval(() => {
-                showSlide(currentSlideIndex + 1);
-            }, 4800);
-        }
-
-        // 2. Bật / Tắt Menu Danh mục trên Điện thoại
         function toggleMobileMenu() {
             const drawer = document.getElementById('mobileMenuDrawer');
             if (drawer) {
@@ -1401,68 +1816,91 @@
             }
         }
 
-        // 3. Lọc sản phẩm theo Danh mục ở Trang chủ
-        function filterCategory(category) {
-            const cards = document.querySelectorAll('.product-card');
-            const buttons = document.querySelectorAll('[data-cat-btn]');
-
-            buttons.forEach(btn => {
-                if (btn.getAttribute('data-cat-btn') === category) {
-                    btn.classList.add('active');
-                } else {
-                    btn.classList.remove('active');
-                }
-            });
-
-            cards.forEach(card => {
-                const itemCat = card.getAttribute('data-category');
-                if (category === 'all' || itemCat === category) {
-                    card.classList.remove('hidden');
-                    card.classList.add('flex');
-                } else {
-                    card.classList.remove('flex');
-                    card.classList.add('hidden');
-                }
-            });
-        }
-
-        // 4. Xử lý gửi Form Yêu cầu & Báo giá trên Trang chủ
-        function submitQuoteForm(e) {
-            e.preventDefault();
-            const name = document.getElementById('custName').value.trim();
-            const phone = document.getElementById('custPhone').value.trim();
-            const area = document.getElementById('custArea').value.trim() || 'Chưa xác định';
-            const service = document.getElementById('custService').value;
-
-            const box = document.getElementById('quoteSuccessBox');
-            const text = document.getElementById('quoteSuccessText');
-
-            text.textContent = `Cảm ơn ${name} (${phone}). Yêu cầu báo giá hạng mục "${service}" (Diện tích: ${area}) đã được ghi nhận. Bộ phận kỹ thuật Minh Châu Stone (0975.796.543 - 0355.698.490) sẽ liên hệ tư vấn ngay!`;
-            box.classList.remove('hidden');
-            document.getElementById('quoteForm').reset();
-        }
-
-        // 5. Xem và Sao chép Shortcode UX Builder Flatsome
-        function toggleShortcodeModal() {
-            const panel = document.getElementById('uxShortcodePanel');
-            if (panel) panel.classList.toggle('hidden');
-        }
-
-        function copyUxShortcode() {
-            const textarea = document.getElementById('uxShortcodeText');
-            const btn = document.getElementById('copyShortcodeBtn');
-            if (textarea) {
-                textarea.select();
-                document.execCommand('copy');
-                btn.textContent = 'Đã sao chép!';
-                setTimeout(() => {
-                    btn.textContent = 'Sao chép mã';
-                }, 2000);
+        function prefillService(serviceText) {
+            const noteInput = document.getElementById('custNote');
+            if (noteInput) {
+                noteInput.value = 'Tôi cần tư vấn & báo giá: ' + serviceText;
             }
         }
 
+        function submitQuoteForm(event) {
+            event.preventDefault();
+            const name = document.getElementById('custName').value.trim();
+            const phone = document.getElementById('custPhone').value.trim();
+            const service = document.getElementById('custService').value;
+            const box = document.getElementById('formSuccessBox');
+            const text = document.getElementById('formSuccessText');
+
+            if (box && text) {
+                text.textContent = `Cảm ơn ${name} (${phone}). Yêu cầu "${service}" đã được gửi đến bộ phận kỹ thuật Công Ty TNHH Đo Đạc Bản Đồ Thịnh Phát. Chúng tôi sẽ liên hệ lại ngay hoặc quý khách có thể nhắn trực tiếp Zalo 0933.210.234.`;
+                box.classList.remove('hidden');
+            }
+        }
+
+        // Xử lý tự trượt 2 ảnh Banner trên cả Máy tính và Điện thoại
+        let currentBannerIndex = 0;
+        let bannerInterval = null;
+
+        function updateBannerSlides() {
+            const desktopSlides = document.querySelectorAll('.desktop-banner-slide');
+            const mobileSlides = document.querySelectorAll('.mobile-banner-slide');
+            const dot0 = document.getElementById('bannerDot0');
+            const dot1 = document.getElementById('bannerDot1');
+
+            desktopSlides.forEach((slide, idx) => {
+                if (idx === currentBannerIndex) {
+                    slide.classList.remove('opacity-0', 'pointer-events-none');
+                    slide.classList.add('opacity-100');
+                } else {
+                    slide.classList.remove('opacity-100');
+                    slide.classList.add('opacity-0', 'pointer-events-none');
+                }
+            });
+
+            mobileSlides.forEach((slide, idx) => {
+                if (idx === currentBannerIndex) {
+                    slide.classList.remove('opacity-0', 'pointer-events-none');
+                    slide.classList.add('opacity-100');
+                } else {
+                    slide.classList.remove('opacity-100');
+                    slide.classList.add('opacity-0', 'pointer-events-none');
+                }
+            });
+
+            if (dot0 && dot1) {
+                if (currentBannerIndex === 0) {
+                    dot0.className = 'w-6 h-1.5 rounded-full bg-amber-400 transition-all';
+                    dot1.className = 'w-2.5 h-1.5 rounded-full bg-white/60 transition-all';
+                } else {
+                    dot0.className = 'w-2.5 h-1.5 rounded-full bg-white/60 transition-all';
+                    dot1.className = 'w-6 h-1.5 rounded-full bg-amber-400 transition-all';
+                }
+            }
+        }
+
+        function changeBannerSlide(step) {
+            currentBannerIndex = (currentBannerIndex + step + 2) % 2;
+            updateBannerSlides();
+            resetBannerTimer();
+        }
+
+        function goToBannerSlide(index) {
+            currentBannerIndex = index;
+            updateBannerSlides();
+            resetBannerTimer();
+        }
+
+        function resetBannerTimer() {
+            if (bannerInterval) clearInterval(bannerInterval);
+            bannerInterval = setInterval(() => {
+                currentBannerIndex = (currentBannerIndex + 1) % 2;
+                updateBannerSlides();
+            }, 5000);
+        }
+
         window.onload = function() {
-            resetSlideTimer();
+            renderProducts();
+            resetBannerTimer();
         };
     </script>
 </body>
